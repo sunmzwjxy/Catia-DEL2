@@ -1,0 +1,4 @@
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension = "[~CUSInterfaceMgmtRequirementGroup,RequirementGroupExtension~ CUSIntérfåceMgmtReqüîrementGrøupExtension]";
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension.CUSInterfaceMgmtFolderType = "[~CUSInterfaceMgmtRequirementGroup,USInterfaceMgmtFolderType~ FøldérType]";
+CUSInterfaceMgmtRequirementGroup = "[~CUSInterfaceMgmtRequirementGroup,rfaceMgmtRequirementGroup~ CUSIntérfåceMgmtReqüîrementGrøup]";
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension.CUSInterfaceMgmtFolderType.Range.Equal.Interface = "[~CUSInterfaceMgmtRequirementGroup,ype.Range.Equal.Interface~ Intérfåce]";

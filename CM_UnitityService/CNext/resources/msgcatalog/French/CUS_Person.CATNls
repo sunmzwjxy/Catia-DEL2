@@ -1,0 +1,4 @@
+﻿<meta charset="UTF-8"/>
+CUS_Person = "CUS_Person";
+CUS_Person.CUS_PersonExtension = "CUS_PersonExtension";
+CUS_Person.CUS_PersonExtension.CUS_ProcessDistributionList = "Process distribution list";

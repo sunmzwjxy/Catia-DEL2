@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{b3bfd568-abe4-4bf2-a4ab-634444a55ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d41b2fff-ead6-43b1-a874-4288aa4b9597}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CAACOMACPublicFrm\CAACOMACAddinMdl.m\src\COMACCommonAddin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPublicFrm\CAACOMACAddinMdl.m\src\COMACWIAddin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\CAACOMACPublicFrm\CAACOMACAddinMdl.m\LocalInterfaces\COMACCommonAddin.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPublicFrm\CAACOMACAddinMdl.m\LocalInterfaces\COMACWIAddin.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\..\CAACOMACPublicFrm\CAACOMACAddinMdl.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

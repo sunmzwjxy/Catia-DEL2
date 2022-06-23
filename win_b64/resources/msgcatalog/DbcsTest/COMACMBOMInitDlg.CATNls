@@ -1,0 +1,6 @@
+Title = "[廫COMACMBOMInitDlg,Title廫堦峔僜僠亅MPR Task]";
+MultiList.Title1 = "[廫COMACMBOMInitDlg,MultiList.Title1廫堦峔僜僠亅MPR表单号]";
+Frame1.Title = "[廫COMACMBOMInitDlg,Frame1.Title廫堦峔僜僠亅Frame1]";
+Frame1.Label1.Title = "[廫COMACMBOMInitDlg,Frame1.Label1.Title廫堦峔僜僠亅User:]";
+Frame2.Title = "[廫COMACMBOMInitDlg,Frame2.Title廫堦峔僜僠亅MPR Task List]";
+MultiList.Title2 = "[廫COMACMBOMInitDlg,MultiList.Title2廫堦峔僜僠亅MPR类型]";

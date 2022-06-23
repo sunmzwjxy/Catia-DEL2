@@ -1,0 +1,117 @@
+let PointingObj(List)
+let PointedObj(List)
+let RelationName(String)
+set PointingObj = Parameters->GetAttributeObject("Source")
+set PointedObj = Parameters->GetAttributeObject("Target")
+set RelationName = Parameters->GetAttributeString("RelationType")
+
+Trace(1, "PLMRelationEstablishmentCheck Begin")
+Trace(1, "RelationName: #", RelationName )
+
+Validation = True
+
+if (RelationName <> "PLM_ImplementLink_Target")
+{
+	exit
+}
+
+let myFeature(Feature)
+Trace(1, "PointedObj = Source")
+for myFeature inside PointingObj
+{
+	let myModelerType(Type)
+	set myModelerType = myFeature.ModelerType
+	Trace(1, "Name # and modelerType: #", myFeature.Name, myModelerType.Name )
+}
+
+Trace(1, "PointedObj = Target")
+for myFeature inside PointedObj
+{
+	let myModelerType(Type)
+	set myModelerType = myFeature.ModelerType
+	Trace(1, "Name # and modelerType: #", myFeature.Name, myModelerType.Name )
+}
+
+
+let myFeatureSource(Feature)
+let myFeatureTarget(Feature)
+
+set myFeatureSource = PointingObj[1]
+set myFeatureTarget = PointedObj[1]
+
+let myModelerTypeSource(Type)
+let myModelerTypeTarget(Type)
+
+set myModelerTypeSource = myFeatureSource.ModelerType
+set myModelerTypeTarget = myFeatureTarget.ModelerType
+
+Trace(1, "myModelerTypeSource: #", myModelerTypeSource.Name )
+Trace(1, "myModelerTypeTarget: #", myModelerTypeTarget.Name )
+
+Trace(1, "PointingObj = Source: #", PointingObj.Size())
+Trace(1, "PointedObj = Target : #", PointedObj.Size())
+
+
+
+let mySecurityContext(String)
+set mySecurityContext = GetSystemInfo("securitycontext")
+
+Trace(1, "mySecurityContext: #", mySecurityContext)
+mySecurityContext = "+" + mySecurityContext
+
+let myRolesToCheck(List)
+myRolesToCheck.Append("VPLMProjectLeader")
+
+// Product - MBOM scope
+
+if (myModelerTypeSource.Name == "CreateAssembly" AND myModelerTypeTarget.Name == "VPMReference")
+{
+	let myRole(String)
+	for myRole inside myRolesToCheck
+	{
+		if (mySecurityContext.Search(myRole) > 0 )
+		{
+			Trace(1, "Product - MBOM scope Validation false")
+			Validation = False
+			Parameters.Message = "You have not the system right to create a scope link!"
+			Parameters.Severity=2
+		}
+	}
+}
+
+// MBOM - Workplan/System scope
+
+if ( (myModelerTypeSource.Name == "DELLmiGeneralSystemReference" OR myModelerTypeSource.Name == "DELLmiWorkPlanSystemReference") AND myModelerTypeTarget.Name == "CreateAssembly")
+{
+	let myRole(String)
+	for myRole inside myRolesToCheck
+	{
+		if (mySecurityContext.Search(myRole) > 0 )
+		{
+			Trace(1, "MBOM - Workplan/System scope - Validation false")
+			Validation = False
+			Parameters.Message = "You have not the system right to Create a scope link!"
+			Parameters.Severity=2
+		}
+	}
+}
+
+
+// MBOM - Workplan/System implement
+
+if ( (myModelerTypeSource.Name == "DELLmiGeneralOperationInstance" OR myModelerTypeSource.Name == "DELLmiGeneralSystemInstance") AND myModelerTypeTarget.Name == "DELFmiFunctionIdentifiedInstance") 
+{
+	let myRole(String)
+	for myRole inside myRolesToCheck
+	{
+		if (mySecurityContext.Search(myRole) > 0 )
+		{
+			Trace(1, "MBOM - Workplan/System implement link - Validation false")
+			Validation = False
+			Parameters.Message = "You have not the system right to Create a implement link!"
+			Parameters.Severity=2
+		}
+	}
+}
+
+Trace(1, "PLMRelationEstablishmentCheck End")

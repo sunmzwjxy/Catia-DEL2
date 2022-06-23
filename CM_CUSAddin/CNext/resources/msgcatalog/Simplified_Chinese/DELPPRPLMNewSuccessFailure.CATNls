@@ -1,0 +1,47 @@
+<meta charset="UTF-8"/>
+Success="创建成功。";
+Failure="创建失败。";
+Exists="无法插入。参考已存在。";
+
+// Insertion of Manufactured Items
+AggregationDeniedPartA="无法在 [/P01] 下聚集 [/P02]。\n 原因： ";
+AggregationDeniedPartB="扩展类型 [/P01] 的项目不得在 [/P02] 项目下聚集。";
+AggregationDeniedPartB2="扩展类型 [/P01] 的项目不得在 PPR 上下文下聚集。";
+AggregationDeniedNoProcessInstance="要聚集的对象不是项目。";
+
+AggregationDeniedPPRContextRecursive="PPR 上下文不能聚集 PPR 上下文。";
+
+// Insertion of Systems
+WrongSystemAggregation="无法在此类对象上实例化系统。请选择常规或变换系统。";
+// "A system can be aggregated only to another system with general type";
+WrongTypedSystemAggregation="类型“/P01”的系统不能拥有子系统。请选择常规或变换系统。";
+PPRContextFailure="在 PPR 上下文下创建失败";
+// Due to limitation in copy/paste mechanism
+WrongTargetSelection="PPR 上下文不是有效目标。请选择工艺流程。";
+// Only one System can be Root under a PPRContext
+RootSystemAlreadyExisting="创建失败。\n=======================================\n在 PPR 上下文下，仅可插入一个根系统。";
+
+// Types of Logical modeler object
+MPSystem_Storage="存储器";
+MPSystem_Transfer="转移";
+MPOperation_General="常规";
+MPOperation_Punctual="精确";
+MPOperation_Curve="曲线";
+MPOperation_Loading="正在加载";
+MPOperation_Unloading="正在取消加载";
+MPOperation_RemoveMaterial="移除材料";
+MPOperation_Transfer="转移";
+MPOperation_Sink="下落";
+MPOperation_Source="源";
+MPOperation_Buffer="缓冲";
+MPOperation_Header="标题";
+MPOperation_ExecHeader="执行标题";
+MPOperation_Picking="选取";
+
+// Insertion of Operations
+WrongOperationAggregation="操作无法在此类对象上实例化。请选择系统或常规操作。";
+//"An Operation can be aggregated only to another system with general type.";
+WrongTypedOperationAggregation="类型“/P01”的操作不能拥有子操作。请选择一个系统或常规操作。";
+
+OperationCreationFail="创建操作失败。";
+SystemCreationFail="创建系统失败。";

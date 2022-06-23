@@ -1,0 +1,34 @@
+!<mkRTViewData> v1.0.0
+RTV/002/DSI .\win_b64\code\productIC\CAACOMACPPRFrmIC.required|.\CAACOMACPPRFrm
+BTV/002/CUS .\win_b64\code\productIC\CAACOMACPPRFrmIC.script|.\CAACOMACPPRFrm
+BTV/002/CUS .\win_b64\code\productIC\CAACOMACPPRFrmIC.xml|.\CAACOMACPPRFrm
+CSC/002/DSI .\CAACOMACPPRFrm\IdentityCard\Objects\win_b64\mkcsc\CAACOMACPPRFrm.cscdb|.\CAACOMACPPRFrm
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacGenerateBOMDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacGenerateBOMDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacInsertFOinstructionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacInsertFOinstructionDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\COMACMBOMInitDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\COMACMBOMInitDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacNewVersionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacNewVersionDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\ComacReNameOperationsDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacReNameOperationsDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\COMACMBOMInitDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACMBOMInitDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATNls
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATRsc|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATRsc
+DAT/002/CUS .\win_b64\resources\msgcatalog\Simplified_Chinese\ComacReNameOperationsDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacReNameOperationsDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\DbcsTest\ComacGenerateBOMDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\NlsTest\ComacGenerateBOMDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\DbcsTest\ComacInsertFOinstructionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\NlsTest\ComacInsertFOinstructionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\DbcsTest\COMACMBOMInitDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\NlsTest\COMACMBOMInitDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\DbcsTest\ComacNewVersionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\NlsTest\ComacNewVersionDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\DbcsTest\ComacReNameOperationsDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacReNameOperationsDlg.CATNls
+RTV/002/DSI .\win_b64\resources\msgcatalog\NlsTest\ComacReNameOperationsDlg.CATNls|.\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacReNameOperationsDlg.CATNls
+@type=codeFramework
+@built=true

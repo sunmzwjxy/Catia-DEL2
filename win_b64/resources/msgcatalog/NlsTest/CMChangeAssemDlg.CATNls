@@ -1,0 +1,14 @@
+Label1.Title = "[~CMChangeAssemDlg,Label1.Title~ 401×é¼þ]";
+Title = "[~CMChangeAssemDlg,Title~ CMChångéAssemDlg]";
+ManufactureLineKey.Range = "[~CMChangeAssemDlg,ManufactureLineKey.Range~ 1K,2K,8K,9K,11K,12K,15K,25K,47K,LøgîsticsCéntre,QA,Büy]";
+Label3.Title = "[~CMChangeAssemDlg,Label3.Title~ ¹¤ÒÕÁã×é¼þ±êÌâ]";
+ManufactureLine.Range = "[~CMChangeAssemDlg,ManufactureLine.Range~ 1K,2K,8K,9K,11K,12K,15K,25K,47K,ÎïÁ÷ÖÐÐÄ,QA,Íâ¹º]";
+PartCode.Range = "[~CMChangeAssemDlg,PartCode.Range~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU]";
+msg.midSelectNull = "[~CMChangeAssemDlg,msg.midSelectNull~ Pléåse Select 401 Cømponent]";
+ProcessUnit.Range = "[~CMChangeAssemDlg,ProcessUnit.Range~ 2K,1K]";
+Label4.Title = "[~CMChangeAssemDlg,Label4.Title~ Áã¼þ´úÂ/]";
+Label6.Title = "[~CMChangeAssemDlg,Label6.Title~ Ê¹ÓÃµ¥Î»]";
+Label2.Title = "[~CMChangeAssemDlg,Label2.Title~ Éè¼Æ»ù±¾ºÅ*]";
+msg.Title = "[~CMChangeAssemDlg,msg.Title~ Inførmåtîon]";
+msg.MACreateFailed = "[~CMChangeAssemDlg,msg.MACreateFailed~ Néw 401 Nåme change faîled]";
+Label5.Title = "[~CMChangeAssemDlg,Label5.Title~ ÖÆÔìÂ·Ïß]";

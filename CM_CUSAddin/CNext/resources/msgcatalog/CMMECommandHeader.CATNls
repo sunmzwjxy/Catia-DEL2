@@ -1,0 +1,73 @@
+//GW
+CMMECommandHeader.CMCreateGWSystemHdr.Title = "Create GW";
+CMMECommandHeader.CMCreateGWSystemHdr.ShortHelp= "Create GW System";
+CMMECommandHeader.CMCreateGWSystemHdr.Help= "Create GW System";
+CMMECommandHeader.CMCreateGWSystemHdr.LongHelp= "Create GW System";
+
+//ZW
+CMMECommandHeader.CMCreateZWSystemHdr.Title = "Create ZW";
+CMMECommandHeader.CMCreateZWSystemHdr.ShortHelp= "Create ZW System";
+CMMECommandHeader.CMCreateZWSystemHdr.Help= "Create ZW System";
+CMMECommandHeader.CMCreateZWSystemHdr.LongHelp= "Create ZW System";
+
+//AO
+CMMECommandHeader.CMCreateAOSystemHdr.Title = "Create AO";
+CMMECommandHeader.CMCreateAOSystemHdr.ShortHelp= "Create AO System";
+CMMECommandHeader.CMCreateAOSystemHdr.Help= "Create AO System";
+CMMECommandHeader.CMCreateAOSystemHdr.LongHelp= "Create AO System";
+
+//401
+CMMECommandHeader.CMCreateMBOMAssemHdr.Title = "401 Component";
+CMMECommandHeader.CMCreateMBOMAssemHdr.ShortHelp = "401 Component";
+CMMECommandHeader.CMCreateMBOMAssemHdr.Help = "401 Component";
+CMMECommandHeader.CMCreateMBOMAssemHdr.LongHelp = "401 Component";
+
+//901
+CMMECommandHeader.CMCreateMakePartHdr.Title = "901 Part";
+CMMECommandHeader.CMCreateMakePartHdr.ShortHelp = "901 Part";
+CMMECommandHeader.CMCreateMakePartHdr.Help = "901 Part";
+CMMECommandHeader.CMCreateMakePartHdr.LongHelp = "901 Part";
+
+//Report
+CMMECommandHeader.CMCreateMBOMReportHdr.Title = "MBOM Report";
+CMMECommandHeader.CMCreateMBOMReportHdr.ShortHelp = "MBOM Report";
+CMMECommandHeader.CMCreateMBOMReportHdr.Help = "MBOM Report";
+CMMECommandHeader.CMCreateMBOMReportHdr.LongHelp = "MBOM Report";
+
+//401 Change
+CMMECommandHeader.CMChangeMBOMAssemHdr.Title = "401 Number Change";
+CMMECommandHeader.CMChangeMBOMAssemHdr.ShortHelp = "401 Number Change";
+CMMECommandHeader.CMChangeMBOMAssemHdr.Help = "401 Number Change";
+CMMECommandHeader.CMChangeMBOMAssemHdr.LongHelp = "401 Number Change";
+
+//901 Change
+CMMECommandHeader.CMChangeMakePartHdr.Title = "901 Number Change";
+CMMECommandHeader.CMChangeMakePartHdr.ShortHelp = "901 Number Change";
+CMMECommandHeader.CMChangeMakePartHdr.Help = "901 Number Change";
+CMMECommandHeader.CMChangeMakePartHdr.LongHelp = "901 Number Change";
+
+//fasten
+CMMECommandHeader.CMMBOMFastenHdr.Title = "Fasten Design";
+CMMECommandHeader.CMMBOMFastenHdr.ShortHelp = "Fasten Design";
+CMMECommandHeader.CMMBOMFastenHdr.Help = "Fasten Design";
+CMMECommandHeader.CMMBOMFastenHdr.LongHelp = "Fasten Design";
+
+
+//WA100 手动批量 computeResult
+CMMECommandHeader.ComacComputeReslutingProductHdr.Title = "Compute Resulting Product";
+CMMECommandHeader.ComacComputeReslutingProductHdr.ShortHelp = "Compute Resulting Product";
+CMMECommandHeader.ComacComputeReslutingProductHdr.Help = "Compute Resulting Product";
+CMMECommandHeader.ComacComputeReslutingProductHdr.LongHelp = "Compute Resulting Product\nFilter:\n-CreateAssebly type;\n-Maturity:IN_WORK;\n-Owner;";
+
+////协作BOM 规划  ComacGenerateBOMCmd
+//CMMECommandHeader.ComacGenerateBOMHdr.Title = "Generate BOM Planning";
+//CMMECommandHeader.ComacGenerateBOMHdr.ShortHelp = "Generate BOM Planning";
+//CMMECommandHeader.ComacGenerateBOMHdr.Help = "Generate BOM Planning";
+//CMMECommandHeader.ComacGenerateBOMHdr.LongHelp = "Generate BOM Planning";
+
+// 特制件、垫片添加		ComacInsertSpecialPartOrGasketCmd
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Title = "Insert Special Part Or Gasket";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.ShortHelp = "Insert Special Part Or Gasket";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Help = "Insert Special Part Or Gasket";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.LongHelp = "Insert Special Part Or Gasket";
+

@@ -1,0 +1,12 @@
+<meta charset="UTF-8"/>
+msg.Title = "Manufacturing MA Report";
+msg.reportSuccess = "Manufacturing MA Report is generated in background, will notify user when it generate success ";
+Label1.Title = "Manufacturing MA / 401";
+Title = "CMMBOMReport";
+msg.failedGetURL = "Failed Get Server URL";
+msg.selectNull = "please Select Manufacturing MA / 401";
+
+//ServerUrl = "https://ifwe.3ds.com/3dspace";
+//ServerUrl = "https://nice-test.comac.intra/3dspace";
+
+ServerUrl = "https://tdcvlcom01.dsone.3ds.com/3dspace";

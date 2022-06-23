@@ -1,0 +1,15 @@
+Label1.Title = "[\CMMakePartDlg,Label1.Title\ˆê\ƒ\ƒ`|ProcessPartName]";
+Title = "[\CMMakePartDlg,Title\ˆê\ƒ\ƒ`|901 Part]";
+msg.SaveFailed = "[\CMMakePartDlg,msg.SaveFailed\ˆê\ƒ\ƒ`|µ±Ç°Áã×é¼şÊı¾İ²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊı¾İÈ·±£Êı¾İ¿É±£´æ]";
+Label3.Title = "[\CMMakePartDlg,Label3.Title\ˆê\ƒ\ƒ`|Áã¼ş´úÂ/]";
+msg.ProvideNull = "[\CMMakePartDlg,msg.ProvideNull\ˆê\ƒ\ƒ`|please select Provide Part]";
+msg.CreateFailed = "[\CMMakePartDlg,msg.CreateFailed\ˆê\ƒ\ƒ`|Create Manufacturing Part Failed]";
+Label4.Title = "[\CMMakePartDlg,Label4.Title\ˆê\ƒ\ƒ`|ÖÆÔìÂ·Ïß]";
+RadioButton1.Title = "[\CMMakePartDlg,RadioButton1.Title\ˆê\ƒ\ƒ`|CopyFromDesign]";
+Label6.Title = "[\CMMakePartDlg,Label6.Title\ˆê\ƒ\ƒ`|Éè¼Æ»ù±¾ºÅ]";
+Label2.Title = "[\CMMakePartDlg,Label2.Title\ˆê\ƒ\ƒ`|¹¤ÒÕÁã×é¼şÃû³Æ]";
+RadioButton2.Title = "[\CMMakePartDlg,RadioButton2.Title\ˆê\ƒ\ƒ`|InputDesignCode]";
+msg.implementLinkMulti = "[\CMMakePartDlg,msg.implementLinkMulti\ˆê\ƒ\ƒ`|exist more than one implement link product]";
+msg.implementLinkNull = "[\CMMakePartDlg,msg.implementLinkNull\ˆê\ƒ\ƒ`|Select Provide Part no Implement link Product]";
+msg.designCodeNull = "[\CMMakePartDlg,msg.designCodeNull\ˆê\ƒ\ƒ`|please input design code]";
+Label5.Title = "[\CMMakePartDlg,Label5.Title\ˆê\ƒ\ƒ`|Ê¹ÓÃµ¥Î»]";

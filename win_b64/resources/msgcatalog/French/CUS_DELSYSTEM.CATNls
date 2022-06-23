@@ -1,0 +1,8 @@
+﻿<meta charset="UTF-8"/>
+CUS_DELSYSTEM = "CUS_DELSYSTEM";
+CUS_DELSYSTEM.CUS_GWSystemRef = "GongWei";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Title = "GongWei Name";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Code = "GongWei Code";
+CUS_DELSYSTEM.CUS_ZWSystemRef = "ZhanWei";
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Code = "ZhanWei Code";
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Title = "ZhanWei Name";

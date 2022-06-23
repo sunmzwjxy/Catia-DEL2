@@ -1,0 +1,83 @@
+let PointingObj(List)
+let PointedObj(List)
+let RelationName(String)
+set PointingObj = Parameters->GetAttributeObject("Source")
+set PointedObj = Parameters->GetAttributeObject("Target")
+set RelationName = Parameters->GetAttributeString("RelationType")
+
+Trace(1, "PLMRelationEstablishmentCheck Begin")
+Trace(2, "RelationName: #", RelationName )
+
+Trace(3, "PointingObj = Source: #", PointingObj.Size())
+Trace(3, "PointedObj = Target : #", PointedObj.Size())
+
+Validation = True
+
+if (RelationName <> "PLM_ImplementLink_Target")
+{
+	exit
+}
+
+let myFeature(Feature)
+Trace(2, "PointingObj = Source")
+for myFeature inside PointingObj
+{
+	let myModelerType(Type)
+	set myModelerType = myFeature.PrimaryType
+	Trace(3, "Name # and modelerType: #", myFeature.Name, myModelerType.Name )
+}
+
+Trace(2, "PointedObj = Target")
+for myFeature inside PointedObj
+{
+	let myModelerType(Type)
+	set myModelerType = myFeature.PrimaryType
+	Trace(3, "Name # and modelerType: #", myFeature.Name, myModelerType.Name )
+}
+
+Trace(2, "Point Object check")
+let myFeatureSource(Feature)
+let myFeatureTarget(Feature)
+
+let PointingNumber(Integer)
+PointingNumber=PointingObj.Size()
+set myFeatureSource = PointingObj[PointingNumber]
+set myFeatureTarget = PointedObj[1]
+
+let myModelerTypeSource(Type)
+let myModelerTypeTarget(Type)
+
+set myModelerTypeSource = myFeatureSource.ModelerType
+set myModelerTypeTarget = myFeatureTarget.ModelerType
+
+Trace(3, "myModelerTypeSource: #", myModelerTypeSource.Name )
+Trace(3, "myModelerTypeTarget: #", myModelerTypeTarget.Name )
+
+
+
+// MBOM - Workplan/System implement
+if ( myModelerTypeSource.Name == "DELLmiGeneralOperationInstance" AND myModelerTypeTarget.Name == "DELFmiFunctionIdentifiedInstance") 
+{
+	let PointingInstance(DELLmiGeneralOperationInstance)
+	set PointingInstance = PointingObj[PointingNumber]
+	Trace(3, "select operation instance name is # ", PointingInstance.Name)
+	
+	let PointingRef(DELLmiGeneralOperationReference)
+	set PointingRef = PointingInstance.Reference
+	Trace(3, "select operation state is # ", PointingRef.Name)
+	
+	let PointingState(String)
+	set PointingState = PointingRef.GetAttributeString("current")
+	Trace(3, "select operation state is # ", PointingState)
+	
+	if (PointingState == "RELEASED" )
+	{
+		Trace(3, "MBOM - Workplan/System implement link - Validation false")
+		Validation = False
+		Parameters.Message = "You have not right to modify MBOM as AO released!"
+		Parameters.Severity=2
+	}
+}
+
+
+Trace(1, "PLMRelationEstablishmentCheck End")

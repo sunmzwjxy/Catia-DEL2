@@ -1,0 +1,8 @@
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\AttributeUtilities.m\src"
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\AttributeUtilities.m\LocalGenerated\win_b64"
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\PrivateInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\ProtectedInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\AttributeTools\ImportedInterfaces\win_b64"
+/I"C:\Works\DS\B42\win_b64\.\tools\include\Windows"
+/I"C:\Works\DS\B42\win_b64\.\tools\include"

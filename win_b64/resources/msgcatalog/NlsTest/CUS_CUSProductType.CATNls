@@ -1,0 +1,3 @@
+CUS_CUSProductType = "[~CUS_CUSProductType,CUS_CUSProductType~ CUS_CUSPrødüctTypé]";
+CUS_CUSProductType.CUS_DMProduct = "[~CUS_CUSProductType,ProductType.CUS_DMProduct~ CUS_DMPrødüct]";
+CUS_CUSProductType.CUS_DMProduct.CUS_ChineseName_DMProduct = "[~CUS_CUSProductType,CUS_ChineseName_DMProduct~ CUS_ChînéseNåme_DMPrødüct]";

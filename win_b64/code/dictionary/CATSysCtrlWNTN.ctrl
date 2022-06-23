@@ -1,0 +1,16 @@
+/AttributeTools
+AttributeUtilities.dll
+/CAACOMACPPRFrm
+COMACCommonMdl.dll
+COMACWIMdl.dll
+/CAACOMACPublicFrm
+CAACOMACAddinMdl.dll
+CAAUtilityMdl.dll
+/CM_CUSAddin
+CM_CUSManuEngAddin.dll
+/CM_ManuEngServiceFrm
+ProcessPlanningService.dll
+/CM_UnitityService
+CUS_UtilFunc.dll
+/DelmiaTool
+DelmiaUtilities.dll

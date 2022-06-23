@@ -1,0 +1,8 @@
+CUS_Workspace.CUS_JHWorkspaceExt = "[十CUS_Workspace,kspace.CUS_JHWorkspaceExt十一構ソチ－CUS_JHWorkspaceExt]";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Production = "[十CUS_Workspace,pe.Range.Equal.Production十一構ソチ－Production]";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Knowledge = "[十CUS_Workspace,ype.Range.Equal.Knowledge十一構ソチ－Knowledge]";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType = "[十CUS_Workspace,ceExt.CUS_JHWorkspaceType十一構ソチ－Type]";
+CUS_Workspace = "[十CUS_Workspace,CUS_Workspace十一構ソチ－CUS_Workspace]";
+CUS_Workspace.CUS_JHWorkspaceVaultExt.CUS_JHSpaceVaultCode = "[十CUS_Workspace,tExt.CUS_JHSpaceVaultCode十一構ソチ－Code]";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHSpaceCode = "[十CUS_Workspace,kspaceExt.CUS_JHSpaceCode十一構ソチ－Code]";
+CUS_Workspace.CUS_JHWorkspaceVaultExt = "[十CUS_Workspace,e.CUS_JHWorkspaceVaultExt十一構ソチ－CUS_JHWorkspaceVaultExt]";

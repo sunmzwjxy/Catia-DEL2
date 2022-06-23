@@ -1,0 +1,7 @@
+!<mkRTViewData> v1.0.0
+RTV/002/DSI .\win_b64\code\productIC\DelmiaToolIC.required|.\DelmiaTool
+BTV/002/CUS .\win_b64\code\productIC\DelmiaToolIC.script|.\DelmiaTool
+BTV/002/CUS .\win_b64\code\productIC\DelmiaToolIC.xml|.\DelmiaTool
+CSC/002/DSI .\DelmiaTool\IdentityCard\Objects\win_b64\mkcsc\DelmiaTool.cscdb|.\DelmiaTool
+@type=codeFramework
+@built=true

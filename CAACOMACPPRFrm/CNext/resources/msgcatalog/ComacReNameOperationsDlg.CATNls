@@ -1,0 +1,15 @@
+<meta charset="UTF-8"/>
+Title = "Rename Operations";
+Label1.Title = "Operation's Father(WorkPlan):";
+Frame001.Title =" [Rule] ";
+Frame001.Label2.Title = "[Rule]:\n        Title of 1st Operation is 010，increment step is 10; like：010,020,030…\n[NOTE] \n    * The former Tree Reordering mode should select [Persistent],\n      or the tree visulization result will not be saved in the background database!";
+//Label3.Title = "Count of Operations:";
+//Label4.Title = "Step:";
+//CheckButton1.Title ="Parrallel process";
+
+msg.ProvideNull = "please select Provide Part";
+msg.designCodeNull = "please input design code";
+msg.CreateFailed = "Create Manufacturing Part Failed";
+msg.implementLinkNull = "Select Provide Part no Implement link Product";
+msg.implementLinkMulti = "exist more than one implement link product";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";

@@ -1,0 +1,12 @@
+Label1.Title = "[~ComacInsertFOinstructionDlg,Label1.Title~ Opéråtîøn's Father(WorkPlan):]";
+Title = "[~ComacInsertFOinstructionDlg,Title~ Insért FO & înstrüctiøn]";
+msg.SaveFailed = "[~ComacInsertFOinstructionDlg,msg.SaveFailed~ µ±Ç°Áã×é¼þÊý¾Ý²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊý¾ÝÈ·±£Êý¾Ý¿É±£´æ]";
+Label3.Title = "[~ComacInsertFOinstructionDlg,Label3.Title~ Cøünt of Opéråtîons:]";
+msg.ProvideNull = "[~ComacInsertFOinstructionDlg,msg.ProvideNull~ pléåse select Prøvîde Part]";
+msg.CreateFailed = "[~ComacInsertFOinstructionDlg,msg.CreateFailed~ Créåte Manüfacturîng Part Failed]";
+Label4.Title = "[~ComacInsertFOinstructionDlg,Label4.Title~ Stép:]";
+CheckButton1.Title = "[~ComacInsertFOinstructionDlg,CheckButton1.Title~ Pårrallél prøcess]";
+Label2.Title = "[~ComacInsertFOinstructionDlg,Label2.Title~ Stårtîng Opératiøn's Name:]";
+msg.implementLinkMulti = "[~ComacInsertFOinstructionDlg,msg.implementLinkMulti~ éxîst møre thån one implement link prodüct]";
+msg.implementLinkNull = "[~ComacInsertFOinstructionDlg,msg.implementLinkNull~ Sélect Prøvîde Pårt no Implement link Prodüct]";
+msg.designCodeNull = "[~ComacInsertFOinstructionDlg,msg.designCodeNull~ pléåse înpüt design cøde]";

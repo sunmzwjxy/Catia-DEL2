@@ -1,0 +1,591 @@
+/* ------------------------------------------------------------------------------------------------- */
+/* NOT CONTRACTUAL AND PROPERTY OF DS. ANY CHANGE MAY HAPPEN WITHOUT NOTICE              		     */
+/* Functional Process Modeler                                                                        */
+/* Renaming rule for functional process                                                              */
+/*                                                                                                   */
+/* WARNING                                                                                           */
+/* This version of the CATRule does NOT set/manage the DELFmiFunctionReference PLM_ExternalID        */
+/* attribute by copying the PLM_ExternalID of implemented VPMReference or name of eBOM Part          */
+/* (instruction are commented)                                                                       */
+/* Set DELFmiFunctionReference PLM_ExternalID from VPMReference or eBOM part may prevent user to     */
+/* create more than one Manufactured Item corresponding to one Engineering Item                      */
+/* (this rule is to be applied in most of the case).                                                 */
+/* But, then, it's no more possible to craete 2 or more Manufactured Item corresponding              */
+/* to one Engineering Item even if it is required. Manage this particular case requires to be able   */
+/* to modify PLM_ExternalID after it has been set by this CATrule, this can be performed in modifying*/
+/* DELFmiFunctionReference Masks (that is not possible in Customization console).                    */
+/* If the customization installed on your site allow to modify PLM_ExternalID, then you can comment  */
+/* out the corresponding lines (search for #PN#) in this CATrule                                     */
+/* ------------------------------------------------------------------------------------------------- */
+
+Let iPartOccurence(ProductOccurrence)		/* the occurrence of design part */
+Let iEBOMReference(Part)                    /* the reference in case of EBOM */
+
+Let ProcInst(DELFmiFunctionInstance)
+Let ProcRef(DELFmiFunctionReference)
+
+Let PartInstance(VPMInstance)                   /* the related instance of the part occurrence */
+Let PartReference(VPMReference)                 /* the related reference of the part occurrence */
+
+Let PartName(String)
+Let RefDescription(String)
+Let Prefix(String)
+Let NewProcessName(String) 
+Let NameSize = 0
+Let Version(String)
+Let MinorVersion(String)
+Let Maturity(String)
+Let OriginalName(String)
+Let ProcessLabelExist(Boolean)
+
+Let EstimatedCost(Real)
+Let EstimatedLeadTime(Real)
+Let EstimatedLeadTimeWeeks(String)
+Let Classification(String)
+Let SparePart(String)
+Let SpareItem(Boolean)
+Let MaterialCategory(String)
+Let Weight(Real)
+Let TargetReleaseDate(Date)
+Let OnlyInSession(Boolean)
+Let FirstAndLastRevision(Boolean)
+
+Let NodeType(String)
+Let ImplementPart(String)
+
+/* ------------------------------------------------------------------------------------------------- */
+/* To add a prefix on the Manufactured Items, set the AddPrefix with true                            */
+/* MFG, M: Manufactured  ASY: Assembly  FAB: Fabricated  KIT: Kit                                    */
+/* ------------------------------------------------------------------------------------------------- */
+Let AddPrefix(Boolean)
+set AddPrefix = false
+
+/******************* CASE PRODUCT **************************************/
+Trace(1 , "START - DELPLMFProcessOccurrence_ImplementLinkCreation")
+
+set iPartOccurence= Parameters->GetAttributeObject("iPartOccurrence")
+if (iPartOccurence <> NULL)
+{
+	/* Case where implemented object is an occurrence of a VPMReference */
+	set ProcInst = ThisObject
+	if  (ProcInst <> NULL) 
+	{
+		/* Case of process instance: read the unique key then append it to the part INSTANCE name */
+		if (ProcInst->HasAttribute("PLM_ExternalID") == true)  
+		{
+			PartInstance = iPartOccurence.Instance
+			if (PartInstance <> NULL)
+			{
+				Trace(1 , "### Process instance naming")
+				PartName = PartInstance->GetAttributeString("PLM_ExternalID") 
+				if (true == AddPrefix)
+				{				
+					set  NewProcessName = "M#" + PartName  
+				}
+				else
+				{
+					set  NewProcessName =  PartName  
+				}				
+				NameSize=NewProcessName.Length()
+				if (NameSize>100)
+				{
+					NewProcessName=NewProcessName.Extract(0,96)+ "..."
+				}
+				ProcInst.PLM_ExternalID = NewProcessName  
+			} 
+		}
+	  
+		/* Case of Provided Part */
+		set ProcRef = ProcInst.Reference
+		if  (ProcRef <> NULL) 
+		{
+			Trace(1 , "### Process ImplementLinkCreation")
+			if (ProcRef.IsSupporting("Provide") == true or  ProcRef.IsSupporting("Transform") == true or ProcRef.IsSupporting("DELServicePartReference") == true or ProcRef.IsSupporting("CreateAssembly") == true) 
+			{
+				Trace(1 , "### Process ImplementLinkCreation Provide")
+				Trace(1 , "### CreateAssembly Process ImplementLinkCreation Provide PLM_ExternalID = ",ProcRef.GetAttributeString("PLM_ExternalID"))
+				ProcessLabelExist = false
+				if(ProcRef.IsSupporting("CreateAssembly") == true)
+				{
+					OriginalName = ProcRef.GetAttributeString("PLM_ExternalID")
+					if(OriginalName.Search("-4") > 0)
+						ProcessLabelExist = true
+				}
+				if(ProcRef.IsSupporting("ElementaryEndItem") == true)
+				{
+					OriginalName = ProcRef.GetAttributeString("PLM_ExternalID")
+					if(OriginalName.Search("-9") > 0)
+						ProcessLabelExist = true
+				}
+				
+				/* Case where an implement link is set from a Provide instance to a VPMReference occurrence */
+				/* In addition to set Provide instance name (PLM_ExternalID) above, Provide V_Name (and optionnaly PLM_ExternalID are copied from the VPMReference) */
+				if ((ProcessLabelExist == false) and (ProcRef->HasAttribute("V_version") == true) and (ProcRef->HasAttribute("V_isLastVersion") == true) and (ProcRef->HasAttribute("V_maturity") == true) and (ProcRef->HasAttribute("minorrevision") == true))  
+				{
+					Trace(1 , "### Process ImplementLinkCreation Provide V_version")
+					Version = ProcRef->GetAttributeString("V_version")
+					Maturity = ProcRef->GetAttributeString("V_maturity")
+					MinorVersion = ProcRef->GetAttributeString("minorrevision")
+					OnlyInSession = (Version.Length() == 0) and (MinorVersion.Length() == 0)
+					if (OnlyInSession)
+					{
+						FirstAndLastRevision = true
+					}
+					else
+					{
+						FirstAndLastRevision = (Version == "A") and (MinorVersion == "1" ) and ProcRef->GetAttributeBoolean("V_isLastVersion")
+					}
+					/* Naming attributes can be changed only if the object is the FIRST AND LAST version... and if Maturity allows it */
+					if ( FirstAndLastRevision and (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+					{
+						Trace(1 , "### Process ImplementLinkCreation Provide V_version Maturity")
+						PartInstance = iPartOccurence.Instance
+						if (PartInstance <> NULL)
+						{
+							PartReference = PartInstance.Reference
+							if (PartReference <> NULL)
+							{
+								Trace(1 , "### Provide reference naming")
+								if ((ProcRef->HasAttribute("V_Name") == true) and (PartReference->HasAttribute("V_Name") == true)) 
+								{
+									/* Set the V_Name attribute (Title in UI) of the Process Reference by copy of the V_Name attribute of the implement Part */
+									Trace(2 , "### PartReference.V_Name = ", PartReference.V_Name)
+									ProcRef.V_Name = PartReference.V_Name
+								}
+								if ((ProcRef->HasAttribute("PLM_ExternalID") == true) and (PartReference->HasAttribute("PLM_ExternalID") == true))
+								{
+									/* Set the PLM_ExternalID attribute (Name in UI) of the Process Reference by copy of the PLM_ExternalID attribute of the implement Part */
+									Trace(2 , "### PartReference.PLM_ExternalID = ", PartReference.PLM_ExternalID)
+									if(PartReference->HasAttribute("CUS_VPMRefNodeType") == true)
+									{
+										NodeType = PartReference->GetAttributeString("CUS_VPMRefNodeType")
+										if(NodeType == "MA")
+										{
+											Trace(3 , "MA PartReference.PLM_ExternalID = #", PartReference.PLM_ExternalID)
+											ProcRef.PLM_ExternalID = PartReference.PLM_ExternalID
+											if(ProcRef->HasAttribute("CUS_MBOMType") == true)
+												ProcRef.SetAttributeString("CUS_MBOMType","MA")
+										}
+									}
+									
+								}
+								if (ProcRef->HasAttribute("V_description") == true)
+								{
+									ProcRef.V_description = PartReference.PLM_ExternalID + " | " + PartReference.revision
+									Trace(2 , "PartReference.description = ###", ProcRef.V_description)
+								}
+								if (ProcRef->HasAttribute("CUS_ImpelementPart") == true)
+								{
+									set ImplementPart = PartReference.PLM_ExternalID + " | " + PartReference.revision
+									ProcRef.SetAttributeString("CUS_ImpelementPart",ImplementPart)
+									Trace(2 , "PartReference.description = ###", ImplementPart)
+								}
+								if ((ProcRef->HasAttribute("CUS_ProcessPartName") == true) and (PartReference->HasAttribute("CUS_ChineseName_VPMRef") == true))
+								{
+									
+									ProcRef.SetAttributeString("CUS_ProcessPartName",PartReference.GetAttributeString("CUS_ChineseName_VPMRef"))
+									Trace(2 , "ProcRef.CUS_ProcessPartName = ###", ProcRef.GetAttributeString("CUS_ProcessPartName"))
+								}
+							} 
+						}
+					}
+				}											
+			}
+		}
+	}
+	/* Case of process reference implementing ProductRefernec or ProductOccurrence */
+	/* - Set V_Name from  ProductReference with Prefix from Process type */
+	/* - Copy ProductReference Part Number (PLM_ExternalID), this will require user modification of PLM_ExternalID to have more than one Mfg Item for one Part Ref */	
+	else
+	{
+		Trace(1 , "### ProcInst NULL")
+		set ProcRef = ThisObject
+		if  (ProcRef <> NULL) 
+		{
+			ProcessLabelExist = false
+			if(ProcRef.IsSupporting("CreateAssembly") == true)
+			{
+				OriginalName = ProcRef.GetAttributeString("PLM_ExternalID")
+				if(OriginalName.Search("-4") > 0)
+						ProcessLabelExist = true
+			}
+			if(ProcRef.IsSupporting("ElementaryEndItem") == true)
+			{
+				OriginalName = ProcRef.GetAttributeString("PLM_ExternalID")
+				if(OriginalName.Search("-9") > 0)
+						ProcessLabelExist = true
+			}
+				
+			if ((ProcessLabelExist == false) and (ProcRef->HasAttribute("V_version") == true) and (ProcRef->HasAttribute("V_isLastVersion") == true) and (ProcRef->HasAttribute("V_maturity") == true) and (ProcRef->HasAttribute("minorrevision") == true))  
+				{
+				Version = ProcRef->GetAttributeString("V_version")
+				Maturity = ProcRef->GetAttributeString("V_maturity")
+				MinorVersion = ProcRef->GetAttributeString("minorrevision")
+				OnlyInSession = (Version.Length() == 0) and (MinorVersion.Length() == 0)
+				if (OnlyInSession)
+				{
+					FirstAndLastRevision = true
+				}
+				else
+				{
+					FirstAndLastRevision = (Version == "A") and (MinorVersion == "1" ) and ProcRef->GetAttributeBoolean("V_isLastVersion")
+				}
+				/* Naming attributes can be changed only if the object is the FIRST AND LAST version... and if Maturity allows it*/
+				if ( FirstAndLastRevision and (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+				{
+					PartInstance = iPartOccurence.Instance
+					if (PartInstance <> NULL)
+					{
+						PartReference = PartInstance.Reference
+						if (PartReference <> NULL)
+						{
+							Trace(1 , "### Other PROCESS reference naming")
+							if (true == AddPrefix)
+							{
+								set Prefix = "MFG"												
+								if (ProcRef.IsSupporting("CreateAssembly") == true)
+								{
+									Prefix = "ASY"
+								}
+								else if ((ProcRef.IsSupporting("ElementaryEndItem") == true) or (ProcRef.IsSupporting("CreateMaterial") == true))
+								{
+									Prefix = "FAB"
+								}
+								else if (ProcRef.IsSupporting("CreateKit") == true)
+								{
+									Prefix = "KIT"
+								}
+							}							
+							if ((ProcRef->HasAttribute("V_Name") == true) and (PartReference->HasAttribute("V_Name") == true))
+							{
+								PartName = PartReference->GetAttributeString("V_Name")
+								Trace(2 , "### PartReference.V_Name = ", PartName)
+
+								if (true == AddPrefix)
+								{								
+									set  NewProcessName = Prefix + "#" + PartName
+								}
+								else
+								{
+									set  NewProcessName = PartName								
+								}
+								NameSize=NewProcessName.Length()
+								if (NameSize>100)
+								{
+									NewProcessName=NewProcessName.Extract(0,96)+ "..."
+								}
+								ProcRef.V_Name = NewProcessName
+								Trace(2 , "### ProcRef.V_Name = ", ProcRef.V_Name)						
+							}
+							if ((ProcRef->HasAttribute("PLM_ExternalID") == true) and (PartReference->HasAttribute("PLM_ExternalID") == true))
+							{
+								Trace(2 , "### PartReference.PLM_ExternalID = ", PartName)
+								if(PartReference->HasAttribute("CUS_VPMRefNodeType") == true)
+								{
+									NodeType = PartReference->GetAttributeString("CUS_VPMRefNodeType")
+									if(NodeType == "MA")
+									{
+										Trace(3 , "MA PartReference.PLM_ExternalID = #", PartReference.PLM_ExternalID)
+										ProcRef.PLM_ExternalID = PartReference.PLM_ExternalID
+										if(ProcRef->HasAttribute("CUS_MBOMType") == true)
+											ProcRef.SetAttributeString("CUS_MBOMType","MA")
+									}
+								}
+								//ProcRef.PLM_ExternalID = PartReference.PLM_ExternalID 					
+							}
+							if ((ProcRef->HasAttribute("V_description") == true) and (PartReference->HasAttribute("V_description") == true))
+							{
+								//RefDescription = PartReference->GetAttributeString("V_description")
+								ProcRef.V_description = PartReference.PLM_ExternalID + " | " + PartReference.revision
+								Trace(2 , "### ProcRef.description = ", ProcRef.V_description)
+								//ProcRef.V_description = PartReference.V_description 
+							}
+							if (ProcRef->HasAttribute("CUS_ImpelementPart") == true)
+							{
+								set ImplementPart = PartReference.PLM_ExternalID + " | " + PartReference.revision
+								ProcRef.SetAttributeString("CUS_ImpelementPart",ImplementPart)
+								Trace(2 , "ProcessReference.CUS_ImpelementPart = ###", ImplementPart)
+							}
+							if ((ProcRef->HasAttribute("CUS_ProcessPartName") == true) and (PartReference->HasAttribute("CUS_ChineseName_VPMRef") == true))
+							{
+								ProcRef.SetAttributeString("CUS_ProcessPartName",PartReference.GetAttributeString("CUS_ChineseName_VPMRef"))
+								Trace(2 , "ProcRef.CUS_ProcessPartName = ###", ProcRef.GetAttributeString("CUS_ProcessPartName"))
+							}
+							if (ProcRef->HasAttribute("CUS_ProcessPartCode") == true)
+							{
+								ProcRef.SetAttributeString("CUS_ProcessPartCode",PartReference.PLM_ExternalID)
+								Trace(2 , "ProcRef.CUS_ProcessPartCode = ###", ProcRef.GetAttributeString("CUS_ProcessPartCode"))
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+} /* fin du cas Objet implément? = ProductOccurence */
+else
+{
+	Trace(1 , "### iPartOccurence NULL")
+	/******************* CASE EBOM **************************************/
+	set iEBOMReference= Parameters->GetAttributeObject("iPartOccurrence")
+	if (iEBOMReference <> NULL)
+	{
+		/* Case where implemented object is an occurrence of an eBOM Part */
+		if (iEBOMReference->HasAttribute("name") == true)
+		{
+			PartName = iEBOMReference->GetAttributeString("name")
+		}	  
+		set ProcInst = ThisObject
+		if  (ProcInst <> NULL)
+		{
+			/* Case where implementing Object is a Process Instance */
+			if (ProcInst->HasAttribute("PLM_ExternalID") == true)  
+			{
+			    if (true == AddPrefix)
+				{
+					set  NewProcessName = "M#" + PartName 
+				}
+				else
+				{
+					set  NewProcessName =  PartName
+				}
+				NameSize=NewProcessName.Length()
+				if (NameSize>100)
+				{
+					NewProcessName=NewProcessName.Extract(0,96)+ "..."
+				}
+				ProcInst.PLM_ExternalID = NewProcessName 
+			}		 
+			/* Case of Provided Part */
+			set ProcRef = ProcInst.Reference
+			if  (ProcRef <> NULL) 
+			{
+				if (ProcRef.IsSupporting("Provide") == true or  ProcRef.IsSupporting("Transform") == true or ProcRef.IsSupporting("DELServicePartReference") == true) 
+				{
+					/* Case where an implement link is set from a Provide instance to an eBOM Part occurrence */
+					/* In addition to set Provide instance name (PLM_ExternalID) above, Provide V_Name (and optionnaly PLM_ExternalID) are copied from the eBOM Part */
+					if ((ProcRef->HasAttribute("V_version") == true) and (ProcRef->HasAttribute("V_isLastVersion") == true) and (ProcRef->HasAttribute("V_maturity") == true) and (ProcRef->HasAttribute("minorrevision") == true))  					
+					{
+						Version = ProcRef->GetAttributeString("V_version")
+						Maturity = ProcRef->GetAttributeString("V_maturity")
+						MinorVersion = ProcRef->GetAttributeString("minorrevision")
+						OnlyInSession = (Version.Length() == 0) and (MinorVersion.Length() == 0)
+						if (OnlyInSession)
+						{
+							FirstAndLastRevision = true
+						}
+						else
+						{
+							FirstAndLastRevision = (Version == "A") and (MinorVersion == "1" ) and ProcRef->GetAttributeBoolean("V_isLastVersion")
+						}
+						/* Naming attributes can be changed only if the object is the FIRST AND LAST version... and if Maturity allows it*/
+						if ( FirstAndLastRevision and (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+						{
+							if ((ProcRef->HasAttribute("V_Name") == true) and (iEBOMReference->HasAttribute("V_Name") == true)) 
+							{
+								/* Set the V_Name attribute (Title in UI) of the Process Reference by copy of the V_Name attribute of the implement Part */
+								Trace(2 , "### iEBOMReference.V_Name = ", iEBOMReference.V_Name)
+								ProcRef.V_Name = iEBOMReference.V_Name
+							}
+							if ((ProcRef->HasAttribute("PLM_ExternalID") == true) and (iEBOMReference->HasAttribute("name") == true))
+							{
+								/* Set the PLM_ExternalID attribute (Name in UI) of the Process Reference by copy of the PLM_ExternalID attribute of the implement Part */
+								Trace(2 , "### iEBOMReference.name = ", iEBOMReference.name)
+								//ProcRef.PLM_ExternalID = iEBOMReference.name   //#PN# 
+							}  
+						}
+						/* Non Naming attributes can be changed whatever is the version as soon as Maturity allows it*/
+						if ( (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+						{
+							/* Now copy other Part attributes from eBOM Part*/
+							/******************* EBOM ATTRIBUTES MAPPING ***************************************/					
+							if ((ProcRef->HasAttribute("V_EstimatedCost") == true) and (iEBOMReference->HasAttribute("Estimated Cost") == true))
+							{
+								EstimatedCost = iEBOMReference->GetAttributeReal ("Estimated Cost")
+								ProcRef->SetAttributeReal ("V_EstimatedCost",EstimatedCost)
+							}					
+							if ((ProcRef->HasAttribute("V_EstimatedLeadTimeDescription") == true) and (iEBOMReference->HasAttribute("Lead Time Duration") == true))
+							{
+								EstimatedLeadTime = iEBOMReference->GetAttributeReal ("Lead Time Duration")							
+								/* Authorized values by the OOTB mask are 1 Week, 2,3,4,6,8,12,20 Weeks. Take the closest value */						
+								if (EstimatedLeadTime <= 7) EstimatedLeadTimeWeeks = "1 Week"
+								if ((EstimatedLeadTime > 7) and (EstimatedLeadTime <= 14) ) EstimatedLeadTimeWeeks = "2 Weeks"
+								if ((EstimatedLeadTime > 14) and (EstimatedLeadTime <= 21) ) EstimatedLeadTimeWeeks = "3 Weeks"
+								if ((EstimatedLeadTime > 21) and (EstimatedLeadTime <= 28) ) EstimatedLeadTimeWeeks = "4 Weeks"
+								if ((EstimatedLeadTime > 28) and (EstimatedLeadTime <= 42) ) EstimatedLeadTimeWeeks = "6 Weeks"
+								if ((EstimatedLeadTime > 42) and (EstimatedLeadTime <= 56) ) EstimatedLeadTimeWeeks = "8 Weeks"
+								if ((EstimatedLeadTime > 56) and (EstimatedLeadTime <= 84) ) EstimatedLeadTimeWeeks = "12 Weeks"
+								if (EstimatedLeadTime > 84) EstimatedLeadTimeWeeks = "20 Weeks"
+
+								ProcRef->SetAttributeString ("V_EstimatedLeadTimeDescription",EstimatedLeadTimeWeeks)
+							}						
+							if ((ProcRef->HasAttribute("V_ManufacturedItemClassification") == true) and (iEBOMReference->HasAttribute("Part Classification") == true))
+							{
+								Classification = iEBOMReference->GetAttributeString ("Part Classification")
+								ProcRef->SetAttributeString ("V_ManufacturedItemClassification",Classification)
+							}					
+							if ((ProcRef->HasAttribute("V_SpareManufacturedItem") == true) and (iEBOMReference->HasAttribute("Spare Part") == true))
+							{
+								SparePart = iEBOMReference->GetAttributeString ("Spare Part")
+								if (SparePart == "Yes") SpareItem = true
+								else SpareItem = false
+								ProcRef->SetAttributeBoolean ("V_SpareManufacturedItem",SpareItem)
+							}							
+							if ((ProcRef->HasAttribute("V_MaterialCategory") == true) and (iEBOMReference->HasAttribute("Material Category") == true))
+							{
+								MaterialCategory = iEBOMReference->GetAttributeString ("Material Category")
+								ProcRef->SetAttributeString ("V_MaterialCategory",MaterialCategory)
+							}	
+							if ((ProcRef->HasAttribute("V_EstimatedWeight") == true) and (iEBOMReference->HasAttribute("Weight") == true))
+							{
+								Weight = iEBOMReference->GetAttributeReal ("Weight")
+								Weight = Weight/1000 /* To get it in KG */
+								ProcRef->SetAttributeReal ("V_EstimatedWeight",Weight)
+							}			
+							if ((ProcRef->HasAttribute("V_TargetReleaseDate") == true) and (iEBOMReference->HasAttribute("Effectivity Date") == true))
+							{
+								TargetReleaseDate = iEBOMReference->GetAttributeDate ("Effectivity Date")
+								ProcRef->SetAttributeDate ("V_TargetReleaseDate",TargetReleaseDate)
+							}
+						}
+					}
+				}
+			}
+		}
+		else
+		{ 
+			/* Case not (ProcessInstance) */
+			set ProcRef = ThisObject
+			if (ProcRef <> NULL) 
+			{
+				/* Case (ProcessReference) */
+				/* Case of process reference implementing eBOM Part */
+				/* - Set V_Name from  Part Title with Prefix from Process type */
+				/* - Set Part Number (PLM_ExternalID) as Copy of Part name , this will require user modification of PLM_ExternalID to have more than one Mfg Item for one Part Ref */
+				if ((ProcRef->HasAttribute("V_version") == true) and (ProcRef->HasAttribute("V_isLastVersion") == true) and (ProcRef->HasAttribute("V_maturity") == true) and (ProcRef->HasAttribute("minorrevision") == true))  
+				{
+					Version = ProcRef->GetAttributeString("V_version")
+					Maturity = ProcRef->GetAttributeString("V_maturity")
+					MinorVersion = ProcRef->GetAttributeString("minorrevision")
+					OnlyInSession = (Version.Length() == 0) and (MinorVersion.Length() == 0)
+					if (OnlyInSession)
+					{
+						FirstAndLastRevision = true
+					}
+					else
+					{
+						FirstAndLastRevision = (Version == "A") and (MinorVersion == "1" ) and ProcRef->GetAttributeBoolean("V_isLastVersion")
+					}
+					/* Naming attributes can be changed only if the object is the FIRST AND LAST version... and if Maturity allows it*/
+					if ( FirstAndLastRevision and (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+					{	
+						Trace(1 , "### Other PROCESS reference naming")
+						if (true == AddPrefix)
+						{
+							set Prefix = "MFG"												
+							if (ProcRef.IsSupporting("CreateAssembly") == true)
+							{
+								Prefix = "ASY"
+							}
+							else if ((ProcRef.IsSupporting("ElementaryEndItem") == true) or (ProcRef.IsSupporting("CreateMaterial") == true))
+							{
+								Prefix = "FAB"
+							}
+							else if (ProcRef.IsSupporting("CreateKit") == true)
+							{
+								Prefix = "KIT"
+							}
+						}						
+						if ((ProcRef->HasAttribute("V_Name") == true) and (iEBOMReference->HasAttribute("V_Name") == true))
+						{
+							PartName = iEBOMReference->GetAttributeString("V_Name")
+							Trace(2 , "### PartReference.V_Name = ", PartName)
+
+							if (true == AddPrefix)
+							{
+								set  NewProcessName = Prefix + "#" + PartName
+							}
+							else
+							{
+								set  NewProcessName = PartName
+							}
+							NameSize=NewProcessName.Length()
+							if (NameSize>100)
+							{
+								NewProcessName=NewProcessName.Extract(0,96)+ "..."
+							}
+							ProcRef.V_Name = NewProcessName
+							Trace(2 , "### ProcRef.V_Name = ", ProcRef.V_Name)						
+						}
+						if ((ProcRef->HasAttribute("PLM_ExternalID") == true) and (iEBOMReference->HasAttribute("name") == true))
+						{
+							Trace(2 , "### iEBOMReference.name = ", iEBOMReference.name)
+							//ProcRef.PLM_ExternalID = iEBOMReference.name				
+						}
+					}
+					/* Non Naming attributes can be changed whatever is the version as soon as Maturity allows it*/
+					if ( (Maturity <> "RELEASED") and (Maturity <> "FROZEN"))
+					{
+						/******************* EBOM ATTRIBUTES MAPPING ***************************************/					
+						if ((ProcRef->HasAttribute("V_EstimatedCost") == true) and (iEBOMReference->HasAttribute("Estimated Cost") == true))
+						{
+							EstimatedCost = iEBOMReference->GetAttributeReal ("Estimated Cost")
+							ProcRef->SetAttributeReal ("V_EstimatedCost",EstimatedCost)
+						}					
+						if ((ProcRef->HasAttribute("V_EstimatedLeadTimeDescription") == true) and (iEBOMReference->HasAttribute("Lead Time Duration") == true))
+						{
+							EstimatedLeadTime = iEBOMReference->GetAttributeReal ("Lead Time Duration")
+							
+							/* Authorized values by the OOTB mask are 1 Week, 2,3,4,6,8,12,20 Weeks. Take the closest value */
+						
+							if (EstimatedLeadTime <= 7) EstimatedLeadTimeWeeks = "1 Week"
+							if ((EstimatedLeadTime > 7) and (EstimatedLeadTime <= 14) ) EstimatedLeadTimeWeeks = "2 Weeks"
+							if ((EstimatedLeadTime > 14) and (EstimatedLeadTime <= 21) ) EstimatedLeadTimeWeeks = "3 Weeks"
+							if ((EstimatedLeadTime > 21) and (EstimatedLeadTime <= 28) ) EstimatedLeadTimeWeeks = "4 Weeks"
+							if ((EstimatedLeadTime > 28) and (EstimatedLeadTime <= 42) ) EstimatedLeadTimeWeeks = "6 Weeks"
+							if ((EstimatedLeadTime > 42) and (EstimatedLeadTime <= 56) ) EstimatedLeadTimeWeeks = "8 Weeks"
+							if ((EstimatedLeadTime > 56) and (EstimatedLeadTime <= 84) ) EstimatedLeadTimeWeeks = "12 Weeks"
+							if (EstimatedLeadTime > 84) EstimatedLeadTimeWeeks = "20 Weeks"
+
+							ProcRef->SetAttributeString ("V_EstimatedLeadTimeDescription",EstimatedLeadTimeWeeks)
+						}	
+					
+						if ((ProcRef->HasAttribute("V_ManufacturedItemClassification") == true) and (iEBOMReference->HasAttribute("Part Classification") == true))
+						{
+							Classification = iEBOMReference->GetAttributeString ("Part Classification")
+							ProcRef->SetAttributeString ("V_ManufacturedItemClassification",Classification)
+						}	
+				
+						if ((ProcRef->HasAttribute("V_SpareManufacturedItem") == true) and (iEBOMReference->HasAttribute("Spare Part") == true))
+						{
+							SparePart = iEBOMReference->GetAttributeString ("Spare Part")
+							if (SparePart == "Yes") SpareItem = true
+							else SpareItem = false
+							ProcRef->SetAttributeBoolean ("V_SpareManufacturedItem",SpareItem)
+						}	
+						
+						if ((ProcRef->HasAttribute("V_MaterialCategory") == true) and (iEBOMReference->HasAttribute("Material Category") == true))
+						{
+							MaterialCategory = iEBOMReference->GetAttributeString ("Material Category")
+							ProcRef->SetAttributeString ("V_MaterialCategory",MaterialCategory)
+						}	
+
+						if ((ProcRef->HasAttribute("V_EstimatedWeight") == true) and (iEBOMReference->HasAttribute("Weight") == true))
+						{
+							Weight = iEBOMReference->GetAttributeReal ("Weight")
+							Weight = Weight/1000 /* To get it in KG */
+							ProcRef->SetAttributeReal ("V_EstimatedWeight",Weight)
+						}			
+
+						if ((ProcRef->HasAttribute("V_TargetReleaseDate") == true) and (iEBOMReference->HasAttribute("Effectivity Date") == true))
+						{
+							TargetReleaseDate = iEBOMReference->GetAttributeDate ("Effectivity Date")
+							ProcRef->SetAttributeDate ("V_TargetReleaseDate",TargetReleaseDate)
+						}	
+					}
+				}			
+			}
+		}
+	}
+}
+Trace(1 , "END - DELPLMFProcessOccurrence_ImplementLinkCreation")

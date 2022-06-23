@@ -1,0 +1,16 @@
+Label1.Title = "[\CMSystemZWDlg,Label1.Title\ˆê\ƒ\ƒ`|scope¹¤ÒÕ×é¼ş]";
+Title = "[\CMSystemZWDlg,Title\ˆê\ƒ\ƒ`|NEW ZW]";
+msg.SaveFailed = "[\CMSystemZWDlg,msg.SaveFailed\ˆê\ƒ\ƒ`|µ±Ç°Õ¾Î»Êı¾İ²»¿É±£´æ£¬Ç/¼ì²éÈ¨ÏŞ]";
+Label3.Title = "[\CMSystemZWDlg,Label3.Title\ˆê\ƒ\ƒ`|¹¤Î»*]";
+PlaneCode.Range = "[\CMSystemZWDlg,PlaneCode.Range\ˆê\ƒ\ƒ`|W|A|C]";
+msg.uniqueIDError = "[\CMSystemZWDlg,msg.uniqueIDError\ˆê\ƒ\ƒ`|The input ZW code is repeat]";
+msg.inputCodeNull = "[\CMSystemZWDlg,msg.inputCodeNull\ˆê\ƒ\ƒ`|The ZW code need input]";
+Label4.Title = "[\CMSystemZWDlg,Label4.Title\ˆê\ƒ\ƒ`|»úĞÍ´úÂ/]";
+Label6.Title = "[\CMSystemZWDlg,Label6.Title\ˆê\ƒ\ƒ`|Õ¾Î»Ãû³Æ*]";
+msg.inputCodeTwoError = "[\CMSystemZWDlg,msg.inputCodeTwoError\ˆê\ƒ\ƒ`|Ç/ÊäÈ/Á½Î»Êı×ÖµÄÕ¾Î»Ë³Ğò±àÂ/]";
+msg.nodeFatherNull = "[\CMSystemZWDlg,msg.nodeFatherNull\ˆê\ƒ\ƒ`|Please select GW]";
+Label2.Title = "[\CMSystemZWDlg,Label2.Title\ˆê\ƒ\ƒ`|Ç°ĞòÕ¾Î»]";
+msg.Title = "[\CMSystemZWDlg,msg.Title\ˆê\ƒ\ƒ`|Info]";
+msg.inputEffError = "[\CMSystemZWDlg,msg.inputEffError\ˆê\ƒ\ƒ`|Ç/ÊäÈ/ÕıÈ·µÄ¼Ü´ÎÓĞĞ§ĞÔ]";
+Label5.Title = "[\CMSystemZWDlg,Label5.Title\ˆê\ƒ\ƒ`|Õ¾Î»Ë³Ğò±àÂ/*]";
+Label7.Title = "[\CMSystemZWDlg,Label7.Title\ˆê\ƒ\ƒ`|ÓĞĞ§ĞÔ]";

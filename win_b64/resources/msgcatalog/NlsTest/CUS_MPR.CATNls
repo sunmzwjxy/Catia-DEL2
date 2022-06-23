@@ -1,0 +1,3 @@
+CUS_MPR = "[~CUS_MPR,CUS_MPR~ CUS_MPR]";
+CUS_MPR.CUS_MPRReference.CUS_MFGDep = "[~CUS_MPR,S_MPRReference.CUS_MFGDep~ CUS_MFGDép]";
+CUS_MPR.CUS_MPRReference = "[~CUS_MPR,CUS_MPR.CUS_MPRReference~ CUS_MPRRéference]";

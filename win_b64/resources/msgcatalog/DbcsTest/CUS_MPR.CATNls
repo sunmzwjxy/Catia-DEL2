@@ -1,0 +1,3 @@
+CUS_MPR = "[十CUS_MPR,CUS_MPR十一構ソチ－CUS_MPR]";
+CUS_MPR.CUS_MPRReference.CUS_MFGDep = "[十CUS_MPR,S_MPRReference.CUS_MFGDep十一構ソチ－CUS_MFGDep]";
+CUS_MPR.CUS_MPRReference = "[十CUS_MPR,CUS_MPR.CUS_MPRReference十一構ソチ－CUS_MPRReference]";

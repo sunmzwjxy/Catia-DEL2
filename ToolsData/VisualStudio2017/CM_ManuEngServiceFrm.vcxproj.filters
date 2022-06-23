@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CNext">
+      <UniqueIdentifier>{cc33dff8-b96d-48e7-9ce9-45241aa46a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources">
+      <UniqueIdentifier>{3aae0169-8217-49b2-9178-d0c032193ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog">
+      <UniqueIdentifier>{86e15c8e-e628-4881-98fd-59e697f95e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\Simplified_Chinese">
+      <UniqueIdentifier>{120e6c51-ce99-4bdc-9c2b-7a460fe2a9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{37ade983-0b69-4692-bf1b-5e711f3cabff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{84b9788b-b31f-4d3c-bd76-136578cb0023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{ddd37d2f-4b35-40f1-a5c3-753eefac6fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{7e322353-d887-48e3-a270-f2672d126f1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMChangeMakePartCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMChangeMBOMAssemCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMCreateAOSystemCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMCreateGWSystemCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMCreateMakePartCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMCreateMBOMAssemCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMCreateZWSystemCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMMBOMFastenCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\CMMBOMReportCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\ComacComputeReslutingProductCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PrivateInterfaces\ComacInsertSpecialPartOrGasketCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_ManuEngServiceFrm\PublicInterfaces\ProcessPlanningService.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMChangeAssemDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMChangeAssemDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMChangeMakePartDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMChangeMakePartDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMakePartDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMakePartDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMAssemDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMAssemDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMFastenDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMFastenDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMReport.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMReport.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMReportDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMMBOMReportDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemAODlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemAODlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemGWDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemGWDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemZWDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\CMSystemZWDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\ComacInsertSpecialPartOrGasketDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\ComacInsertSpecialPartOrGasketDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMChangeAssemDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMChangeAssemDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMChangeMakePartDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMChangeMakePartDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMakePartDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMakePartDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMAssemDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMAssemDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMFastenDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMFastenDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMReportCmd.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMReportCmd.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMReportDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMMBOMReportDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemAODlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemAODlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemGWDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemGWDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemZWDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\CMSystemZWDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertSpecialPartOrGasketDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertSpecialPartOrGasketDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\CM_ManuEngServiceFrm\IdentityCard\README.md">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

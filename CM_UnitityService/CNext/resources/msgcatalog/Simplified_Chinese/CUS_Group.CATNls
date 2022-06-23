@@ -1,0 +1,15 @@
+﻿<meta charset="UTF-8"/>
+CUS_Group = "CUS_Group";
+CUS_Group.CUS_GroupExtension = "CUS_GroupExtension";
+CUS_Group.CUS_GroupExtension.CUS_GroupType = "部门类型";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptIntPerson = "制造评估部门接口人";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptGrpLeader = "制造评估部门组长";
+CUS_Group.CUS_EVI = "CUS_EVI";
+CUS_Group.CUS_EVI.CUS_EVIName = "CUS_EVIName";
+CUS_Group.CUS_EVI.CUS_EVIDomain = "评估属性";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Design = "普通受影响专业";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Manufacture = "公共专业(制造)";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Supplier = "供应商";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public = "公共专业";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_TestFlight = "公共专业(试飞)";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Service = "公共专业(客服)";

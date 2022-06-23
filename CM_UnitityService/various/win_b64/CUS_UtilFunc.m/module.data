@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CM_UnitityService\CUS_UtilFunc.m\Objects\win_b64\mkcsc\CUS_UtilFunc.cscdb|.\CM_UnitityService\CUS_UtilFunc.m
+RTV/001/CUS .\win_b64\code\bin\CUS_UtilFunc.dll|.\CM_UnitityService\CUS_UtilFunc.m
+BTV/000/CUS .\win_b64\code\lib\CUS_UtilFunc.lib|.\CM_UnitityService\CUS_UtilFunc.m
+INT/000/CUS .\win_b64\code\bin\CUS_UtilFunc.pdb|.\CM_UnitityService\CUS_UtilFunc.m
+INT/000/CUS .\win_b64\code\lib\CUS_UtilFunc.exp|.\CM_UnitityService\CUS_UtilFunc.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

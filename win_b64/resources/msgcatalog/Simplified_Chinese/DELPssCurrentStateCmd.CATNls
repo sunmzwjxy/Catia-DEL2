@@ -1,0 +1,311 @@
+<meta charset="UTF-8"/>
+// DO NOT EDIT :: THE CAA2 WIZARD WILL REPLACE ALL THE CODE HERE
+
+DELPssCurrentStateCmd.InitialState.Message="选择一个系统以查看它的状态和统计信息图表";
+
+ChartTilte="系统性能监视器";
+SystemsUtilization="系统使用";
+
+StartCurrentStateCommand="开始调试";
+StopCurrentStateCommand="停止调试";
+OpenHTMLReport="打开 HTML 报告";
+CloseHTMLReport="关闭 HTML 报告";
+
+EventsDebug="调试仿真事件";
+FutureEvents="未来元素";
+SimTraces="仿真跟踪";
+EventName="事件";
+EventTime="时间";
+ResourceName="系统";
+OperationName="操作";
+ProductName="产品";
+
+PsyGlobalTitle="全局统计信息报告";
+ProductsAndRequests="产品和请求";
+Operations="操作";
+Products="产品";
+StateTimes="状态时间";
+Statistics="统计信息";
+
+Overview="概述";
+Systems="系统";
+Operations="操作";
+
+ProductsInventory="产品目录";
+ProductsProduced="产品已生产";
+ProductsDispatched="产品已分派";
+ProductsArrived="产品已到达";
+
+SelectRunLevel="选择线路数";
+
+TransferSysUtilization="传送系统使用";
+BufferSysUtilization="缓冲系统使用";
+GeneralSysUtilization="工艺流程使用";
+
+GeneralOperations="常规操作";
+RepairOperations="修复操作";
+InvalidRunNumber="线路数无效";
+
+Input="输入";
+Output="输出";
+NoDataPresent="无数据";
+
+Comma=",";
+Delimiter=":";
+
+Produced="生产的";
+Consumed="已消耗";
+Count="计数";
+Requests="请求";
+
+IncreasetRunLevel="增加线路数";
+DecreasetRunLevel="减少线路数";
+NoMonitoringEvents="没有要监视的事件";
+
+Waiting="正在等待";
+Processing="正在处理";
+
+OpenSquareBracket="[";
+CloseSquareBracket="]";
+SystemState="系统状态";
+SimTrackingObj="仿真目标";
+
+
+BottleneckViewer="系统瓶颈";
+PeriodsCount="周期计数";
+BottleneckPeriods="瓶颈周期";
+OpenBracket="(";
+CloseBracket=")";
+Percentage="%";
+AverageBottleneck="平均值瓶颈";
+AverageBottleneckTime="时间";
+AverageBottleneckPercentage="百分比";
+
+ColorLegendsTitle="颜色图例";
+ConfidenceInterval="可信区间";
+CIOptions="可信区间选项"; //  @validatedUsage F66 16:10:13 Options
+PlusChar="+";
+MinusChar="-";
+Slash="/";
+NumberOfSamples="工作周期数";
+
+OpenInputs="打开输入";
+OpenOutputs="打开输出";
+
+CloseInputs="关闭输入";
+CloseOutputs="关闭输出";
+
+InputSystems="输入";
+OutputSystems="输出";
+
+
+CycleTime="周期时间";
+AvgCycleTime="平均周期时间";
+OverallInventory="总目录";
+SysSpecificInventory="系统特定目录";
+RawMaterials="原材料";
+WIP="WIP";
+FinishedProduct="完成的产品";
+AvgRAW="平均 RAW";
+AvgWIP="平均 WIP";
+AvgFIN="平均 FIN";
+AvgProductInventory="平均产品目录";
+Target="目标";
+CycleTime="周期时间";
+TransferNBufferSysUtilization="传送和缓存系统使用率";
+
+OperationStartTime="操作开始时间";
+WaitingForPartTime="等待输入";
+WorkingTime="工作时间";
+RepairTime="修复时间";
+WaitingForResTime="等待资源";
+NumOfCycles="周期数";
+
+WorkInProcess="工作正在进行";
+Bottleneck="瓶颈";
+BreakAt="中断位置";
+
+Time="时间：";
+Content="内容";
+UtilizationMode="使用模式";
+
+
+CurrentProducts="当前产品";
+TotalArrivals="总到达数";
+
+
+CurrentRequests="当前请求";
+TotalDispatches="总分派数";
+
+CurrentContent="当前内容";
+AverageContent="平均内容";
+
+TotalProduced="总生产数";
+TotalTransfered="总传输数";
+Utilization="使用";
+
+ShowCharts="图表详细信息";
+
+WorkerStartTime="工作人员起始时间";
+
+AvgCycleTime="平均周期时间";
+
+ReplenishTime="补偿时间";
+
+SelectXSLTFile="选择 XSLT 文件以自定义您的报告";
+SelectXMLFileToDump="选择要导出的 XML 文件";
+SelectHTMLFileToDump="选择要导出的 HTML 文件";
+SelectTEXTFileToDump="选择要导出的 TEXT 文件";
+SelectFileToDump="选择要导出的文件";
+
+XML.Text="XML 文档 (*.xml)";
+XML.Type="*.xml";
+XML.Extension=".xml";
+
+HTML.Text="HTML 文档 (*.html)";
+HTML.Type="*.html";
+HTML.Extension=".html";
+
+TEXT.Text="文本文档 (*.text)";
+TEXT.Type="*.text";
+TEXT.Extension=".text";
+
+ExportToXML="将所有资源状态时间导出到 XML";
+ExportSuccessFull="导出成功。";
+PeriodicActionTime="周期性操作";
+InterruptTime="中断时间";
+
+PushBackData="从仿真更新规划数据";
+PushBackDataColumnOne="选择";
+PushBackDataColumnTwo="产品流";
+PushBackDataColumnThree="要更新的操作";
+PushBackDataColumnFour="此仿真过程汇总的平均计算值";
+PushBackDataColumnFive="以下项的当前值 \n";
+PushBackDataButton="全选";
+
+StartTime="开始时间";
+EndTime="结束时间";
+State="状态";
+
+Operations="操作";
+OperationName="名称";
+OperationType="类型";
+ProductZone="产品区域";
+
+Products="产品";
+Inputs="输入";
+InputsWeights="输入重量";
+Outputs="输出";
+OutputsWeights="输出重量";
+
+PoolsNWorkers="池和工人";
+ResourcePools="资源池";
+WorkersEngaged="参与的工人";
+WorkersZones="工人区域";
+
+AssociatedConsumables="相关耗材";
+AssociatedPeriodicActions="相关周期性操作";
+
+InterruptOperations="中断操作";
+InterruptedOperationNames="中断的操作名称";
+
+Consumables="耗材";
+ConsumableName="名称";
+ConsumableRate="比率";
+ConsumableUnit="单位";
+ConsumableAvailable="可用";
+
+ActivitySetNWorkingCycle="活动集和工作周期";
+ActivitySet="活动集";
+WorkingCycle="工作周期";
+
+
+WorkerTask="工人任务";
+FromResource="源资源";
+TargetResource="目标资源";
+TaskType="任务类型";
+TaskState="任务状态";
+WalkTime="步行时间";
+WalkSpeed="步行速度";
+DistanceTravelled="经过的距离";
+ProductsWeight="产品重量";
+
+SubStates="子状态";
+WalkPath="传送路径";
+
+
+WaitingForInputs="正在等待输入";
+WaitingForRequests="正在等待请求";
+WaitingForResources="正在等待资源";
+ResourcePoolName="资源池名称";
+
+
+FromZone="源区域";
+TargetZone="目标区域";
+
+StoppingDecZone="停止决策区域";
+
+For="对于";
+
+StopedBy="停止者";
+
+AdditionalWorkersInvolved="涉及其他工人";
+
+ResType_Processor_NLS="数控机床";
+ResType_Buffer_NLS="存储器";
+ResType_Worker_NLS="人体";
+ResType_Robot_NLS="机器人";
+ResType_Conveyor_NLS="传送带";
+ResType_CnvDecisionPoint_NLS="conveyordecpoint";
+ResType_AGV_NLS="agv";
+ResType_AGVDecisionPoint_NLS="agvdecpoint";
+ResType_Source_NLS="源";
+ResType_Sink_NLS="下落";
+
+OperationDelayTime="延迟时间";
+BlockingDecZone="阻止决策区域";
+CurrentDecZone="当前决策区域";
+BlockingAGVs="阻止 AGV";
+
+Tracking="跟踪统计数据";
+CurrentContentOnResource="有关资源的当前内容";
+QuantityTracking="质量跟踪";
+DelayedProducts="延迟的产品";
+Quanity="数量";
+
+GenericActivities="一般活动";
+
+ExportHTMLFiles="将统计信息导出到 HTML 文件";
+ExportHTMLFilesSuccess="成功将统计信息导出到 HTML 文件";
+ExportHTMLFilesFailed="未能将统计信息导出到 HTML 文件";
+
+Yes="是";
+No="否";
+
+ParkingZone="停车区域";
+
+CurrentResOwner="当前资源";
+WorkPieceTrackingForTargetResource="产品当前状态";
+CurrentOperationRunning="当前操作";
+NextResource="下一资源";
+NoEntry="--";
+
+Comments="备注";
+
+
+
+ExportXMLFile="将统计信息导出至 XML 文件";
+ExportXMLFileSuccess="成功将统计信息导出到 XML 文件";
+ExportXMLFileFailed="未能将统计信息导出到 XML 文件";
+
+ExportPartTracesFile="已将零件跟踪导出到 XML 文件";
+ExportPartTracesFileSuccess="已成功将零件跟踪导出到 XML 文件";
+ExportPartTracesFileFailed="未能将零件跟踪导出到 XML 文件";
+
+ExportStatsToFiles="导出统计数据";
+
+ExportStatesHistoryFileSuccess="已成功将状态历史记录导出到 XML 文件";
+ExportStateHistoryFileFailed="无法将状态历史记录导出到 XML 文件";
+
+ExportStationPartTracesFileSuccess="已成功将工作站零件跟踪导出到 XML 文件";
+ExportStationPartTracesFileFailed="未能将工作站零件跟踪导出到 XML 文件";

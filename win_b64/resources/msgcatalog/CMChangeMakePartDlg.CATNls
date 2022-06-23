@@ -1,0 +1,8 @@
+<meta charset="UTF-8"/>
+Title = "CMChangeMakePartDlg";
+Label1.Title = "901Component*";
+
+msg.Title = "信息";
+msg.ProvideNull = "请选择901零件";
+Label2.Title = "401Assembly";
+Label3.Title = "ProductPart";

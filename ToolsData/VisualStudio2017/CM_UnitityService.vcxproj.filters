@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CNext">
+      <UniqueIdentifier>{651c65ca-79e1-44dd-807b-5b78b6a970ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\CATSettings">
+      <UniqueIdentifier>{53b790d4-b1c7-432c-ad50-a5c47833670c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources">
+      <UniqueIdentifier>{a92cdab7-eab8-47ba-9035-bccbea4d053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic">
+      <UniqueIdentifier>{25862319-8208-4cb5-9da7-21851320914c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic\icons">
+      <UniqueIdentifier>{baa090ce-1aeb-45cc-b828-19362ad23bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic\icons\normal">
+      <UniqueIdentifier>{db8c394b-86c1-49ce-b86d-ea8807847657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog">
+      <UniqueIdentifier>{fad345c1-2bcb-4efc-9c3e-fe69de756f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\French">
+      <UniqueIdentifier>{920e0be4-c735-493f-9941-03037bb8226f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\German">
+      <UniqueIdentifier>{34bc7173-5aba-4a14-98c4-cac3967b697c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\Japanese">
+      <UniqueIdentifier>{b45935da-4466-4c71-90be-55575e937920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\Simplified_Chinese">
+      <UniqueIdentifier>{40119faf-53f5-4621-8012-2428a04bde60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{936f2a7a-8d7c-487e-9094-d059ceaf8124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{f98a0fbb-aec2-44d8-9044-24b43cdd1bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{efc69bb5-78b6-4141-b9de-790035283d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{dcb6d781-4ebe-4312-81e3-93041722bd47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CM_UnitityService\PublicInterfaces\CUSCAAUtilService.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_UnitityService\PublicInterfaces\CUSXMLServices.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CM_UnitityService\PublicInterfaces\CUS_UtilFunc.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\3DShapeColor.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\3DXPSearch.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\ActionMRUList.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrCommandsAccelerators.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrCommandsIcons.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrCustomizeStartMenu.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrPanelSection.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrSectionState.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrToolbarVisibility.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\AfrWorkbenches.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\BrowserDlgPref.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\CATAfr3DXPCompass.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\CATAfrPreferenceAppsSections.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\CATOIC.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\CATPLMNewUIToolBoxPreferences.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DefaultAttributesRepository.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DefaultCreationAttributesPreference.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELAssignmentPanelWidgetTAB-1.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELAssignmentPanelWidgetTAB.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELDPMProcessCreationSettings.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELGanttSettings.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELManufPlanningCommands.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELMfgFluidicFabrication.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELMSDHighlightSettings.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELMSDSysEdSettings.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELPPRLiveEditorFoundation.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DELPPRRobotTransformation.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DialogBox.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DialogEditStack.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\DialogPosition.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\Disco.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\Editability.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\Faraday.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\FrameConfig.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\FrameGeneral.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\FrameGeneral.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\GeneralPCS.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\GraphicsOptimizer_Internals_NRE.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\GraphicsOptimizer_Parameters_NRE.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\IGES.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\LowGraph.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\LPCommonEditor.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\MaterialOptionsSettings.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\MultiCAD.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\MXLogon.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\PLMAttrMarket.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\PLMChooserPreferences.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\PLMSearchDlg.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\PLMServers.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\PLMToolbarSearch.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\SettingsDialog.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\Sketcher.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\ToolsOptions.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\Tree.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\UserProfileRepository.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\VIDActionBar.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\VIDDialogBox.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\VisualizationRepository.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\VPMImpactCombo.CATPreferences">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\CATSettings\VRButtonCustomize.CATSettings">
+      <Filter>CNext\CATSettings</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\1.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\CUS_ProvideMAPart.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_AOSystemRef.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_AO_OperationRef.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_CHGManuPart.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_CUS_VPMExten.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_CUS_VPMRefATASeg.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_DELCHGComponent.jpg">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_DELComponent.jpg">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_DELHeaderWkplStamp.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_DELRMWorkcenter.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_Fasten.bmp">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_Fasten.cgr">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_Fasten.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_Fasten_Tile.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_GWSystemRef.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_InsertFastenProcess108x144.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_InsertFastenProcess16x16.bmp">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_InsertFastenProcess48x48.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_ManufacturingCA.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_ManufacturingCA108x144.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_ManuPart.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_MAPartKit.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_MAPartKit108x144.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_MAPartKit48x48.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_MBOMReport.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\I_ZWSystemRef.png">
+      <Filter>CNext\resources\graphic\icons</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\normal\I_CUS_VPMExten.png">
+      <Filter>CNext\resources\graphic\icons\normal</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\graphic\icons\normal\I_CUS_VPMRefATASeg.png">
+      <Filter>CNext\resources\graphic\icons\normal</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSEWISExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSInterfaceMgmtGeneralClass.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSInterfaceMgmtInterfaceDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSInterfaceMgmtInterfaceRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSInterfaceMgmtRequirementGroup.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSPartModel.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUSTaskExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_ChangeAction.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_CMCRoute.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_CUSChangeMgt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_CUSProductType.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_CUSSIMDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELGernalOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELGernalOperation.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELHeaderOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELMBOM.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELMIAFOExt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELMIAMBOMExt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELSYSTEM.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELSYSTEM.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_DELWorkplanSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Doc.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_EWISLogConnectors.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_EWISLogEQT.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_EWISLogEquipment.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_EWISLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_EWISPhysical.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Group.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Interface_InterfaceMgmtDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Interface_InterfaceMgmtRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_IssueExt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Library.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_LogicalReference.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_ManuCA.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Model.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_MPR.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Organization.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Person.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_SpecRef.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_SPSMgmt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_STDDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_TaskExt.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Variant.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_VPMInstance.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_VPMLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_VPMReference.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\CUS_Workspace.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSEWISExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSInterfaceMgmtGeneralClass.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSInterfaceMgmtInterfaceDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSInterfaceMgmtInterfaceRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSInterfaceMgmtRequirementGroup.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSPartModel.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUSTaskExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_ChangeAction.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_CMCRoute.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_CUSChangeMgt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_CUSProductType.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_CUSSIMDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELGernalOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELHeaderOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELMBOM.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELMIAFOExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELMIAMBOMExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELSYSTEM.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_DELWorkplanSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Doc.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_EWISLogConnectors.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_EWISLogEQT.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_EWISLogEquipment.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_EWISLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_EWISPhysical.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Group.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Interface_InterfaceMgmtDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Interface_InterfaceMgmtRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_IssueExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Library.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_LogicalReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_ManuCA.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Model.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_MPR.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Organization.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Person.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_SpecRef.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_SPSMgmt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_STDDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_TaskExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Variant.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_VPMInstance.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_VPMLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_VPMReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\CUS_Workspace.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\MBSEReqTest.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\OtbERConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\OtbIRPCConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\French\TEST_TEST_ISSUE.CATNls">
+      <Filter>CNext\resources\msgcatalog\French</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSEWISExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSInterfaceMgmtGeneralClass.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSInterfaceMgmtInterfaceDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSInterfaceMgmtInterfaceRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSInterfaceMgmtRequirementGroup.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSPartModel.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUSTaskExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_ChangeAction.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_CMCRoute.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_CUSChangeMgt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_CUSProductType.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_CUSSIMDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELGernalOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELHeaderOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELMBOM.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELMIAFOExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELMIAMBOMExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELSYSTEM.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_DELWorkplanSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Doc.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_EWISLogConnectors.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_EWISLogEQT.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_EWISLogEquipment.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_EWISLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_EWISPhysical.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Group.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Interface_InterfaceMgmtDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Interface_InterfaceMgmtRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_IssueExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Library.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_LogicalReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_ManuCA.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Model.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_MPR.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Organization.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Person.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_SpecRef.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_SPSMgmt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_STDDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_TaskExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Variant.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_VPMInstance.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_VPMLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_VPMReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\CUS_Workspace.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\MBSEReqTest.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\OtbERConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\OtbIRPCConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\German\TEST_TEST_ISSUE.CATNls">
+      <Filter>CNext\resources\msgcatalog\German</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSEWISExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSInterfaceMgmtGeneralClass.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSInterfaceMgmtInterfaceDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSInterfaceMgmtInterfaceRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSInterfaceMgmtRequirementGroup.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSPartModel.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUSTaskExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_ChangeAction.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_CMCRoute.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_CUSChangeMgt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_CUSProductType.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_CUSSIMDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELGernalOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELHeaderOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELMBOM.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELMIAFOExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELMIAMBOMExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELSYSTEM.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_DELWorkplanSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Doc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_EWISLogConnectors.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_EWISLogEQT.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_EWISLogEquipment.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_EWISLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_EWISPhysical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Group.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Interface_InterfaceMgmtDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Interface_InterfaceMgmtRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_IssueExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Library.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_LogicalReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_ManuCA.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Model.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_MPR.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Organization.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Person.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_SpecRef.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_SPSMgmt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_STDDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_TaskExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Variant.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_VPMInstance.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_VPMLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_VPMReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\CUS_Workspace.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\MBSEReqTest.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\OtbERConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\OtbIRPCConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Japanese\TEST_TEST_ISSUE.CATNls">
+      <Filter>CNext\resources\msgcatalog\Japanese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\MBSEReqTest.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\OtbERConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\OtbIRPCConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSEWISExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSInterfaceMgmtGeneralClass.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSInterfaceMgmtInterfaceDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSInterfaceMgmtInterfaceRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSInterfaceMgmtRequirementGroup.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSPartModel.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUSTaskExtension.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_ChangeAction.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_CMCRoute.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_CUSChangeMgt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_CUSProductType.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_CUSSIMDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELGernalOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELGernalOperation.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELHeaderOperation.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELMBOM.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELMIAFOExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELMIAMBOMExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELSYSTEM.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELSYSTEM.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_DELWorkplanSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Doc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_EWISLogConnectors.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_EWISLogEQT.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_EWISLogEquipment.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_EWISLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_EWISPhysical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Group.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Interface_InterfaceMgmtDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Interface_InterfaceMgmtRequirement.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_IssueExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Library.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_LogicalReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_ManuCA.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Model.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_MPR.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Organization.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Person.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_SpecRef.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_SPSMgmt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_STDDoc.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_TaskExt.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Variant.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_VPMInstance.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_VPMLogical.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_VPMReference.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\CUS_Workspace.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\MBSEReqTest.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\OtbERConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\OtbIRPCConfiguration.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\Simplified_Chinese\TEST_TEST_ISSUE.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\CNext\resources\msgcatalog\TEST_TEST_ISSUE.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\CM_UnitityService\IdentityCard\README.md">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

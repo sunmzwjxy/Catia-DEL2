@@ -1,0 +1,44 @@
+<meta charset="UTF-8"/>
+ParentLayer.ParentGrid.NavigatorGrid.ResourceGroup.Label="资源";
+ParentLayer.ParentGrid.NavigatorGrid.OperationGroup.Label="产品构建";
+ParentLayer.ParentGrid.NavigatorGrid.GeneralSysGroup.Label="工艺流程";
+
+CurrentLabel="当前";
+PreviousLabel="上一个";
+
+ParentLayer.ParentGrid.NavigatorGrid.OperationGroup.NoSyncLbl.Text="选择一个操作或一个工人任务以查看构建";
+
+BtnAddResource.Tooltip="添加资源";
+BtnAddResourceFromCatalog.Tooltip="从目录中添加资源";
+BtnAddResourcePanel.Tooltip="添加制造单元";
+BtnReframeResource.Tooltip="根据资源重新构造";
+BtnDeleteResource.Tooltip="删除资源";
+BtnChangeResourceType.Tooltip="为资源分类";
+
+BtnAddWorkerTask.Tooltip="添加工人任务";
+BtnEditWorkerTask.Tooltip="编辑工人任务";
+BtnDeleteWorkerTask.Tooltip="删除工人任务";
+BtnAddBeforeWorkerTask.Tooltip="在选择之前添加工人任务";
+BtnAddAfterWorkerTask.Tooltip="在选择之后添加工人任务";
+BtnHideShow.Tooltip="隐藏/显示对象";
+
+3DMoveNotSelection="选择应在其下添加新任务的工人任务";
+
+TaskDetailingCmdActive.Title="工人任务详细命令";
+TaskDetailingCmdActive1.Message="当另一个工人任务命令处于活动状态时，将无法执行 /p1";
+TaskDetailingCmdActive2.Message="当另一个工人任务命令处于活动状态时，将取消激活产品构建";
+TaskDetailingCmdActive3.Message="当工人任务命令处于活动状态时，将取消激活资源导航器中的选择";
+
+ExistingPanelMove.Title="移动错误";
+ExistingPanelMove.Message="另一个移动面板打开";
+MoveManikinError.Title="移动人体模型错误";
+MoveManikinError.Message="已禁用工人操作";
+MoveFloorError.Title="移动地板错误";
+MoveFloorError.Message="地板操作已禁用";
+FloorTile.Label="选定地板";
+
+MissingObject="缺失对象";
+
+// Messages
+//-------------
+WorkerTaskCmdActiveStatus.Message="工人任务命令已取消";

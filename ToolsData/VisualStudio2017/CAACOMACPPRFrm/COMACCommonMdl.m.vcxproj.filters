@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{bd0bd7b3-5bce-4248-a81a-a0ea58118575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4f51d31c-6f1b-45e0-a8b2-e0fc5ed8b5dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacGenerateBOMCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacGenerateBOMDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacInsertFOinstructionCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacInsertFOinstructionDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\COMACMBOMInitCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacNewVersionCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacNewVersionDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\COMACPLMReorderCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacReNameOperationsCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\ComacReNameOperationsDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_reader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_value.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_writer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\autolink.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\config.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\features.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\forwards.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\json.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\reader.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\value.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\writer.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_batchallocator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\LocalInterfaces\utils.hpp">
+      <Filter>LocalInterfaces</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\COMACMBOMInitDlg.DSGen">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\Hello.exe">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_internalarray.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_internalmap.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\json_valueiterator.inl">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCommonMdl.m\src\sconscript">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>

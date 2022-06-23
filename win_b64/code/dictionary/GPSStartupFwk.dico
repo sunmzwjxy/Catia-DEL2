@@ -1,0 +1,9 @@
+#======================================================================
+# Dictionary GPSStartupFwk.dico associated with framework GPSStartupFwk
+#======================================================================
+
+GPSAddin	                     CATICATSAMWorkshopAddin          libGPSAddin
+EcCompositeProperty              CATISamValidity                  libGPSMain
+EcCompositeProperty              CATISamAnalysisEntityInit        libGPSMain
+EcCompositeProperty              CATISamMeshSubscriber            libGPSMain
+STRUCTURAL_EcCompositeProperty   CATISamExplicitation             libGPSMain

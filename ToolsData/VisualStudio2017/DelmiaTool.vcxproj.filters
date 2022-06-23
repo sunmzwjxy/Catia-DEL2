@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{5e09bbfd-3ffb-4aff-84ea-fae3ba380cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{34d93c37-e816-4086-a7d3-e8747de2fbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{6462c032-8daf-46c2-b96f-9e5f96519cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{b1167725-9e61-4827-b6b6-6dab60263664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\DelmiaTool\PublicInterfaces\CUSCAAUtilService.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DelmiaTool\PublicInterfaces\DelmiaUtilities.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\DelmiaTool\PublicInterfaces\PPRUtity.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\DelmiaTool\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\DelmiaTool\IdentityCard\README.md">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

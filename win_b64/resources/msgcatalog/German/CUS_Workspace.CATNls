@@ -1,0 +1,9 @@
+﻿<meta charset="UTF-8"/>
+CUS_Workspace = "CUS_Workspace";
+CUS_Workspace.CUS_JHWorkspaceVaultExt = "CUS_JHWorkspaceVaultExt";
+CUS_Workspace.CUS_JHWorkspaceVaultExt.CUS_JHSpaceVaultCode = "Code";
+CUS_Workspace.CUS_JHWorkspaceExt = "CUS_JHWorkspaceExt";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHSpaceCode = "Code";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType = "Type";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Production = "Production";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Knowledge = "Knowledge";

@@ -1,0 +1,3 @@
+CUS_CUSProductType = "[十CUS_CUSProductType,CUS_CUSProductType十一構ソチ－CUS_CUSProductType]";
+CUS_CUSProductType.CUS_DMProduct = "[十CUS_CUSProductType,ProductType.CUS_DMProduct十一構ソチ－CUS_DMProduct]";
+CUS_CUSProductType.CUS_DMProduct.CUS_ChineseName_DMProduct = "[十CUS_CUSProductType,CUS_ChineseName_DMProduct十一構ソチ－CUS_ChineseName_DMProduct]";

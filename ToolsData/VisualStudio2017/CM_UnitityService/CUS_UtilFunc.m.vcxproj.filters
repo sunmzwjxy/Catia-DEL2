@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{07690457-a412-4ccf-b176-e573538e8678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{13b26114-12e4-4f6b-8d4e-9f4588ecde9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CM_UnitityService\CUS_UtilFunc.m\src\CUSCAAUtilService.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_UnitityService\CUS_UtilFunc.m\src\CUSXMLServices.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <None Include="..\..\..\CM_UnitityService\CUS_UtilFunc.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

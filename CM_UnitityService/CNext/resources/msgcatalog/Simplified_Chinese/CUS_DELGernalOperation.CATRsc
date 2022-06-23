@@ -1,0 +1,3 @@
+﻿<meta charset="UTF-8"/>
+CUS_DELGernalOperation = "CUS_DELGernalOperation";
+CUS_DELGernalOperation.CUS_AO_OperationRef.Icon.Normal = "I_AO_OperationRef";

@@ -1,0 +1,3 @@
+CUS_CMCRoute = "[~CUS_CMCRoute,CUS_CMCRoute~ CUS_CMCRøüté]";
+CUS_CMCRoute.CUS_Task = "[~CUS_CMCRoute,CUS_CMCRoute.CUS_Task~ CUS_Tåsk]";
+CUS_CMCRoute.CUS_Task.CUS_IsRead = "[~CUS_CMCRoute,Route.CUS_Task.CUS_IsRead~ CUS_IsRéåd]";

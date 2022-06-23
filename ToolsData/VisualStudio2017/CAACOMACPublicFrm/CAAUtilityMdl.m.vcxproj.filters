@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{c6826e1a-375c-4900-b58f-a266c655bb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b5f992cc-e418-427b-9ddd-1e3f3fb6de69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CAACOMACPublicFrm\CAAUtilityMdl.m\src\CAAUtility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <None Include="..\..\..\CAACOMACPublicFrm\CAAUtilityMdl.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

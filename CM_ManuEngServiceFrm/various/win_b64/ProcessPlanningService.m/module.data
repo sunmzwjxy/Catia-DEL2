@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CM_ManuEngServiceFrm\ProcessPlanningService.m\Objects\win_b64\mkcsc\ProcessPlanningService.cscdb|.\CM_ManuEngServiceFrm\ProcessPlanningService.m
+RTV/001/CUS .\win_b64\code\bin\ProcessPlanningService.dll|.\CM_ManuEngServiceFrm\ProcessPlanningService.m
+BTV/000/CUS .\win_b64\code\lib\ProcessPlanningService.lib|.\CM_ManuEngServiceFrm\ProcessPlanningService.m
+INT/000/CUS .\win_b64\code\bin\ProcessPlanningService.pdb|.\CM_ManuEngServiceFrm\ProcessPlanningService.m
+INT/000/CUS .\win_b64\code\lib\ProcessPlanningService.exp|.\CM_ManuEngServiceFrm\ProcessPlanningService.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

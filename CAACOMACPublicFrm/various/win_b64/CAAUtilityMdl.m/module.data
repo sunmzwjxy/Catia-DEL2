@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CAACOMACPublicFrm\CAAUtilityMdl.m\Objects\win_b64\mkcsc\CAAUtilityMdl.cscdb|.\CAACOMACPublicFrm\CAAUtilityMdl.m
+RTV/001/CUS .\win_b64\code\bin\CAAUtilityMdl.dll|.\CAACOMACPublicFrm\CAAUtilityMdl.m
+BTV/000/CUS .\win_b64\code\lib\CAAUtilityMdl.lib|.\CAACOMACPublicFrm\CAAUtilityMdl.m
+INT/000/CUS .\win_b64\code\bin\CAAUtilityMdl.pdb|.\CAACOMACPublicFrm\CAAUtilityMdl.m
+INT/000/CUS .\win_b64\code\lib\CAAUtilityMdl.exp|.\CAACOMACPublicFrm\CAAUtilityMdl.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

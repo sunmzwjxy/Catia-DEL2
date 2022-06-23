@@ -1,0 +1,8 @@
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\DelmiaUtilities.m\src"
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\DelmiaUtilities.m\LocalGenerated\win_b64"
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PrivateInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\ProtectedInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces"
+/I"C:\Works\DS\COMAC_DEL2\.\DelmiaTool\ImportedInterfaces\win_b64"
+/I"C:\Works\DS\B42\win_b64\.\tools\include\Windows"
+/I"C:\Works\DS\B42\win_b64\.\tools\include"

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AD496D07-40D4-4607-B2C0-D17B4B6A678D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\CAACOMACPublicFrm\CNext\code\dictionary\CAACOMACPublicFrm.dico" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_COMAC_InitPPR.bmp" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_COMAC_View2Pic.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_DELStrMfgGenOperationByCatalog.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_MajorVersion.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_RenameAllTpoints.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\I_Reorder.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\graphic\icons\normal\SWXUiAssemblyProductStructureHeader.png" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACCommonAddin.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACCommonAddinHeader.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACCommonAddinHeader.CATRsc" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACWIAddin.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACWIAddinHeader.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\COMACWIAddinHeader.CATRsc" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACCommonAddin.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACCommonAddinHeader.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACWIAddin.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACWIAddinHeader.CATNls" />
+    <None Include="..\..\CAACOMACPublicFrm\IdentityCard\IdentityCard.xml" />
+    <None Include="..\..\CAACOMACPublicFrm\IdentityCard\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CAACOMACPublicFrm\ProtectedInterfaces\CAACOMACAddinMdl.h" />
+    <ClInclude Include="..\..\CAACOMACPublicFrm\PublicInterfaces\CAAUtility.h" />
+    <ClInclude Include="..\..\CAACOMACPublicFrm\PublicInterfaces\CAAUtilityMdl.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

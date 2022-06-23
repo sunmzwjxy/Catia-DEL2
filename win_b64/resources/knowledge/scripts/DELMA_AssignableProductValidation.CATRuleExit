@@ -1,0 +1,7 @@
+<Scripts>
+	<Script OpeningID="DELMA_AssignableProductValidation_ID"  Type="ENOSTFProcessReference"  ScriptName="DELMA_AssignableProductValidation" />
+	<Script OpeningID="DELMA_AssignableProductValidation_ID"  Type="ENOSTFProcessInstance"   ScriptName="DELMA_AssignableProductValidation" />
+	<Script OpeningID="DELMA_AssignableProductValidation_ID"  Type="DELFmiFunctionReference" ScriptName="DELMA_AssignableProductValidation" />
+	<Script OpeningID="DELMA_AssignableProductValidation_ID"  Type="DELFmiFunctionInstance"  ScriptName="DELMA_AssignableProductValidation" />
+</Scripts>
+

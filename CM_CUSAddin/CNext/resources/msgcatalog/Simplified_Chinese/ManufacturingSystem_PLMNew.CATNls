@@ -1,0 +1,9 @@
+<meta charset="UTF-8"/>
+Object1.Name="制造系统";
+Object1.ShortHelp="制造系统";
+
+Object1.Rep1.Name="工艺流程";
+Object1.Rep1.ShortHelp2="工艺流程";
+
+Object1.Rep2.Name="变换系统";
+Object1.Rep2.ShortHelp2="变换系统";

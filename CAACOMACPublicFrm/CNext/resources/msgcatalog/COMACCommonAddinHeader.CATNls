@@ -1,0 +1,42 @@
+<meta charset="UTF-8"/>
+COMACCommonAddinHeader.MBOMInit.Category  = "COMAC" ;
+COMACCommonAddinHeader.MBOMInit.Title = "接收MPR任务" ;
+COMACCommonAddinHeader.MBOMInit.ShortHelp = "从服务端接收MPR任务" ;
+COMACCommonAddinHeader.MBOMInit.LongHelp = "从服务端接收当前用户相关的MPR任务" ;
+
+
+
+
+//协作BOM 规划  ComacGenerateBOMCmd
+COMACCommonAddinHeader.ComacGenerateBOMHdr.Title = "Concurrent Part Design";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.ShortHelp = "Concurrent Part Design";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.Help = "Concurrent Part Design";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.LongHelp = "Concurrent Part Design";
+
+// 指定插入FO、instruction  ComacInsertFOinstruction
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.Title = "Create Operation Nodes";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.ShortHelp = "Insert FO & instruction";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.Help = "Insert FO & instruction";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.LongHelp = "Insert FO & instruction";
+
+// 调用 排序 PLMReorder
+COMACCommonAddinHeader.COMACPLMReorderHdr.Title = "Tree Reordering";
+COMACCommonAddinHeader.COMACPLMReorderHdr.ShortHelp = "Tree Reordering";
+COMACCommonAddinHeader.COMACPLMReorderHdr.Help = "Tree Reordering";
+COMACCommonAddinHeader.COMACPLMReorderHdr.LongHelp = "Tree Reordering";
+
+
+
+// 重命名Operations  ComacReNameOperationsCmd
+COMACCommonAddinHeader.ComacReNameOperationsHdr.Title = "Rename Operation Nodes";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.ShortHelp = "Rename Operations";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.Help = "Rename Operations by: 010,020,030...";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.LongHelp = "Rename Operations by: 010,020,030...";
+
+
+// 升版  ComacNewVersionCmd    icon: I_MajorVersion  ootb Hdr: NewVersion  current Hdr:ComacNewVersionHdr
+COMACCommonAddinHeader.ComacNewVersionHdr.Title = "Batch New Revision";
+COMACCommonAddinHeader.ComacNewVersionHdr.ShortHelp = "Batch New Revision";
+COMACCommonAddinHeader.ComacNewVersionHdr.Help = "Batch New Revision";
+COMACCommonAddinHeader.ComacNewVersionHdr.LongHelp = "Batch New Revision";
+

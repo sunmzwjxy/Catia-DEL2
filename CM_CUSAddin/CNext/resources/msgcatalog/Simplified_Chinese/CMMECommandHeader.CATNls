@@ -1,0 +1,77 @@
+<meta charset="UTF-8"/>
+//工位
+CMMECommandHeader.CMCreateGWSystemHdr.Title = "创建工位";
+CMMECommandHeader.CMCreateGWSystemHdr.ShortHelp= "创建工位";
+CMMECommandHeader.CMCreateGWSystemHdr.Help= "创建工位";
+CMMECommandHeader.CMCreateGWSystemHdr.LongHelp= "创建工位";
+
+//ZHAN位
+CMMECommandHeader.CMCreateZWSystemHdr.Title = "创建站位";
+CMMECommandHeader.CMCreateZWSystemHdr.ShortHelp= "创建站位";
+CMMECommandHeader.CMCreateZWSystemHdr.Help= "创建站位";
+CMMECommandHeader.CMCreateZWSystemHdr.LongHelp= "创建站位";
+
+//AO
+CMMECommandHeader.CMCreateAOSystemHdr.Title = "创建AO";
+CMMECommandHeader.CMCreateAOSystemHdr.ShortHelp= "创建AO";
+CMMECommandHeader.CMCreateAOSystemHdr.Help= "创建AO";
+CMMECommandHeader.CMCreateAOSystemHdr.LongHelp= "创建AO";
+
+//401
+CMMECommandHeader.CMCreateMBOMAssemHdr.Title = "设置401组件";
+CMMECommandHeader.CMCreateMBOMAssemHdr.ShortHelp = "设置401组件";
+CMMECommandHeader.CMCreateMBOMAssemHdr.Help = "设置401组件";
+CMMECommandHeader.CMCreateMBOMAssemHdr.LongHelp = "设置401组件";
+
+//901
+CMMECommandHeader.CMCreateMakePartHdr.Title = "设置901零件";
+CMMECommandHeader.CMCreateMakePartHdr.ShortHelp = "设置901零件";
+CMMECommandHeader.CMCreateMakePartHdr.Help = "设置901零件";
+CMMECommandHeader.CMCreateMakePartHdr.LongHelp = "设置901零件";
+
+//Report
+CMMECommandHeader.CMCreateMBOMReportHdr.Title = "制造MA报表";
+CMMECommandHeader.CMCreateMBOMReportHdr.ShortHelp = "制造MA报表";
+CMMECommandHeader.CMCreateMBOMReportHdr.Help = "制造MA报表";
+CMMECommandHeader.CMCreateMBOMReportHdr.LongHelp = "制造MA报表";
+
+
+//401 Change
+CMMECommandHeader.CMChangeMBOMAssemHdr.Title = "401组件升版";
+CMMECommandHeader.CMChangeMBOMAssemHdr.ShortHelp = "401组件升版";
+CMMECommandHeader.CMChangeMBOMAssemHdr.Help = "401组件升版";
+CMMECommandHeader.CMChangeMBOMAssemHdr.LongHelp = "401组件升版";
+
+//901 Change
+CMMECommandHeader.CMChangeMakePartHdr.Title = "901零件升版";
+CMMECommandHeader.CMChangeMakePartHdr.ShortHelp = "901零件升版";
+CMMECommandHeader.CMChangeMakePartHdr.Help = "901零件升版";
+CMMECommandHeader.CMChangeMakePartHdr.LongHelp = "901零件升版";
+
+
+//fasten
+CMMECommandHeader.CMMBOMFastenHdr.Title = "紧固件消耗";
+CMMECommandHeader.CMMBOMFastenHdr.ShortHelp = "紧固件消耗";
+CMMECommandHeader.CMMBOMFastenHdr.Help = "紧固件消耗";
+CMMECommandHeader.CMMBOMFastenHdr.LongHelp = "紧固件消耗";
+
+
+//WA100 手动批量 computeResult
+CMMECommandHeader.ComacComputeReslutingProductHdr.Title = "计算产品结果";
+CMMECommandHeader.ComacComputeReslutingProductHdr.ShortHelp = "计算产品结果";
+CMMECommandHeader.ComacComputeReslutingProductHdr.Help = "计算产品结果";
+CMMECommandHeader.ComacComputeReslutingProductHdr.LongHelp = "计算产品结果\n条件：\n-制造装配体类型；\n-成熟度：工作中；\n-Owner：当前设计员；";
+
+
+//// 协作BOM 规划  ComacGenerateBOMCmd
+//CMMECommandHeader.ComacGenerateBOMHdr.Title = "协作BOM 规划";
+//CMMECommandHeader.ComacGenerateBOMHdr.ShortHelp = "协作BOM 规划";
+//CMMECommandHeader.ComacGenerateBOMHdr.Help = "协作BOM 规划";
+//CMMECommandHeader.ComacGenerateBOMHdr.LongHelp = "协作BOM 规划";
+
+
+// 特制件、垫片添加		ComacInsertSpecialPartOrGasketCmd
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Title = "特制件、垫片添加";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.ShortHelp = "特制件、垫片添加";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Help = "特制件、垫片添加";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.LongHelp = "特制件、垫片添加";

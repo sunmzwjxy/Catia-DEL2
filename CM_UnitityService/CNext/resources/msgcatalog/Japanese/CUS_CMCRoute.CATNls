@@ -1,0 +1,4 @@
+﻿<meta charset="UTF-8"/>
+CUS_CMCRoute = "CUS_CMCRoute";
+CUS_CMCRoute.CUS_Task = "CUS_Task";
+CUS_CMCRoute.CUS_Task.CUS_IsRead = "CUS_IsRead";

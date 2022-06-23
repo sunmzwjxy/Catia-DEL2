@@ -1,0 +1,8 @@
+Label1.Title = "[~ComacNewVersionDlg,Label1.Title~ WørkPlån:]";
+Title = "[~ComacNewVersionDlg,Title~ Båtch Néw Revîsiøn]";
+msg.SaveFailed = "[~ComacNewVersionDlg,msg.SaveFailed~ µ±Ç°Áã×é¼þÊý¾Ý²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊý¾ÝÈ·±£Êý¾Ý¿É±£´æ]";
+msg.ProvideNull = "[~ComacNewVersionDlg,msg.ProvideNull~ pléåse select Prøvîde Part]";
+msg.CreateFailed = "[~ComacNewVersionDlg,msg.CreateFailed~ Créåte Manüfacturîng Part Failed]";
+msg.implementLinkMulti = "[~ComacNewVersionDlg,msg.implementLinkMulti~ éxîst møre thån one implement link prodüct]";
+msg.implementLinkNull = "[~ComacNewVersionDlg,msg.implementLinkNull~ Sélect Prøvîde Pårt no Implement link Prodüct]";
+msg.designCodeNull = "[~ComacNewVersionDlg,msg.designCodeNull~ pléåse înpüt design cøde]";

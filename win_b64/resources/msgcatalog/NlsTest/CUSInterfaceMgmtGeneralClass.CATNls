@@ -1,0 +1,7 @@
+CUSInterfaceMgmtGeneralClass = "[~CUSInterfaceMgmtGeneralClass,InterfaceMgmtGeneralClass~ CUSIntérfåceMgmtGeneralClass]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus = "[~CUSInterfaceMgmtGeneralClass,USInterfaceMgmtSyncStatus~ SyncStåtüs]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.InProcess = "[~CUSInterfaceMgmtGeneralClass,tus.Range.Equal.InProcess~ InPrøcéss]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension = "[~CUSInterfaceMgmtGeneralClass,MgmtGeneralClassExtension~ CUSIntérfåceMgmtGeneralClassExtensîøn]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncTime = "[~CUSInterfaceMgmtGeneralClass,.CUSInterfaceMgmtSyncTime~ LåstSyncTîmé]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncResult = "[~CUSInterfaceMgmtGeneralClass,USInterfaceMgmtSyncResult~ LåstSyncRésült]";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.Completed = "[~CUSInterfaceMgmtGeneralClass,tus.Range.Equal.Completed~ Cømpléted]";

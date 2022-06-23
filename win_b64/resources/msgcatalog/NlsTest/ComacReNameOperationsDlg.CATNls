@@ -1,0 +1,10 @@
+Label1.Title = "[~ComacReNameOperationsDlg,Label1.Title~ Opéråtîøn's Father(WorkPlan):]";
+Title = "[~ComacReNameOperationsDlg,Title~ Rénåme Operatîøns]";
+msg.SaveFailed = "[~ComacReNameOperationsDlg,msg.SaveFailed~ µ±Ç°Áã×é¼þÊý¾Ý²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊý¾ÝÈ·±£Êý¾Ý¿É±£´æ]";
+msg.ProvideNull = "[~ComacReNameOperationsDlg,msg.ProvideNull~ pléåse select Prøvîde Part]";
+msg.CreateFailed = "[~ComacReNameOperationsDlg,msg.CreateFailed~ Créåte Manüfacturîng Part Failed]";
+Frame001.Title = "[~ComacReNameOperationsDlg,Frame001.Title~  [Rülé] ]";
+msg.implementLinkMulti = "[~ComacReNameOperationsDlg,msg.implementLinkMulti~ éxîst møre thån one implement link prodüct]";
+Frame001.Label2.Title = "[~ComacReNameOperationsDlg,Frame001.Label2.Title~ [Rülé]:]\n[~ComacReNameOperationsDlg,Frame001.Label2.Title~         Tîtlé øf 1st Operåtion is 010£¬increment step is 10; like£º010,020,030¡­]\n[~ComacReNameOperationsDlg,Frame001.Label2.Title~ [NOTE] ]\n[~ComacReNameOperationsDlg,Frame001.Label2.Title~     * Thé førmer Tree Reorderîng mode shoüld select [Persistent],]\n[~ComacReNameOperationsDlg,Frame001.Label2.Title~       ør thé tree vîsülizåtion result will not be saved in the background database!]";
+msg.implementLinkNull = "[~ComacReNameOperationsDlg,msg.implementLinkNull~ Sélect Prøvîde Pårt no Implement link Prodüct]";
+msg.designCodeNull = "[~ComacReNameOperationsDlg,msg.designCodeNull~ pléåse înpüt design cøde]";

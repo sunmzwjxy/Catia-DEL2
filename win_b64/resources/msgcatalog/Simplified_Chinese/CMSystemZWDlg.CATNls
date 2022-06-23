@@ -1,0 +1,23 @@
+<meta charset="UTF-8"/>
+Title = "创建站位";
+Label1.Title = "scope工艺组件";
+Label2.Title = "前序站位";
+Label3.Title = "工位*";
+Label4.Title = "机型代码";
+Label5.Title = "站位顺序编码*";
+Label6.Title = "站位名称*";
+Label7.Title = "有效性";
+PushButton1.Title = "...";
+PushButton2.Title = "...";
+PushButton3.Title = "...";
+msg.Title = "信息";
+msg.uniqueIDError = "输入的站位号在系统中存在多个，请通过搜索查找站位号";
+msg.inputCodeNull = "请输入站位号";
+msg.nodeFatherNull = "请选择工位再新建站位";
+
+msg.inputCodeTwoError = "请输入两位数字的站位顺序编码";
+msg.SaveFailed = "当前站位数据不可保存，请检查权限";
+msg.inputEffError = "请输入正确的架次有效性";
+PlaneCode.Range = "W|A|C";
+msg.inputZWTitleNull = "请输入站位名称";
+msg.accessFailed = "站位需工艺主管才可创建!";

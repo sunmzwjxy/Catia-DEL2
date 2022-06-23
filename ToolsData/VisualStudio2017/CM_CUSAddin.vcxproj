@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{41069656-6F6B-488D-8E84-290D66DC53BF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_CUSAddin\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\CM_CUSAddin.dico" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSelDGeom.dico" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSelDGeom.iid" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSepAddin.dico" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcGeomSet.dico" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcGeomSet.iid" />
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\GPSStartupFwk.dico" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EcAnalysisProps.CATfct" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EcGeomSetDef.CATfct" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EnCapta.CATfct" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\DELMA_AssignableProductValidation1.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\PLMRelationEstablishmentCheck -validate.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\PLMRelationEstablishmentCheck-test.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELMA_AssignableProductValidation.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELMA_AssignableProductValidation.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMFProcessOccurrence_ImplementLinkCreation.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMFProcessOccurrence_ImplementLinkCreation.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMOperationOccurrence_ImplementLinkCreation.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMOperationOccurrence_ImplementLinkDeletion.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOccurrence_ImplementLinkCreation.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOccurrence_ImplementLinkDeletion.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOperationOccurrence_ImplementLinkCreation.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOperationOccurrence_ImplementLinkDeletion.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationEstablishmentCheck.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationEstablishmentCheck.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationSuppressionCheck.CATRule" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationSuppressionCheck.CATRuleExit" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CMMECommandHeader.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CMMECommandHeader.CATRsc" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CM_CUSMBOMAddin.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CM_CUSProcessPlanAddin.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CMMECommandHeader.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CMMECommandHeader.CATRsc" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CM_CUSMBOMAddin.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CM_CUSProcessPlanAddin.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELEGanttObjectLMOccurrence.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELEPPRLiveResProxyMainBubbleSupport.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLiveSimulation_ErgoBrowserWidget.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionExecGeneralSystem.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionExecGeneralSystemDS.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionGeneralSystem.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionGeneralSystemDS.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionSystem_PLMNew.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELMSDSourcingCreationCmd.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELMSDSystemCapacitySolverCmd.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPLMSystemBusinessLogic.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPLMSystemInitBusinessLogic.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRAuthFoundationToolsHelpForCommands.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRLiveResProxyLinkBarViewModelElement.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRPLMNewSuccessFailure.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPssCurrentStateCmd.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELShipSystemPlanningUIHelpForCommands.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ENOSTExecGeneralSysReferenceCusto.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ENOSTGeneralSysReferenceCusto.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ManufacturingSystem_PLMNew.CATNls" />
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\PLMProductionSystemAdvTypePackage.CATNls" />
+    <None Include="..\..\CM_CUSAddin\IdentityCard\IdentityCard.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CM_CUSAddin\ProtectedInterfaces\CM_CUSManuEngAddin.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

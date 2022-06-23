@@ -1,0 +1,15 @@
+﻿<meta charset="UTF-8"/>
+CUS_Group = "CUS_Group3";
+CUS_Group.CUS_GroupExtension = "CUS_GroupExtension";
+CUS_Group.CUS_GroupExtension.CUS_GroupType = "Group Type";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptIntPerson = "Manufacturing Evalution Department Interface person";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptGrpLeader = "Manufacturing Evalution Department Group Leader";
+CUS_Group.CUS_EVI = "CUS_EVI";
+CUS_Group.CUS_EVI.CUS_EVIName = "CUS_EVIName";
+CUS_Group.CUS_EVI.CUS_EVIDomain = "EVIDomain";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Design = "Design";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Manufacture = "Public_Manufacture";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Supplier = "Supplier";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public = "Public";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_TestFlight = "Public_TestFlight";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Service = "Public_Service";

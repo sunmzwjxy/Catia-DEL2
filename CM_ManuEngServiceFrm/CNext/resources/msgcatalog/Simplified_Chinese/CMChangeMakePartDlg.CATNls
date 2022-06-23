@@ -1,0 +1,8 @@
+<meta charset="UTF-8"/>
+Title = "901零件换号";
+Label1.Title = "901零件";
+Label2.Title = "工艺组件";
+Label3.Title = "产品零件";
+
+msg.Title = "信息";
+msg.ProvideNull = "请选择901零件";

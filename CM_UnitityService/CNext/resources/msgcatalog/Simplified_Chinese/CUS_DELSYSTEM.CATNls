@@ -1,0 +1,8 @@
+﻿<meta charset="UTF-8"/>
+CUS_DELSYSTEM = "CUS_DELSYSTEM";
+CUS_DELSYSTEM.CUS_GWSystemRef = "工位";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Title = "工位名称";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Code = "工位号";
+CUS_DELSYSTEM.CUS_ZWSystemRef = "站位";
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Code = "站位号";
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Title = "站位名称";

@@ -1,0 +1,45 @@
+CM_CUSProcessPlanAddinLT DELIPPRLivePPREditorWkbAddin  libCM_CUSManuEngAddin
+CM_CUSProcessPlanAddinLT CATIManufacturingSystemDefinitionWorkbenchAddin  libCM_CUSManuEngAddin
+
+//CM_CUSProcessPlanAddinLT CATIAfrGeneralWksAddin					libCM_CUSManuEngAddin
+//CM_CUSProcessPlanAddinLT IDELWIWkbAddin								libCM_CUSManuEngAddin
+
+CM_CUSProcessPlanAddinLT DNBIPPRNavWkbAddin							libCM_CUSManuEngAddin
+
+
+CM_CUSMBOMAddin CATIPPRLiveProcessWkbAddin						libCM_CUSManuEngAddin
+//CM_CUSMBOMAddinLT CATIManufacturingSystemDefinitionWorkbenchAddin	libCM_CUSManuEngAddin
+//CM_CUSMBOMAddinLT DELIManufacturingProgramAddin						libCM_CUSManuEngAddin
+//CM_CUSMBOMAddinLT CATIAfrGeneralWksAddin							libCM_CUSManuEngAddin
+
+
+CATPrtCont                    CATIOsmV5inV6Certified             libEcGeomSet
+EcGeomSet                     CATIOsmV5inV6Certified                    libEcGeomSet
+EcGeomSet                     CATIOsmV5inV6Certified                        libEcGeomSet
+
+EcAppSepAddin              CATIOsmV5inV6Certified            libEcAppSepAddin
+EcAppSepAddin              CATIOsmV5inV6Certified                 libEcAppSepAddin
+EcAppSepAddin              CATIOsmV5inV6Certified                 libEcAppSepAddin
+EcAppSepAddin              CATIOsmV5inV6Certified                    libEcAppSepAddin
+
+ECDG_CATModelForRep3D   CATIOsmV5inV6Certified                    libEcAppSelDGeom
+ECDG_CATModelForRep3D   CATIOsmV5inV6Certified                       libEcAppSelDGeom
+ECDG_CATModelForRep2D   CATIOsmV5inV6Certified                    libEcAppSelDGeom
+ECDG_CATModelForRep2D   CATIOsmV5inV6Certified                       libEcAppSelDGeom
+CATViewer               CATIOsmV5inV6Certified            libEcAppSelDGeom
+
+
+GPSAddin	                     CATIOsmV5inV6Certified          libGPSAddin
+EcCompositeProperty              CATIOsmV5inV6Certified                  libGPSMain
+EcCompositeProperty              CATIOsmV5inV6Certified        libGPSMain
+EcCompositeProperty              CATIOsmV5inV6Certified            libGPSMain
+STRUCTURAL_EcCompositeProperty   CATIOsmV5inV6Certified             libGPSMain
+
+
+EncAbstractObjectType	                     CATIOsmV5inV6Certified          libEcGeomSet
+EncModelObjectType              CATIOsmV5inV6Certified                  libEcGeomSet
+EncGeometryObjectType              CATIOsmV5inV6Certified        libEcGeomSet
+
+EncAbstractObjectType	                     CATIOsmV5inV6Certified          libEcAppSelDGeom
+EncModelObjectType              CATIOsmV5inV6Certified                  libEcAppSelDGeom
+EncGeometryObjectType              CATIOsmV5inV6Certified        libEcAppSelDGeom

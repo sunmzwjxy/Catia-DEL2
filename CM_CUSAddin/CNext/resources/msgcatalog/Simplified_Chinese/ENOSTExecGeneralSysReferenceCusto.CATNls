@@ -1,0 +1,24 @@
+<meta charset="UTF-8"/>
+// @NotConcernedByTooltipMigration H4I 17:08:04 
+//This file contains the Nls resources for Business Logic & Predefined Queries (PLM Toolbar Search) 
+//in the context of the customization of ENOVIA_PLM_Express
+//defined in file: resources\plmsearch\plmtoolbar\PLM1\ENOVIA_PLM_Express\ENOSTExecGeneralSysReferenceCusto.CATRsc
+//This is the default applied to Any General System
+
+
+
+//PQ+BL
+ENOSTExecGeneralSysReferenceCusto.Title="执行工艺流程";
+SENOSTExecGeneralSysReferenceCusto.Title="标准执行工艺流程";
+
+//BL
+ENOSTExecGeneralSysReferenceCusto.Abbreviation="执行工艺流程";
+ENOSTExecGeneralSysReferenceCusto.Prefix="执行工艺流程";
+
+//PQ
+ENOSTExecGeneralSysReferenceCusto.ShortHelp="执行工艺流程（执行工艺流程：）";
+ENOSTExecGeneralSysReferenceCusto.Abbreviations="执行工艺流程|执行工艺流程|微系统";
+
+//Dedicate Standard PQ
+SENOSTExecGeneralSysReferenceCusto.ShortHelp="标准执行工艺流程（标准执行工艺流程：）";
+SENOSTExecGeneralSysReferenceCusto.Abbreviations="标准执行工艺流程|标准执行工艺流程|标准微系统";

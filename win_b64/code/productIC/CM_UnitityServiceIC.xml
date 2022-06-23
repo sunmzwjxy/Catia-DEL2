@@ -1,0 +1,35 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+  <prerequisite name = "System" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "SpecialAPI" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "VisualizationInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "SGManager" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ObjectModelerSystem" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIntegrationUse" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMDictionaryNavServices" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIdentificationAccess" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "Dialog" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "KnowledgeInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ObjectModelerBase" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMComponentInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIntegrationAccess" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMSetupDataInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMLibraryNavUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMConfigUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrFoundation" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMConfigUXItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "XMLParserItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMSessionInterfaces" access = "Public"/>
+  <prerequisite name = "ProductStructureInterfaces" access = "Public"/>
+  <prerequisite name = "ProductStructureUseItf" access = "Public"/>
+  <prerequisite name = "CAT3DPhysicalRepInterfaces" access = "Public"/>
+  <prerequisite name = "GMModelInterfaces" access = "Public"/>
+  <prerequisite name = "GMOperatorsInterfaces" access = "Public"/>
+  <prerequisite name = "CATIAApplicationFrame" access = "Public"/>
+  <prerequisite name = "AdvancedMathematics" access = "Public"/>
+  <prerequisite name = "CATGraphicProperties" access = "Public"/>
+  <prerequisite name = "AfrInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMecModUseItf" access = "Public"/>
+  <prerequisite name = "CATMecModUIUseItf" access = "Public"/>
+  <prerequisite name = "CATMecModLiveUseItf" access = "Public"/>
+</codeFramework>

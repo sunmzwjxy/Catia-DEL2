@@ -1,0 +1,24 @@
+<meta charset="UTF-8"/>
+// CATNls file for the DELPPRLiveResProxyLinkBarViewModelElement
+
+StartAnchorRoot.ShortHelp="定义起始定位位置";
+StartAnchorNorth.ShortHelp="定义北作为起始定位位置"; // ?@validatedUsage RY9 13:10:21 North
+StartAnchorSouth.ShortHelp="定义南作为起始定位位置"; // ?@validatedUsage RY9 13:10:21 South
+StartAnchorEast.ShortHelp="定义东作为起始定位位置"; // ?@validatedUsage RY9 13:10:21 East
+StartAnchorWest.ShortHelp="定义西作为起始定位位置"; // ?@validatedUsage RY9 13:10:21 West
+StartAnchorAuto.ShortHelp="将起始定位位置定义为自动";
+
+EndAnchorRoot.ShortHelp="定义结束定位位置";
+EndAnchorNorth.ShortHelp="定义北作为结束定位位置"; // ?@validatedUsage RY9 13:10:21 North
+EndAnchorSouth.ShortHelp="定义南作为结束定位位置"; // ?@validatedUsage RY9 13:10:21 South
+EndAnchorEast.ShortHelp="定义东作为结束定位位置"; // ?@validatedUsage RY9 13:10:21 East
+EndAnchorWest.ShortHelp="定义西作为结束定位位置"; // ?@validatedUsage RY9 13:10:21 West
+EndAnchorAuto.ShortHelp="将结束定位位置定义为自动";
+
+DedicatedPSSCommandsRoot.ShortHelp="编辑制造次序";
+DELPssGeneralSystemCmd.ShortHelp="插入工艺流程";
+DELPssTransferSystemCmd.ShortHelp="插入传输系统";
+DELPssBufferSystemCmd.ShortHelp="插入缓冲系统";
+DELPssDetailedProductFlowCmd.ShortHelp="定义制造次序详细信息";
+
+DeleteProductFlow.ShortHelp="删除制造次序";

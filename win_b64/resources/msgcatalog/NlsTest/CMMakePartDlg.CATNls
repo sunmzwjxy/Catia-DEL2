@@ -1,0 +1,15 @@
+Label1.Title = "[~CMMakePartDlg,Label1.Title~ PrøcéssPårtName]";
+Title = "[~CMMakePartDlg,Title~ 901 Pårt]";
+msg.SaveFailed = "[~CMMakePartDlg,msg.SaveFailed~ µ±Ç°Áã×é¼þÊý¾Ý²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊý¾ÝÈ·±£Êý¾Ý¿É±£´æ]";
+Label3.Title = "[~CMMakePartDlg,Label3.Title~ Áã¼þ´úÂ/]";
+msg.ProvideNull = "[~CMMakePartDlg,msg.ProvideNull~ pléåse select Prøvîde Part]";
+msg.CreateFailed = "[~CMMakePartDlg,msg.CreateFailed~ Créåte Manüfacturîng Part Failed]";
+Label4.Title = "[~CMMakePartDlg,Label4.Title~ ÖÆÔìÂ·Ïß]";
+RadioButton1.Title = "[~CMMakePartDlg,RadioButton1.Title~ CøpyFromDésîgn]";
+Label6.Title = "[~CMMakePartDlg,Label6.Title~ Éè¼Æ»ù±¾ºÅ]";
+Label2.Title = "[~CMMakePartDlg,Label2.Title~ ¹¤ÒÕÁã×é¼þÃû³Æ]";
+RadioButton2.Title = "[~CMMakePartDlg,RadioButton2.Title~ InpütDésîgnCøde]";
+msg.implementLinkMulti = "[~CMMakePartDlg,msg.implementLinkMulti~ éxîst møre thån one implement link prodüct]";
+msg.implementLinkNull = "[~CMMakePartDlg,msg.implementLinkNull~ Sélect Prøvîde Pårt no Implement link Prodüct]";
+msg.designCodeNull = "[~CMMakePartDlg,msg.designCodeNull~ pléåse înpüt design cøde]";
+Label5.Title = "[~CMMakePartDlg,Label5.Title~ Ê¹ÓÃµ¥Î»]";

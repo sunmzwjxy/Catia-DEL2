@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+DELLmiProductionGeneralSystem="生产计划工艺流程";
+DELLmiProductionGeneralSystem.DELLmiGeneralSystemReference="工艺流程";
+DELLmiProductionGeneralSystem.DELLmiGeneralSystemReference.V_SequencingMode="排序模式";
+DELLmiProductionGeneralSystem.DELLmiGeneralSystemReference.V_SequencingMode.Range.Equal.Linear="线性";
+DELLmiProductionGeneralSystem.DELLmiGeneralSystemReference.V_SequencingMode.Range.Equal.Advanced="高级";
+DELLmiProductionGeneralSystem.DELLmiGeneralSystemInstance="工艺流程实例";

@@ -1,0 +1,5 @@
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME.Range.Equal.Y = "[~CUS_Model,edMTNode_ME.Range.Equal.Y~ Y]";
+CUS_Model.CUS_ModelExtension = "[~CUS_Model,_Model.CUS_ModelExtension~ CUS_MødélExtensîon]";
+CUS_Model = "[~CUS_Model,CUS_Model~ CUS_Mødél]";
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME = "[~CUS_Model,.CUS_IsGeneratedMTNode_ME~ Is Géneråted MT Nøde]";
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME.Range.Equal.N = "[~CUS_Model,edMTNode_ME.Range.Equal.N~ N]";

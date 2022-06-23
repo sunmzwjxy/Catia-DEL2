@@ -1,0 +1,3 @@
+CUS_Person.CUS_PersonExtension = "[~CUS_Person,erson.CUS_PersonExtension~ CUS_PérsønExtensîon]";
+CUS_Person.CUS_PersonExtension.CUS_ProcessDistributionList = "[~CUS_Person,S_ProcessDistributionList~ CUS_PrøcéssDîstribütionList]";
+CUS_Person = "[~CUS_Person,CUS_Person~ CUS_Pérsøn]";

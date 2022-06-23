@@ -1,0 +1,9 @@
+#======================================================================
+# Dictionary EcGeomSet.dico
+# associated with module EcGeomSet.m
+#======================================================================
+
+CATPrtCont                    EcGeomSetFactoryItf             libEcGeomSet
+
+EcGeomSet                     EcGeomSetItf                    libEcGeomSet
+EcGeomSet                     CATIIcon                        libEcGeomSet

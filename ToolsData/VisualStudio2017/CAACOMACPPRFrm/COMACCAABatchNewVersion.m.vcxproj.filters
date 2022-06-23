@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{f09cb5d6-ea56-4a0e-83ee-2b47b3b7fb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6330eda6-91b3-4c56-8704-1d47c9b6acb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\src\COMACCAABatchNewVersion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

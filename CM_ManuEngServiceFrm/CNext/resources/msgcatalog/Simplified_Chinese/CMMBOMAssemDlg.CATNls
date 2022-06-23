@@ -1,0 +1,28 @@
+<meta charset="UTF-8"/>
+Title = "401组件创建";
+Label1.Title = "工程零(组)件";
+PushButton1.Title = "...";
+Label2.Title = "制造组件";
+PushButton2.Title = "...";
+Label3.Title = "工艺零组件名称";
+Label4.Title = "零件代码";
+Label5.Title = "制造路线";
+Label6.Title = "使用单位";
+Label7.Title = "设计基本号";
+RadioButton1.Title = "设计基本号取自设计";
+RadioButton2.Title = "设计基本号手动输入";
+
+ProcessUnit.Range = "2K,1K";
+PartCode.Range= "AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU";
+ManufactureLine.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,物流中心,QA,外购";
+ManufactureLineKey.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,LogisticsCentre,QA,Buy";
+
+msg.Title = "Information";
+msg.productNull = "请选择设计零件";
+msg.designCodeNull = "请输入设计基本号";
+msg.MAFatherNull = "请选择制造组件";
+msg.existing401MA = "当前设置基本号的401组件已存在，请重新输入设计基本号";
+msg.MACreateFailed = "设置401组件失败";
+msg.insertExistingError = "实例化401组件失败";
+msg.MACANNOTSelect = "不可选择MA设置为401组件，请选择制造装配体设置401组件";
+msg.failedModifyRevision = "修改工艺组件版本失败";

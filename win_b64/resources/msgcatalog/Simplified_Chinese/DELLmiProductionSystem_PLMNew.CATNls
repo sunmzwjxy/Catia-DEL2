@@ -1,0 +1,6 @@
+<meta charset="UTF-8"/>
+Extension1.Name="工艺流程";
+Extension1.ShortHelp="创建工艺流程";
+
+Extension2.Name="变换系统";
+Extension2.ShortHelp="创建变换系统";

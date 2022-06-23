@@ -1,0 +1,16 @@
+<meta charset="UTF-8"/>
+Title = "工序重命名";
+Label1.Title = "工序父级(WorkPlan) ：";
+Frame001.Title ="规则";
+Frame001.Label2.Title = "【批量重命名，规则为】：\n    首个工序Title为010，步长为10自增； 譬如：010，020，030…\n【注意】    \n* 前置排序动作要选择【持久模式】（persistent）才有效，否则数据不保存！";
+//Label3.Title = "工序数量:";
+//Label4.Title = "步长:";
+//CheckButton1.Title ="并行工序";
+
+
+msg.ProvideNull = "please select Provide Part";
+msg.designCodeNull = "please input design code";
+msg.CreateFailed = "Create Manufacturing Part Failed";
+msg.implementLinkNull = "Select Provide Part no Implement link Product";
+msg.implementLinkMulti = "exist more than one implement link product";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";

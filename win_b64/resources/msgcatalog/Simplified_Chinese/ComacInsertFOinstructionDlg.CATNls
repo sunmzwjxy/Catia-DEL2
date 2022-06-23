@@ -1,0 +1,15 @@
+<meta charset="UTF-8"/>
+Title = "创建插入 FO & instruction";
+Label1.Title = "工序父级(WorkPlan) ：";
+Label2.Title = "起始工序名称:";
+Label3.Title = "工序数量:";
+Label4.Title = "步长:";
+CheckButton1.Title ="并行工序";
+
+
+msg.ProvideNull = "please select Provide Part";
+msg.designCodeNull = "please input design code";
+msg.CreateFailed = "Create Manufacturing Part Failed";
+msg.implementLinkNull = "Select Provide Part no Implement link Product";
+msg.implementLinkMulti = "exist more than one implement link product";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";

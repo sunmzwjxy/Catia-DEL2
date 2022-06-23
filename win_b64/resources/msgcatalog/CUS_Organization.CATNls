@@ -1,0 +1,4 @@
+﻿<meta charset="UTF-8"/>
+CUS_Organization = "CUS_Organization";
+CUS_Organization.CUS_BusinessUnitExtension = "CUS_BusinessUnitExtension";
+CUS_Organization.CUS_BusinessUnitExtension.CUS_EN_Abbr_BU = "CUS_EN_Abbr_BU";

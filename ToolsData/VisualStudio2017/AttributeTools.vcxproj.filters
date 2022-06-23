@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{44d7dbb3-2ca6-4f3d-b3b3-c97fdaca30a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{d04155e2-34a5-4b9a-9ad1-20e4d1a4ec7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{ddeeaede-3482-457a-8c02-3a2a8354b005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{f97c4a4e-2096-4d1b-9419-bc859b0a57a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\AttributeTools\PublicInterfaces\AttributeUtilities.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AttributeTools\PublicInterfaces\fengyHelper.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\AttributeTools\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\AttributeTools\IdentityCard\README.md">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

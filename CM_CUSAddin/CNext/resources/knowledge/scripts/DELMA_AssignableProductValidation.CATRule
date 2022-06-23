@@ -1,0 +1,33 @@
+Let iPart(ProductOccurrence)
+Let AttValue(String)
+Let PartInstance(VPMInstance)
+Let PartReference(VPMReference)
+Let PartName(String)
+Let PartTest(String)
+Let ReturnMessage(String)
+
+Validation = true
+ReturnMessage =""
+/* If the 3 first characters of the name is Not, the part is not assignable else it is */
+
+Trace(1 , "### DELMA_AssignableProductValidation")
+set iPart = ThisObject
+if ( NULL <> iPart)
+{
+     PartInstance = iPart.Instance
+	 
+     if (PartInstance <> NULL)
+     {
+		  PartReference = PartInstance.Reference
+          PartName = PartReference->GetAttributeString("PLM_ExternalID")
+          //PartTest=PartName.Extract(0,3)
+		  Trace(1 , "DELMA_AssignableProductValidation PartName = ###", PartName)
+		  if(PartName.Search("G300") > 0)
+		  {
+            Validation = false
+            ReturnMessage = "Fastener not allow assign "+PartName
+			Parameters.SetAttributeBoolean ("oForceAssignment", false)
+          }
+     }
+}
+Parameters.SetAttributeString("Message",ReturnMessage)

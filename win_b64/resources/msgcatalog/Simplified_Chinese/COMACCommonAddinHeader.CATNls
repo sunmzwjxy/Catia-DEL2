@@ -1,0 +1,38 @@
+<meta charset="UTF-8"/>
+COMACCommonAddinHeader.MBOMInit.Category  = "COMAC" ;
+COMACCommonAddinHeader.MBOMInit.Title = "接收MPR任务" ;
+COMACCommonAddinHeader.MBOMInit.ShortHelp = "从服务端接收MPR任务" ;
+COMACCommonAddinHeader.MBOMInit.LongHelp = "从服务端接收当前用户相关的MPR任务" ;
+
+// 协作BOM 规划  ComacGenerateBOMCmd  ------ 协作BOM 规划
+COMACCommonAddinHeader.ComacGenerateBOMHdr.Title = "零件并行设计";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.ShortHelp = "零件并行设计";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.Help = "零件并行设计";
+COMACCommonAddinHeader.ComacGenerateBOMHdr.LongHelp = "零件并行设计";
+
+
+// 指定插入FO、instruction  ComacInsertFOinstruction ---- 插入FO、instruction
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.Title = "工序节点创建";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.ShortHelp = "插入FO、instruction";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.Help = "插入FO、instruction";
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.LongHelp = "插入FO、instruction";
+
+
+// 调用 排序 PLMReorder
+COMACCommonAddinHeader.COMACPLMReorderHdr.Title = "树重新排序";
+COMACCommonAddinHeader.COMACPLMReorderHdr.ShortHelp = "树重新排序";
+COMACCommonAddinHeader.COMACPLMReorderHdr.Help = "树重新排序";
+COMACCommonAddinHeader.COMACPLMReorderHdr.LongHelp = "树重新排序";
+
+
+// 重命名Operations  ComacReNameOperationsCmd ----- 重命名 Operations
+COMACCommonAddinHeader.ComacReNameOperationsHdr.Title = "工序重命名";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.ShortHelp = "重命名工序";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.Help = "重命名工序，按照：010,020,030...";
+COMACCommonAddinHeader.ComacReNameOperationsHdr.LongHelp = "重命名工序，按照：010,020,030...";
+
+// 升版  ComacNewVersionCmd    icon: I_MajorVersion  ootb Hdr: NewVersion  current Hdr:ComacNewVersionHdr
+COMACCommonAddinHeader.ComacNewVersionHdr.Title = "批量升版";
+COMACCommonAddinHeader.ComacNewVersionHdr.ShortHelp = "批量升版";
+COMACCommonAddinHeader.ComacNewVersionHdr.Help = "批量升版";
+COMACCommonAddinHeader.ComacNewVersionHdr.LongHelp = "批量升版";

@@ -1,0 +1,27 @@
+<meta charset="UTF-8"/>
+Title = "401Comp";
+Label1.Title = "CADProduct";
+Label2.Title = "ManufacturingAssembly";
+Label3.Title = "ProcessTitle";
+Label4.Title = "PartCode";
+Label5.Title = "ManufactureLine";
+Label6.Title = "ProcessUnit";
+RadioButton1.Title = "CopyFromDesign";
+RadioButton2.Title = "InputDesignCode";
+
+
+ProcessUnit.Range = "2K,1K";
+PartCode.Range= "AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU";
+ManufactureLine.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,物流中心,QA,外购";
+ManufactureLineKey.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,LogisticsCentre,QA,Buy";
+
+msg.Title = "Information";
+msg.productNull = "Please select Product";
+msg.designCodeNull = "please input design code";
+msg.MAFatherNull = "Please select Manufacturing Assembly";
+msg.MACreateFailed = "Create Manufacturing Assembly failed";
+msg.insertExistingError = "insert existing 401 component failed";
+Label7.Title = "DesignCode";
+
+msg.existing401MA = "当前设置基本号的401组件已存在，请重新输入设计基本号";
+msg.MACANNOTSelect = "不可选择MA设置为401组件，请选择制造装配体设置401组件";

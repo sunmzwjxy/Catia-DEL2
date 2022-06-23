@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\DelmiaTool\DelmiaUtilities.m\Objects\win_b64\mkcsc\DelmiaUtilities.cscdb|.\DelmiaTool\DelmiaUtilities.m
+RTV/001/CUS .\win_b64\code\bin\DelmiaUtilities.dll|.\DelmiaTool\DelmiaUtilities.m
+BTV/000/CUS .\win_b64\code\lib\DelmiaUtilities.lib|.\DelmiaTool\DelmiaUtilities.m
+INT/000/CUS .\win_b64\code\bin\DelmiaUtilities.pdb|.\DelmiaTool\DelmiaUtilities.m
+INT/000/CUS .\win_b64\code\lib\DelmiaUtilities.exp|.\DelmiaTool\DelmiaUtilities.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

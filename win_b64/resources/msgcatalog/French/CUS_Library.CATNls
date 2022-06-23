@@ -1,0 +1,7 @@
+﻿<meta charset="UTF-8"/>
+CUS_Library = "CUS_Library";
+CUS_Library.CUS_GeneralClassExtension = "CUS_GeneralClassExtension";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag = "ClassificationTag";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.Y = "Y";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.N = "N";
+CUS_Library.CUS_GeneralClassExtension.CUS_LibraryTag = "LibraryTag";

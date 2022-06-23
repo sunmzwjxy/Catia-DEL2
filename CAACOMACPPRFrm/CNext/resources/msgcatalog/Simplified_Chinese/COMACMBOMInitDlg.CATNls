@@ -1,0 +1,8 @@
+<meta charset="UTF-8"/>
+Title = "MPR任务";
+Frame1.Title = "Frame1";
+Frame2.Title = "MPR任务列表";
+Frame1.Label1.Title = "当前用户:";
+
+MultiList.Title1 = "MPR表单号";
+MultiList.Title2 = "MPR类型";

@@ -1,0 +1,4 @@
+<meta charset="UTF-8"/>
+DELLmiProductionGeneralSystemDS="PLM 标准生产一般系统模型";
+DELLmiProductionGeneralSystemDS.DELLmiGeneralSystemReferenceCusto="工艺流程（V6 传统）";
+DELLmiProductionGeneralSystemDS.DELLmiGeneralSystemInstanceCusto="工艺流程实例（V6 传统）";

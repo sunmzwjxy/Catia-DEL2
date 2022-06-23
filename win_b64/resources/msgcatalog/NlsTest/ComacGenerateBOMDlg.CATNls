@@ -1,0 +1,15 @@
+Label1.Title = "[~ComacGenerateBOMDlg,Label1.Title~ CAD Nåmé:]";
+Title = "[~ComacGenerateBOMDlg,Title~ Cøncürrént Pårt Desîgn]";
+msg.SaveFailed = "[~ComacGenerateBOMDlg,msg.SaveFailed~ µ±Ç°Áã×é¼þÊý¾Ý²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊý¾ÝÈ·±£Êý¾Ý¿É±£´æ]";
+Label3.Title = "[~ComacGenerateBOMDlg,Label3.Title~ Créåte Assembly Name:]";
+msg.ProvideNull = "[~ComacGenerateBOMDlg,msg.ProvideNull~ pléåse select Prøvîde Part]";
+msg.CreateFailed = "[~ComacGenerateBOMDlg,msg.CreateFailed~ Créåte Manüfacturîng Part Failed]";
+Label4.Title = "[~ComacGenerateBOMDlg,Label4.Title~ ÖÆÔìÂ·Ïß]";
+RadioButton1.Title = "[~ComacGenerateBOMDlg,RadioButton1.Title~ CøpyFromDésîgn]";
+Label6.Title = "[~ComacGenerateBOMDlg,Label6.Title~ Éè¼Æ»ù±¾ºÅ]";
+Label2.Title = "[~ComacGenerateBOMDlg,Label2.Title~ ¹¤ÒÕÁã×é¼þÃû³Æ]";
+RadioButton2.Title = "[~ComacGenerateBOMDlg,RadioButton2.Title~ InpütDésîgnCøde]";
+msg.implementLinkMulti = "[~ComacGenerateBOMDlg,msg.implementLinkMulti~ éxîst møre thån one implement link prodüct]";
+msg.implementLinkNull = "[~ComacGenerateBOMDlg,msg.implementLinkNull~ Sélect Prøvîde Pårt no Implement link Prodüct]";
+msg.designCodeNull = "[~ComacGenerateBOMDlg,msg.designCodeNull~ pléåse înpüt design cøde]";
+Label5.Title = "[~ComacGenerateBOMDlg,Label5.Title~ Ê¹ÓÃµ¥Î»]";

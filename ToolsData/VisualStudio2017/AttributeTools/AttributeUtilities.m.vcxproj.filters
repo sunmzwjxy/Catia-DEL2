@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{91dda187-168e-4e63-9466-52732d3f80d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{465317aa-c914-48b1-a1c3-29a914ebeb2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\AttributeTools\AttributeUtilities.m\src\fengyHelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <None Include="..\..\..\AttributeTools\AttributeUtilities.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

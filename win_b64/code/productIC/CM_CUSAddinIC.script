@@ -1,0 +1,14 @@
+<I.C SCRIPT>  WINNT 1
+M8 1 "" ""
+M1 4 DELPPRLiveProcessInterfaces,1,3,1
+M1 4 DELPPRAuthFoundationInterfaces,1,3,1
+M1 4 System,1,3,1
+M1 4 SpecialAPI,1,3,1
+M1 4 AfrInterfaces,1,3,1
+M1 4 AfrFoundation,1,3,1
+M1 4 DELPPRLiveSystemUseItf,1,3,1
+M1 4 DELWkiExposeUseItf,1,3,1
+M1 4 CATImmPPRNavInterfaces,1,3,1
+M1 4 MachiningU5Itf,1,3,1
+M1 4 CATFLEditorServices,1,3,1
+EOF

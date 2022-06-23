@@ -1,0 +1,143 @@
+let PointingObj(List)
+let PointedObj(List)
+let RelationName(String)
+set PointingObj = Parameters->GetAttributeObject("Source")
+set PointedObj = Parameters->GetAttributeObject("Target")
+set RelationName = Parameters->GetAttributeString("RelationType")
+
+Trace(1, "PLMRelationEstablishmentCheck Begin")
+Trace(2, "RelationName: #", RelationName )
+
+Trace(3, "PointingObj = Source: #", PointingObj.Size())
+Trace(3, "PointedObj = Target : #", PointedObj.Size())
+
+Validation = True
+
+if (RelationName <> "PLM_ImplementLink_Target" AND RelationName <> "OperationImplementLinkToWithResource" AND RelationName <> "OperationImplementLinkToWhoResource")
+{
+	exit
+}
+
+
+let myFeatureSource(Feature)
+let myFeatureTarget(Feature)
+
+let PointingNumber(Integer)
+PointingNumber=PointingObj.Size()
+set myFeatureSource = PointingObj[PointingNumber]
+set myFeatureTarget = PointedObj[1]
+
+let myModelerTypeSource(Type)
+let myModelerTypeTarget(Type)
+
+set myModelerTypeSource = myFeatureSource.ModelerType
+set myModelerTypeTarget = myFeatureTarget.ModelerType
+
+Trace(4, "myModelerTypeSource: #", myModelerTypeSource.Name )
+Trace(4, "myModelerTypeTarget: #", myModelerTypeTarget.Name )
+
+let PointingName(String)
+let PointedName(String)
+set PointingName = myModelerTypeSource.Name
+
+// MBOM - Workplan/System implement
+if ( PointingName.Search("Operation") > 0 AND myModelerTypeTarget.Name == "DELFmiFunctionIdentifiedInstance") 
+{
+	Trace(6, " MBOM - Workplan/System implement ")
+	let PointingRef(DELLmiOperationPPRReference)
+	if ( myModelerTypeSource.Name == "DELLmiGeneralOperationInstance" ){
+		let PointingInstance(DELLmiGeneralOperationInstance)
+		set PointingInstance = PointingObj[PointingNumber]
+		set PointingRef = PointingInstance.Reference
+	}
+	
+	if ( myModelerTypeSource.Name == "DELLmiHeaderOperationInstance" ){
+		let PointingInstance(DELLmiHeaderOperationInstance)
+		set PointingInstance = PointingObj[PointingNumber]
+		set PointingRef = PointingInstance.Reference
+	}
+	
+	if ( myModelerTypeSource.Name == "DELLmiLoadingOperationInstance" ){
+		let PointingInstance(DELLmiLoadingOperationInstance)
+		set PointingInstance = PointingObj[PointingNumber]
+		set PointingRef = PointingInstance.Reference
+	}
+	
+	if ( myModelerTypeSource.Name == "DELLmiUnloadingOperationInstance" ){
+		let PointingInstance(DELLmiUnloadingOperationInstance)
+		set PointingInstance = PointingObj[PointingNumber]
+		set PointingRef = PointingInstance.Reference
+	}
+	Trace(7, "select operation name is # ", PointingRef.Name)
+	
+	let PointingState(String)
+	set PointingState = PointingRef.GetAttributeString("current")
+	Trace(7, "select operation state is # ", PointingState)	
+	
+	if(PointingRef->HasAttribute("CUS_BusinessState"))
+	{
+		let BusinessState(String)
+		set BusinessState = PointingRef.GetAttributeString("CUS_BusinessState")
+		Trace(7, "select operation BusinessState is # ", BusinessState)
+		if(BusinessState == "Release")
+			set PointingState = "RELEASED"
+	}
+	
+	
+	if (PointingState == "RELEASED")
+	{
+		Trace(8, "MBOM - Workplan/System implement link - Validation false")
+		Validation = False
+		Parameters.Message = "You have not right to modify MBOM as Operation released!"
+		Parameters.Severity=2
+	}
+}
+
+Trace(5, " Resource - Workplan/System implement Begin")
+// Resource - Workplan/System implement
+if ( myModelerTypeSource.Name == "VPMInstance" ) 
+{
+	Trace(6, " Resource - Workplan/System implement ")	
+	let PointedRef(DELLmiOperationPPRReference)
+	if ( myModelerTypeTarget.Name == "DELLmiGeneralOperationInstance" ){
+		let PointedInstance(DELLmiGeneralOperationInstance)
+		set PointedInstance = PointedObj[1]
+		set PointedRef = PointedInstance.Reference
+	}
+	
+	if ( myModelerTypeTarget.Name == "DELLmiHeaderOperationInstance" ){
+		let PointedInstance(DELLmiHeaderOperationInstance)
+		set PointedInstance = PointedObj[1]
+		set PointedRef = PointedInstance.Reference
+	}
+	
+	if ( myModelerTypeTarget.Name == "DELLmiLoadingOperationInstance" ){
+		let PointedInstance(DELLmiLoadingOperationInstance)
+		set PointedInstance = PointedObj[1]
+		set PointedRef = PointedInstance.Reference
+	}
+	
+	if ( myModelerTypeTarget.Name == "DELLmiUnloadingOperationInstance" ){
+		let PointedInstance(DELLmiUnloadingOperationInstance)
+		set PointedInstance = PointedObj[1]
+		set PointedRef = PointedInstance.Reference
+	}
+	
+	Trace(7, "select operation state is # ", PointedRef.Name)
+	
+	let PointedState(String)
+	set PointedState = PointedRef.GetAttributeString("current")
+	Trace(7, "select operation state is # ", PointedState)
+	
+	if (PointedState == "RELEASED" )
+	{
+		Trace(8, "Resource - Workplan/System implement link - Validation false")
+		Validation = False
+		Parameters.Message = "You have not right to modify Resource as operation released!"
+		Parameters.Severity= 0
+	}
+}
+
+
+
+Trace(1, "PLMRelationEstablishmentCheck End")

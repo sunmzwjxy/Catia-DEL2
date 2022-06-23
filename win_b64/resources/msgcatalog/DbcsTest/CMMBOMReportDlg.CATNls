@@ -1,0 +1,7 @@
+Label1.Title = "[十CMMBOMReportDlg,Label1.Title十一構ソチ－Manufacturing MA / 401]";
+msg.reportSuccess = "[十CMMBOMReportDlg,msg.reportSuccess十十十十十十十十十十十十十十十十一構ソチ－Manufacturing MA Report is generated in background, will notify user when it generate success ]";
+Title = "[十CMMBOMReportDlg,Title十一構ソチ－CMMBOMReport]";
+ServerUrl = "[十CMMBOMReportDlg,ServerUrl十一構ソチ－https://tdcvlcom01.dsone.3ds.com/3dspace]";
+msg.Title = "[十CMMBOMReportDlg,msg.Title十一構ソチ－Manufacturing MA Report]";
+msg.failedGetURL = "[十CMMBOMReportDlg,msg.failedGetURL十一構ソチ－Failed Get Server URL]";
+msg.selectNull = "[十CMMBOMReportDlg,msg.selectNull十一構ソチ－please Select Manufacturing MA / 401]";

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CNext">
+      <UniqueIdentifier>{38c3df5a-f616-40ad-a4b0-a9e8ac14124c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\code">
+      <UniqueIdentifier>{e57a4c51-6084-4c74-bb84-8c937ee3f0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\code\dictionary">
+      <UniqueIdentifier>{21eff5eb-b11b-4db0-a0de-a9814163e521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources">
+      <UniqueIdentifier>{abc6d52e-9094-439d-9a78-8bb1e7bbdd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic">
+      <UniqueIdentifier>{d0c5859e-a4e7-4388-80b0-1c8cbe0ec478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic\icons">
+      <UniqueIdentifier>{70f20d6e-5d23-4d65-b78b-6914f8e773c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\graphic\icons\normal">
+      <UniqueIdentifier>{342dbc35-3b1b-439c-af74-9474c4bbe48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\knowledge">
+      <UniqueIdentifier>{b3eba890-2994-40c6-990c-ba1b24f0f99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\knowledge\scripts">
+      <UniqueIdentifier>{f9b6b7d6-59b3-4cdc-82d2-eddd400f9b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog">
+      <UniqueIdentifier>{12774a03-82ab-413d-9833-37f7ae8a8707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\Simplified_Chinese">
+      <UniqueIdentifier>{191a4da7-6986-4db3-9e17-63d5ed9e349c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{6c9f2bd0-5ec2-40e6-aa25-0eb7f24a066b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{ecec783b-f692-4021-82a9-d6124714b434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{66a221c0-a4f0-41f9-b6f3-4dfc563cfa56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{94f87418-55b5-4b12-9e5a-1286a5f1a360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CM_CUSAddin\ProtectedInterfaces\CM_CUSManuEngAddin.h">
+      <Filter>ProtectedInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\CM_CUSAddin.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSelDGeom.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSelDGeom.iid">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcAppSepAddin.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcGeomSet.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\EcGeomSet.iid">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\code\dictionary\GPSStartupFwk.dico">
+      <Filter>CNext\code\dictionary</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EcAnalysisProps.CATfct">
+      <Filter>CNext\resources\graphic</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EcGeomSetDef.CATfct">
+      <Filter>CNext\resources\graphic</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\graphic\EnCapta.CATfct">
+      <Filter>CNext\resources\graphic</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\DELMA_AssignableProductValidation1.CATRule">
+      <Filter>CNext\resources\knowledge</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\PLMRelationEstablishmentCheck -validate.CATRule">
+      <Filter>CNext\resources\knowledge</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\PLMRelationEstablishmentCheck-test.CATRule">
+      <Filter>CNext\resources\knowledge</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELMA_AssignableProductValidation.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELMA_AssignableProductValidation.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMFProcessOccurrence_ImplementLinkCreation.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMFProcessOccurrence_ImplementLinkCreation.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMOperationOccurrence_ImplementLinkCreation.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMOperationOccurrence_ImplementLinkDeletion.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOccurrence_ImplementLinkCreation.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOccurrence_ImplementLinkDeletion.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOperationOccurrence_ImplementLinkCreation.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\DELPLMSystemOperationOccurrence_ImplementLinkDeletion.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationEstablishmentCheck.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationEstablishmentCheck.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationSuppressionCheck.CATRule">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\knowledge\scripts\PLMRelationSuppressionCheck.CATRuleExit">
+      <Filter>CNext\resources\knowledge\scripts</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CMMECommandHeader.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CMMECommandHeader.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CM_CUSMBOMAddin.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\CM_CUSProcessPlanAddin.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CMMECommandHeader.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CMMECommandHeader.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CM_CUSMBOMAddin.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\CM_CUSProcessPlanAddin.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELEGanttObjectLMOccurrence.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELEPPRLiveResProxyMainBubbleSupport.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLiveSimulation_ErgoBrowserWidget.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionExecGeneralSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionExecGeneralSystemDS.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionGeneralSystem.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionGeneralSystemDS.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELLmiProductionSystem_PLMNew.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELMSDSourcingCreationCmd.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELMSDSystemCapacitySolverCmd.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPLMSystemBusinessLogic.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPLMSystemInitBusinessLogic.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRAuthFoundationToolsHelpForCommands.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRLiveResProxyLinkBarViewModelElement.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPPRPLMNewSuccessFailure.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELPssCurrentStateCmd.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\DELShipSystemPlanningUIHelpForCommands.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ENOSTExecGeneralSysReferenceCusto.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ENOSTGeneralSysReferenceCusto.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\ManufacturingSystem_PLMNew.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\CNext\resources\msgcatalog\Simplified_Chinese\PLMProductionSystemAdvTypePackage.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CM_CUSAddin\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

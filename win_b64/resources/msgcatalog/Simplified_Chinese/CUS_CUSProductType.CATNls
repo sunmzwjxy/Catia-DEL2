@@ -1,0 +1,4 @@
+﻿<meta charset="UTF-8"/>
+CUS_CUSProductType = "CUS_CUSProductType";
+CUS_CUSProductType.CUS_DMProduct = "CUS_DMProduct";
+CUS_CUSProductType.CUS_DMProduct.CUS_ChineseName_DMProduct = "CUS_ChineseName_DMProduct";

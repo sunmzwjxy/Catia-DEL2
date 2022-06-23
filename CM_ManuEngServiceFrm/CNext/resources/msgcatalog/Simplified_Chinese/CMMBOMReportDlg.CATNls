@@ -1,0 +1,10 @@
+<meta charset="UTF-8"/>
+msg.Title = "制造MA/401组件报表";
+msg.reportSuccess = "制造MA/401组件报表正在后台生成，生成成功邮件通知用户";
+Label1.Title = "制造MA/401组件";
+Title = "报表";
+
+//ServerUrl = "https://ifwe.3ds.com/3dspace";
+//ServerUrl = "https://nice-test.comac.intra/3dspace";
+
+ServerUrl = "https://tdcvlcom01.dsone.3ds.com/3dspace";

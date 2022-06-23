@@ -1,0 +1,14 @@
+CUS_Group.CUS_GroupExtension.CUS_GroupType = "[~CUS_Group,upExtension.CUS_GroupType~ Grøüp Typé]";
+CUS_Group.CUS_EVI.CUS_EVIDomain = "[~CUS_Group,oup.CUS_EVI.CUS_EVIDomain~ EVIDømåîn]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_TestFlight = "[~CUS_Group,e.Equal.Public_TestFlight~ Püblîc_TéstFlight]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Manufacture = "[~CUS_Group,.Equal.Public_Manufacture~ Püblîc_Månufacturé]";
+CUS_Group = "[~CUS_Group,CUS_Group~ CUS_Grøüp]";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptGrpLeader = "[~CUS_Group,CUS_ManuEvalDeptGrpLeader~ Månüfacturîng Evalutiøn Départment Group Leader]";
+CUS_Group.CUS_EVI = "[~CUS_Group,CUS_Group.CUS_EVI~ CUS_EVI]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public = "[~CUS_Group,Domain.Range.Equal.Public~ Püblîc]";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptIntPerson = "[~CUS_Group,CUS_ManuEvalDeptIntPerson~ Månüfacturîng Evalutiøn Départment Interface person]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Supplier = "[~CUS_Group,main.Range.Equal.Supplier~ Süpplîér]";
+CUS_Group.CUS_EVI.CUS_EVIName = "[~CUS_Group,Group.CUS_EVI.CUS_EVIName~ CUS_EVINåmé]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Service = "[~CUS_Group,ange.Equal.Public_Service~ Püblîc_Sérvice]";
+CUS_Group.CUS_GroupExtension = "[~CUS_Group,_Group.CUS_GroupExtension~ CUS_GrøüpExténsîon]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Design = "[~CUS_Group,Domain.Range.Equal.Design~ Désîgn]";

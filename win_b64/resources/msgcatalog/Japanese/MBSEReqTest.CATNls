@@ -1,0 +1,16 @@
+﻿<meta charset="UTF-8"/>
+MBSEReqTest = "MBSEReqTest";
+MBSEReqTest.MBSEInterfaceElement = "MBSEInterfaceElement";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType = "MBSEElementType";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.Connector = "Connector";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.PhysicalItem = "PhysicalItem";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.Channel = "Channel";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemMaterial = "ExchangedItemMaterial";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.LogicalItem = "LogicalItem";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.FunctionItem = "FunctionItem";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemSignal = "ExchangedItemSignal";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemEnergy = "ExchangedItemEnergy";
+MBSEReqTest.MBSEMQReq = "MBSEMQReq";
+MBSEReqTest.MBSEICD_Element = "MBSEICD_Element";
+MBSEReqTest.MBSEICD_Item = "MBSEICD_Item";
+MBSEReqTest.MBSEEnvironmentalParameter = "MBSEEnvironmentalParameter";

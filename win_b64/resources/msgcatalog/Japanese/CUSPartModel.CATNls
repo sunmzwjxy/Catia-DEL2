@@ -1,0 +1,11 @@
+﻿<meta charset="UTF-8"/>
+CUSPartModel = "CUSPartModel";
+CUSPartModel.CUSModelPart = "CUSModelPart";
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef = "CUS__DMSurface_VPMRef";
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef.Range.Equal.Y = "Y";
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef.Range.Equal.N = "N";
+CUSPartModel.CUSModelPart.CUSChineseName_DMProduct = "CUSChineseName_DMProduct";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef = "CUSCUS_DMMaturitye_VPMRef";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.A = "A";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.B = "B";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.C = "C";

@@ -1,0 +1,14 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+  <prerequisite name = "DELPPRLiveProcessInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRAuthFoundationInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "System" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "SpecialAPI" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrFoundation" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRLiveSystemUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELWkiExposeUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATImmPPRNavInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "MachiningU5Itf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATFLEditorServices" access = "Public" expose = "ExposePrereq"/>
+</codeFramework>

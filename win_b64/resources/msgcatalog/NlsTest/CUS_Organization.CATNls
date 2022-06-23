@@ -1,0 +1,3 @@
+CUS_Organization.CUS_BusinessUnitExtension.CUS_EN_Abbr_BU = "[~CUS_Organization,tExtension.CUS_EN_Abbr_BU~ CUS_EN_Abbr_BU]";
+CUS_Organization.CUS_BusinessUnitExtension = "[~CUS_Organization,CUS_BusinessUnitExtension~ CUS_BüsînéssUnitExtensiøn]";
+CUS_Organization = "[~CUS_Organization,CUS_Organization~ CUS_Orgånîzatiøn]";

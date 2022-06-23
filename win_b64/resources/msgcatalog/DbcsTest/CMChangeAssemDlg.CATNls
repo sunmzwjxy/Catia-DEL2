@@ -1,0 +1,14 @@
+Label1.Title = "[è\CMChangeAssemDlg,Label1.Titleè\àÍç\É\É`Å|401◊Èº˛]";
+Title = "[è\CMChangeAssemDlg,Titleè\àÍç\É\É`Å|CMChangeAssemDlg]";
+ManufactureLineKey.Range = "[è\CMChangeAssemDlg,ManufactureLineKey.Rangeè\àÍç\É\É`Å|1K,2K,8K,9K,11K,12K,15K,25K,47K,LogisticsCentre,QA,Buy]";
+Label3.Title = "[è\CMChangeAssemDlg,Label3.Titleè\àÍç\É\É`Å|π§“’¡„◊Èº˛±ÍÃ‚]";
+ManufactureLine.Range = "[è\CMChangeAssemDlg,ManufactureLine.Rangeè\àÍç\É\É`Å|1K,2K,8K,9K,11K,12K,15K,25K,47K,ŒÔ¡˜÷––ƒ,QA,Õ‚π∫]";
+PartCode.Range = "[è\CMChangeAssemDlg,PartCode.Rangeè\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\è\àÍç\É\É`Å|AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU]";
+msg.midSelectNull = "[è\CMChangeAssemDlg,msg.midSelectNullè\àÍç\É\É`Å|Please Select 401 Component]";
+ProcessUnit.Range = "[è\CMChangeAssemDlg,ProcessUnit.Rangeè\àÍç\É\É`Å|2K,1K]";
+Label4.Title = "[è\CMChangeAssemDlg,Label4.Titleè\àÍç\É\É`Å|¡„º˛¥˙¬/]";
+Label6.Title = "[è\CMChangeAssemDlg,Label6.Titleè\àÍç\É\É`Å| π”√µ•Œª]";
+Label2.Title = "[è\CMChangeAssemDlg,Label2.Titleè\àÍç\É\É`Å|…Ëº∆ª˘±æ∫≈*]";
+msg.Title = "[è\CMChangeAssemDlg,msg.Titleè\àÍç\É\É`Å|Information]";
+msg.MACreateFailed = "[è\CMChangeAssemDlg,msg.MACreateFailedè\àÍç\É\É`Å|New 401 Name change failed]";
+Label5.Title = "[è\CMChangeAssemDlg,Label5.Titleè\àÍç\É\É`Å|÷∆‘Ï¬∑œﬂ]";

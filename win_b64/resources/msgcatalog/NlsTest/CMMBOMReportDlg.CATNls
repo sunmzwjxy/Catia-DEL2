@@ -1,0 +1,7 @@
+Label1.Title = "[~CMMBOMReportDlg,Label1.Title~ Månüfacturîng MA / 401]";
+msg.reportSuccess = "[~CMMBOMReportDlg,msg.reportSuccess~~~~~~~~~~~~~~ Månüfacturîng MA Répørt is generated in background, will notify user when it generate success ]";
+Title = "[~CMMBOMReportDlg,Title~ CMMBOMRépørt]";
+ServerUrl = "[~CMMBOMReportDlg,ServerUrl~ https://tdcvlcøm01.dsoné.3ds.com/3dspåce]";
+msg.Title = "[~CMMBOMReportDlg,msg.Title~ Månüfacturîng MA Répørt]";
+msg.failedGetURL = "[~CMMBOMReportDlg,msg.failedGetURL~ Fåîléd Get Server URL]";
+msg.selectNull = "[~CMMBOMReportDlg,msg.selectNull~ pléåse Select Manüfacturîng MA / 401]";

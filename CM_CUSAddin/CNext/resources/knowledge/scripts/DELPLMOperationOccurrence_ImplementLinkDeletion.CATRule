@@ -1,0 +1,53 @@
+/* ------------------------------------------------------------------------------------------------- */
+/* NOT CONTRACTUAL AND PROPERTY OF DS. ANY CHANGE MAY HAPPEN WITHOUT NOTICE              		     */
+/* Renaming rule for operation		                                                                 */
+/* ------------------------------------------------------------------------------------------------- */
+
+Trace(1, "DELPLMOperationOccurrence_ImplementLinkDeletion Begin*******")
+let iProcessOccurrence(MfgProcessOccurrence)
+let iWorkplanOperationOccurrence(ProdSystemOccurrence)
+let iSystemOperationOccurrence(ProdSystemOccurrence)
+
+let iProcessRef(DELFmiFunctionPPRCreateReference)
+let iOperationRef(DELLmiOperationPPRReference)
+let myModelerType(Type)
+let operationName(String)
+
+let implementedInstance(PLMCoreInstance)
+let implementedInstanceName(String)
+let implementingInstance(PLMCoreInstance)
+let implementingInstanceName(String)
+let nonRaceEnv(boolean)
+let UniqueKey=""
+let NameSize = 0
+
+set nonRaceEnv = false
+
+
+set iSystemOperationOccurrence = Parameters->GetAttributeObject("iSystemOperationOccurrence")
+set iProcessOccurrence= Parameters->GetAttributeObject("iProcessOccurrence")
+set iWorkplanOperationOccurrence= Parameters->GetAttributeObject("iWorkplanOperationOccurrence")
+if(true)
+{
+	Trace(2, "iSystemOperationOccurrence Begin")
+	if (iSystemOperationOccurrence <> NULL)
+	{
+		set iOperationRef = iSystemOperationOccurrence.Reference
+		set myModelerType = iOperationRef.ModelerType
+		Trace(3, "iSystemOperationOccurrence type: #", myModelerType.Name)
+		
+		set operationName = iOperationRef.PLM_ExternalID
+		Trace(3, "iSystemOperationOccurrence PLM_ExternalID: #", operationName)
+		
+		
+		/*************initialize a common prefix name*******************/
+		if (iProcessOccurrence <> NULL)
+		{
+			set implementedInstance = iProcessOccurrence.Instance
+			set iProcessRef = iProcessOccurrence.Reference
+			set myModelerType = iProcessRef.ModelerType
+			Trace(3, "iProcessOccurrence type: #", myModelerType.Name)
+			iProcessRef.SetAttributeString("CUS_WorkStation","")
+		}
+	}
+}

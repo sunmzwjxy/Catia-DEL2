@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CAACOMACPPRFrm\COMACWIMdl.m\Objects\win_b64\mkcsc\COMACWIMdl.cscdb|.\CAACOMACPPRFrm\COMACWIMdl.m
+RTV/001/CUS .\win_b64\code\bin\COMACWIMdl.dll|.\CAACOMACPPRFrm\COMACWIMdl.m
+BTV/000/CUS .\win_b64\code\lib\COMACWIMdl.lib|.\CAACOMACPPRFrm\COMACWIMdl.m
+INT/000/CUS .\win_b64\code\bin\COMACWIMdl.pdb|.\CAACOMACPPRFrm\COMACWIMdl.m
+INT/000/CUS .\win_b64\code\lib\COMACWIMdl.exp|.\CAACOMACPPRFrm\COMACWIMdl.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

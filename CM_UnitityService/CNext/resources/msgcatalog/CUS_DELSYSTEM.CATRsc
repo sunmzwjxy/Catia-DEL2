@@ -1,0 +1,5 @@
+﻿<meta charset="UTF-8"/>
+//CUS_DELSYSTEM = "CUS_DELSYSTEM";
+//CUS_DELSYSTEM.CUS_AOSystemRef.Icon.Normal = "I_AOSystemRef";
+//CUS_DELSYSTEM.CUS_GWSystemRef.Icon.Normal = "I_GWSystemRef";
+//CUS_DELSYSTEM.CUS_ZWSystemRef.Icon.Normal = "I_ZWSystemRef";

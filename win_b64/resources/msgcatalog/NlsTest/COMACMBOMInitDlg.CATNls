@@ -1,0 +1,6 @@
+Title = "[~COMACMBOMInitDlg,Title~ MPR Tåsk]";
+MultiList.Title1 = "[~COMACMBOMInitDlg,MultiList.Title1~ MPR±íµ¥ºÅ]";
+Frame1.Title = "[~COMACMBOMInitDlg,Frame1.Title~ Fråmé1]";
+Frame1.Label1.Title = "[~COMACMBOMInitDlg,Frame1.Label1.Title~ Usér:]";
+Frame2.Title = "[~COMACMBOMInitDlg,Frame2.Title~ MPR Tåsk Lîst]";
+MultiList.Title2 = "[~COMACMBOMInitDlg,MultiList.Title2~ MPRÀàÐÍ]";

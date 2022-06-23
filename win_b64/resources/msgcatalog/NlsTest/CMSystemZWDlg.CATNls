@@ -1,0 +1,16 @@
+Label1.Title = "[~CMSystemZWDlg,Label1.Title~ scøpé¹¤ÒÕ×é¼þ]";
+Title = "[~CMSystemZWDlg,Title~ NEW ZW]";
+msg.SaveFailed = "[~CMSystemZWDlg,msg.SaveFailed~ µ±Ç°Õ¾Î»Êý¾Ý²»¿É±£´æ£¬Ç/¼ì²éÈ¨ÏÞ]";
+Label3.Title = "[~CMSystemZWDlg,Label3.Title~ ¹¤Î»*]";
+PlaneCode.Range = "[~CMSystemZWDlg,PlaneCode.Range~ W|A|C]";
+msg.uniqueIDError = "[~CMSystemZWDlg,msg.uniqueIDError~ Thé înpüt ZW cøde is repeåt]";
+msg.inputCodeNull = "[~CMSystemZWDlg,msg.inputCodeNull~ Thé ZW cøde need înpüt]";
+Label4.Title = "[~CMSystemZWDlg,Label4.Title~ »úÐÍ´úÂ/]";
+Label6.Title = "[~CMSystemZWDlg,Label6.Title~ Õ¾Î»Ãû³Æ*]";
+msg.inputCodeTwoError = "[~CMSystemZWDlg,msg.inputCodeTwoError~ Ç/ÊäÈ/Á½Î»Êý×ÖµÄÕ¾Î»Ë³Ðò±àÂ/]";
+msg.nodeFatherNull = "[~CMSystemZWDlg,msg.nodeFatherNull~ Pléåse select GW]";
+Label2.Title = "[~CMSystemZWDlg,Label2.Title~ Ç°ÐòÕ¾Î»]";
+msg.Title = "[~CMSystemZWDlg,msg.Title~ Infø]";
+msg.inputEffError = "[~CMSystemZWDlg,msg.inputEffError~ Ç/ÊäÈ/ÕýÈ·µÄ¼Ü´ÎÓÐÐ§ÐÔ]";
+Label5.Title = "[~CMSystemZWDlg,Label5.Title~ Õ¾Î»Ë³Ðò±àÂ/*]";
+Label7.Title = "[~CMSystemZWDlg,Label7.Title~ ÓÐÐ§ÐÔ]";

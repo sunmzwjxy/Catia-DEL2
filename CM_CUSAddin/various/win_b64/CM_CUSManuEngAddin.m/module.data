@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CM_CUSAddin\CM_CUSManuEngAddin.m\Objects\win_b64\mkcsc\CM_CUSManuEngAddin.cscdb|.\CM_CUSAddin\CM_CUSManuEngAddin.m
+RTV/001/CUS .\win_b64\code\bin\CM_CUSManuEngAddin.dll|.\CM_CUSAddin\CM_CUSManuEngAddin.m
+BTV/000/CUS .\win_b64\code\lib\CM_CUSManuEngAddin.lib|.\CM_CUSAddin\CM_CUSManuEngAddin.m
+INT/000/CUS .\win_b64\code\bin\CM_CUSManuEngAddin.pdb|.\CM_CUSAddin\CM_CUSManuEngAddin.m
+INT/000/CUS .\win_b64\code\lib\CM_CUSManuEngAddin.exp|.\CM_CUSAddin\CM_CUSManuEngAddin.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

@@ -1,0 +1,4 @@
+﻿<meta charset="UTF-8"/>
+CUS_MPR = "CUS_MPR";
+CUS_MPR.CUS_MPRReference = "CUS_MPRReference";
+CUS_MPR.CUS_MPRReference.CUS_MFGDep = "CUS_MFGDep";

@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+Title = "CMChangeAssemDlg";
+Label1.Title = "401组件";
+Label2.Title = "设计基本号*";
+Label3.Title = "工艺零组件标题";
+Label4.Title = "零件代码";
+Label5.Title = "制造路线";
+Label6.Title = "使用单位";
+msg.Title = "Information";
+msg.midSelectNull = "Please Select 401 Component";
+
+msg.MACreateFailed = "New 401 Name change failed";
+
+ProcessUnit.Range = "2K,1K";
+PartCode.Range= "AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU";
+ManufactureLine.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,物流中心,QA,外购";
+ManufactureLineKey.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,LogisticsCentre,QA,Buy";

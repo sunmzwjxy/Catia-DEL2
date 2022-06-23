@@ -1,0 +1,12 @@
+Label1.Title = "[\ComacInsertFOinstructionDlg,Label1.Title\ˆê\ƒ\ƒ`|Operation's Father(WorkPlan):]";
+Title = "[\ComacInsertFOinstructionDlg,Title\ˆê\ƒ\ƒ`|Insert FO & instruction]";
+msg.SaveFailed = "[\ComacInsertFOinstructionDlg,msg.SaveFailed\ˆê\ƒ\ƒ`|µ±Ç°Áã×é¼şÊı¾İ²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊı¾İÈ·±£Êı¾İ¿É±£´æ]";
+Label3.Title = "[\ComacInsertFOinstructionDlg,Label3.Title\ˆê\ƒ\ƒ`|Count of Operations:]";
+msg.ProvideNull = "[\ComacInsertFOinstructionDlg,msg.ProvideNull\ˆê\ƒ\ƒ`|please select Provide Part]";
+msg.CreateFailed = "[\ComacInsertFOinstructionDlg,msg.CreateFailed\ˆê\ƒ\ƒ`|Create Manufacturing Part Failed]";
+Label4.Title = "[\ComacInsertFOinstructionDlg,Label4.Title\ˆê\ƒ\ƒ`|Step:]";
+CheckButton1.Title = "[\ComacInsertFOinstructionDlg,CheckButton1.Title\ˆê\ƒ\ƒ`|Parrallel process]";
+Label2.Title = "[\ComacInsertFOinstructionDlg,Label2.Title\ˆê\ƒ\ƒ`|Starting Operation's Name:]";
+msg.implementLinkMulti = "[\ComacInsertFOinstructionDlg,msg.implementLinkMulti\ˆê\ƒ\ƒ`|exist more than one implement link product]";
+msg.implementLinkNull = "[\ComacInsertFOinstructionDlg,msg.implementLinkNull\ˆê\ƒ\ƒ`|Select Provide Part no Implement link Product]";
+msg.designCodeNull = "[\ComacInsertFOinstructionDlg,msg.designCodeNull\ˆê\ƒ\ƒ`|please input design code]";

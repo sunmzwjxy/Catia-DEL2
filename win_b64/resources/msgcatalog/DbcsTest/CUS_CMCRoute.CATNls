@@ -1,0 +1,3 @@
+CUS_CMCRoute = "[十CUS_CMCRoute,CUS_CMCRoute十一構ソチ－CUS_CMCRoute]";
+CUS_CMCRoute.CUS_Task = "[十CUS_CMCRoute,CUS_CMCRoute.CUS_Task十一構ソチ－CUS_Task]";
+CUS_CMCRoute.CUS_Task.CUS_IsRead = "[十CUS_CMCRoute,Route.CUS_Task.CUS_IsRead十一構ソチ－CUS_IsRead]";

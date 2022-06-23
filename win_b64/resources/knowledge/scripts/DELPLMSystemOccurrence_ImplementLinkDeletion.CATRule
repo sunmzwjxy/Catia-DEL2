@@ -1,0 +1,64 @@
+/* ------------------------------------------------------------------------------------------------- */
+/* NOT CONTRACTUAL AND PROPERTY OF DS. ANY CHANGE MAY HAPPEN WITHOUT NOTICE              		     */
+/* Rule for System Occurrence when a new Implement Link is created                                              */
+/* ------------------------------------------------------------------------------------------------- */
+Trace(1, "DELPLMSystemOccurrence_ImplementLinkCreation Begin")
+let iProcessOccurence(MfgProcessOccurrence)
+let ProcessReference(DELFmiFunctionReference)
+
+let ThisSystemOccurrence(ProdSystemOccurrence)
+
+let GenSysRef(DELLmiGeneralSystemReference)              /* put in comment for RACE environment */
+let TransfoSysRef(DELLmiTransformationSystemReference)   /* put in comment for RACE environment */
+let TransfertSysRef(DELLmiTransferSystemReference)       /* put in comment for RACE environment */
+let StorageSysRef(DELLmiStorageSystemReference)          /* put in comment for RACE environment */
+
+/*let GenSysRef(ENOSTGeneralSysReferenceCusto)
+let TransfoSysRef(ENOSTTransformationSysReferenceCusto)
+let TransfertSysRef(ENOSTTransferSysReferenceCusto)
+let StorageSysRef(ENOSTStorageSysReferenceCusto)        */   /* uncomment for RACE environment */
+
+let ProcessName(String)
+let NewSystemName(String)
+let UniqueKey=""
+let NameSize = 0
+let Version(String)
+
+set iProcessOccurence= Parameters->GetAttributeObject("iProcessOccurrence")
+if (iProcessOccurence <> NULL)
+{
+  set ThisSystemOccurrence =Parameters->GetAttributeObject("iSystemOperationOccurrence")
+  set GenSysRef = ThisSystemOccurrence.Reference
+  if  (GenSysRef <> NULL)
+  {
+    /* if ((GenSysRef->HasAttribute("PLM_ExternalID") == true) and (GenSysRef->HasAttribute("V_version") == true) and (GenSysRef->HasAttribute("V_isLastVersion") == true)) */ /* uncomment for non-RACE environment */
+    /* if ((GenSysRef->HasAttribute("V_Name") == true) and (GenSysRef->HasAttribute("V_version") == true) and (GenSysRef->HasAttribute("V_isLastVersion") == true)) */  /* uncomment for RACE environment */
+    if(false)
+    {
+     Version = GenSysRef->GetAttributeString("V_version")
+     if ((Version.Length() == 0) or ((Version == "---") and (true == GenSysRef->GetAttributeBoolean("V_isLastVersion"))))
+     {
+       ProcessReference = iProcessOccurence.Reference
+       if (ProcessReference <> NULL)
+       {
+         /* if (ProcessReference->HasAttribute("PLM_ExternalID") == true) */  /* uncomment for non-RACE environment */
+         /* if (ProcessReference->HasAttribute("V_Name") == true) */  /* uncomment for RACE environment */
+         if(false)
+         {
+            /* ProcessName = ProcessReference->GetAttributeString("PLM_ExternalID") */   /* uncomment for non-RACE environment */
+            /* ProcessName = ProcessReference->GetAttributeString("V_Name")  */  /* uncomment for RACE environment */
+            UniqueKey = GetUniqueKey("DELLmiGeneralSystemReference")
+            set NewSystemName = ProcessName + "." + UniqueKey
+            NameSize=NewSystemName.Length()
+            if (NameSize>100)
+            {
+              NewSystemName=NewSystemName.Extract(0,96)+ "..."
+            }
+           /* GenSysRef.PLM_ExternalID = NewSystemName */  /* uncomment for non-RACE environment */
+           /* GenSysRef.V_Name = NewSystemName */  /* uncomment for RACE environment */
+          }
+        }
+      }
+    }
+  }
+}

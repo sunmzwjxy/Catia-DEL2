@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{cc226166-4bdf-4988-86ee-b61ec47a8cb6}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\LocalInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\LocalInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\LocalInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Works\DS\COMAC_DEL2\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\LocalInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicGenerated\win_b64;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces;C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicGenerated\win_b64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINDOWS_SOURCE;_ALLOW_KEYWORD_MACROS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\Imakefile.mk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CAACOMACPPRFrm\COMACCAABatchNewVersion.m\src\COMACCAABatchNewVersion.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

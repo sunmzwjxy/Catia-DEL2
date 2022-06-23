@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MkmkOptions>
+  <Warning>False</Warning>
+  <Edit>False</Edit>
+  <Debug>True</Debug>
+  <Force>True</Force>
+  <extraOption>
+  </extraOption>
+</MkmkOptions>

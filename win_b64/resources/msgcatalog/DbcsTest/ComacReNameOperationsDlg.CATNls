@@ -1,0 +1,10 @@
+Label1.Title = "[è\ComacReNameOperationsDlg,Label1.Titleè\àÍç\É\É`Å|Operation's Father(WorkPlan):]";
+Title = "[è\ComacReNameOperationsDlg,Titleè\àÍç\É\É`Å|Rename Operations]";
+msg.SaveFailed = "[è\ComacReNameOperationsDlg,msg.SaveFailedè\àÍç\É\É`Å|µ±«∞¡„◊Èº˛ ˝æ›≤ªø…±£¥Ê£¨«/œ»ºÏ≤È ˝æ›»∑±£ ˝æ›ø…±£¥Ê]";
+msg.ProvideNull = "[è\ComacReNameOperationsDlg,msg.ProvideNullè\àÍç\É\É`Å|please select Provide Part]";
+msg.CreateFailed = "[è\ComacReNameOperationsDlg,msg.CreateFailedè\àÍç\É\É`Å|Create Manufacturing Part Failed]";
+Frame001.Title = "[è\ComacReNameOperationsDlg,Frame001.Titleè\àÍç\É\É`Å| [Rule] ]";
+msg.implementLinkMulti = "[è\ComacReNameOperationsDlg,msg.implementLinkMultiè\àÍç\É\É`Å|exist more than one implement link product]";
+Frame001.Label2.Title = "[è\ComacReNameOperationsDlg,Frame001.Label2.Titleè\àÍç\É\É`Å|[Rule]:]\n[è\ComacReNameOperationsDlg,Frame001.Label2.Titleè\àÍç\É\É`Å|        Title of 1st Operation is 010£¨increment step is 10; like£∫010,020,030°≠]\n[è\ComacReNameOperationsDlg,Frame001.Label2.Titleè\àÍç\É\É`Å|[NOTE] ]\n[è\ComacReNameOperationsDlg,Frame001.Label2.Titleè\àÍç\É\É`Å|    * The former Tree Reordering mode should select [Persistent],]\n[è\ComacReNameOperationsDlg,Frame001.Label2.Titleè\àÍç\É\É`Å|      or the tree visulization result will not be saved in the background database!]";
+msg.implementLinkNull = "[è\ComacReNameOperationsDlg,msg.implementLinkNullè\àÍç\É\É`Å|Select Provide Part no Implement link Product]";
+msg.designCodeNull = "[è\ComacReNameOperationsDlg,msg.designCodeNullè\àÍç\É\É`Å|please input design code]";

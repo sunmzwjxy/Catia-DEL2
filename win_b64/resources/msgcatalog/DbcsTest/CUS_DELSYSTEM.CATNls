@@ -1,0 +1,7 @@
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Title = "[十CUS_DELSYSTEM,CUS_ZWSystemRef.CUS_Title十一構ソチ－ZhanWei Name]";
+CUS_DELSYSTEM.CUS_ZWSystemRef.CUS_Code = "[十CUS_DELSYSTEM,.CUS_ZWSystemRef.CUS_Code十一構ソチ－ZhanWei Code]";
+CUS_DELSYSTEM.CUS_ZWSystemRef = "[十CUS_DELSYSTEM,DELSYSTEM.CUS_ZWSystemRef十一構ソチ－ZhanWei]";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Title = "[十CUS_DELSYSTEM,CUS_GWSystemRef.CUS_Title十一構ソチ－GongWei Name]";
+CUS_DELSYSTEM.CUS_GWSystemRef.CUS_Code = "[十CUS_DELSYSTEM,.CUS_GWSystemRef.CUS_Code十一構ソチ－GongWei Code]";
+CUS_DELSYSTEM.CUS_GWSystemRef = "[十CUS_DELSYSTEM,DELSYSTEM.CUS_GWSystemRef十一構ソチ－GongWei]";
+CUS_DELSYSTEM = "[十CUS_DELSYSTEM,CUS_DELSYSTEM十一構ソチ－CUS_DELSYSTEM]";

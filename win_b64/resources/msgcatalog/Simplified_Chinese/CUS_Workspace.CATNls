@@ -1,0 +1,9 @@
+﻿<meta charset="UTF-8"/>
+CUS_Workspace = "CUS_Workspace";
+CUS_Workspace.CUS_JHWorkspaceVaultExt = "CUS_JHWorkspaceVaultExt";
+CUS_Workspace.CUS_JHWorkspaceVaultExt.CUS_JHSpaceVaultCode = "编码";
+CUS_Workspace.CUS_JHWorkspaceExt = "CUS_JHWorkspaceExt";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHSpaceCode = "编码";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType = "类型";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Production = "Production";
+CUS_Workspace.CUS_JHWorkspaceExt.CUS_JHWorkspaceType.Range.Equal.Knowledge = "Knowledge";

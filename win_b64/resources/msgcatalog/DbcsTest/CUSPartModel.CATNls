@@ -1,0 +1,10 @@
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef = "[十CUSPartModel,art.CUS__DMSurface_VPMRef十一構ソチ－CUS__DMSurface_VPMRef]";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.A = "[十CUSPartModel,itye_VPMRef.Range.Equal.A十一構ソチ－A]";
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef.Range.Equal.N = "[十CUSPartModel,face_VPMRef.Range.Equal.N十一構ソチ－N]";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.C = "[十CUSPartModel,itye_VPMRef.Range.Equal.C十一構ソチ－C]";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef.Range.Equal.B = "[十CUSPartModel,itye_VPMRef.Range.Equal.B十一構ソチ－B]";
+CUSPartModel.CUSModelPart.CUSChineseName_DMProduct = "[十CUSPartModel,.CUSChineseName_DMProduct十一構ソチ－CUSChineseName_DMProduct]";
+CUSPartModel.CUSModelPart.CUS__DMSurface_VPMRef.Range.Equal.Y = "[十CUSPartModel,face_VPMRef.Range.Equal.Y十一構ソチ－Y]";
+CUSPartModel.CUSModelPart.CUSCUS_DMMaturitye_VPMRef = "[十CUSPartModel,CUSCUS_DMMaturitye_VPMRef十一構ソチ－CUSCUS_DMMaturitye_VPMRef]";
+CUSPartModel.CUSModelPart = "[十CUSPartModel,CUSPartModel.CUSModelPart十一構ソチ－CUSModelPart]";
+CUSPartModel = "[十CUSPartModel,CUSPartModel十一構ソチ－CUSPartModel]";

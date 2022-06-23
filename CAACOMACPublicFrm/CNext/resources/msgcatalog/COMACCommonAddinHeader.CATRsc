@@ -1,0 +1,9 @@
+
+COMACCommonAddinHeader.MBOMInit.Icon.Normal= "I_COMAC_InitPPR" ;
+
+
+COMACCommonAddinHeader.ComacGenerateBOMHdr.Icon.Normal    = "SWXUiAssemblyProductStructureHeader" ;
+COMACCommonAddinHeader.ComacInsertFOinstructionHdr.Icon.Normal    = "I_DELStrMfgGenOperationByCatalog" ;
+COMACCommonAddinHeader.COMACPLMReorderHdr.Icon.Normal    = "I_Reorder" ;
+COMACCommonAddinHeader.ComacReNameOperationsHdr.Icon.Normal    = "I_RenameAllTpoints" ;
+COMACCommonAddinHeader.ComacNewVersionHdr.Icon.Normal    = "I_MajorVersion" ;

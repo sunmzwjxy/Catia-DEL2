@@ -1,0 +1,8 @@
+Label1.Title = "[\ComacNewVersionDlg,Label1.Title\ˆê\ƒ\ƒ`|WorkPlan:]";
+Title = "[\ComacNewVersionDlg,Title\ˆê\ƒ\ƒ`|Batch New Revision]";
+msg.SaveFailed = "[\ComacNewVersionDlg,msg.SaveFailed\ˆê\ƒ\ƒ`|µ±Ç°Áã×é¼şÊı¾İ²»¿É±£´æ£¬Ç/ÏÈ¼ì²éÊı¾İÈ·±£Êı¾İ¿É±£´æ]";
+msg.ProvideNull = "[\ComacNewVersionDlg,msg.ProvideNull\ˆê\ƒ\ƒ`|please select Provide Part]";
+msg.CreateFailed = "[\ComacNewVersionDlg,msg.CreateFailed\ˆê\ƒ\ƒ`|Create Manufacturing Part Failed]";
+msg.implementLinkMulti = "[\ComacNewVersionDlg,msg.implementLinkMulti\ˆê\ƒ\ƒ`|exist more than one implement link product]";
+msg.implementLinkNull = "[\ComacNewVersionDlg,msg.implementLinkNull\ˆê\ƒ\ƒ`|Select Provide Part no Implement link Product]";
+msg.designCodeNull = "[\ComacNewVersionDlg,msg.designCodeNull\ˆê\ƒ\ƒ`|please input design code]";

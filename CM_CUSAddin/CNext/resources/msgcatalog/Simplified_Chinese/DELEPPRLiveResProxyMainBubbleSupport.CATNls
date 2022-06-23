@@ -1,0 +1,23 @@
+<meta charset="UTF-8"/>
+// NLS Catalog for the class DELEPPRLiveResProxyMainBubbleSupport
+
+InsertGeneralSystem="插入工艺流程";
+InsertWorkplanSystem="插入工作计划";
+InsertServiceWorkplanSystem="插入服务工作计划";
+InsertTransferSystem="插入缓冲系统";
+InsertBufferSystem="插入缓冲系统";
+InsertSourceSystem="反转源系统";
+InsertSinkSystem="插入下落系统";
+InsertExistingSystem="插入现有系统";
+InsertTranformationSystem="插入变换系统";
+
+InsertGeneralOperation="插入常规操作";
+InsertHeaderOperation="插入标题操作";
+InsertLoadingOperation="插入加载操作";
+InsertUnloadingOperation="插入卸载操作";
+InsertCurveFasteningOperation="插入曲线紧固操作";
+InsertPointFasteningOperation="插入点紧固操作";
+InsertRemovingMaterialOperation="插入移除物料操作";
+InsertTransferOperation="插入传送操作";
+InsertExistingOperation="插入现有操作";
+InsertExistingOperationAsCopy="将现有操作插入为副本";

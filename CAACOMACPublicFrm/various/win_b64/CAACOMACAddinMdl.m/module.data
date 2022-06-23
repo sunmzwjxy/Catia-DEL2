@@ -1,0 +1,11 @@
+!<mkRTViewData> v1.0.0
+CSC/000/DSI .\CAACOMACPublicFrm\CAACOMACAddinMdl.m\Objects\win_b64\mkcsc\CAACOMACAddinMdl.cscdb|.\CAACOMACPublicFrm\CAACOMACAddinMdl.m
+RTV/001/CUS .\win_b64\code\bin\CAACOMACAddinMdl.dll|.\CAACOMACPublicFrm\CAACOMACAddinMdl.m
+BTV/000/CUS .\win_b64\code\lib\CAACOMACAddinMdl.lib|.\CAACOMACPublicFrm\CAACOMACAddinMdl.m
+INT/000/CUS .\win_b64\code\bin\CAACOMACAddinMdl.pdb|.\CAACOMACPublicFrm\CAACOMACAddinMdl.m
+INT/000/CUS .\win_b64\code\lib\CAACOMACAddinMdl.exp|.\CAACOMACPublicFrm\CAACOMACAddinMdl.m
+@type=SHAREDLIBRARY
+@clr=false
+@kind=Native
+@deliverable=true
+@built=true

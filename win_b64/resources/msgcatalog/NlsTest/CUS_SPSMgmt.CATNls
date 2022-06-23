@@ -1,0 +1,2 @@
+CUS_SPSMgmt.CUS_Model = "[~CUS_SPSMgmt,CUS_SPSMgmt.CUS_Model~ Mødél]";
+CUS_SPSMgmt = "[~CUS_SPSMgmt,CUS_SPSMgmt~ CUS_SPSMgmt]";

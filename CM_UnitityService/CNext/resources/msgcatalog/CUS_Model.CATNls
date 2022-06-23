@@ -1,0 +1,6 @@
+﻿<meta charset="UTF-8"/>
+CUS_Model = "CUS_Model";
+CUS_Model.CUS_ModelExtension = "CUS_ModelExtension";
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME = "Is Generated MT Node";
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME.Range.Equal.Y = "Y";
+CUS_Model.CUS_ModelExtension.CUS_IsGeneratedMTNode_ME.Range.Equal.N = "N";

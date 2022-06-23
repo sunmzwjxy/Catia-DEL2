@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{b472af2f-118d-49ee-a80f-7e52a517d7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{92bdfaa9-16d3-42e9-958c-4c2ec2ed5b66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMChangeAssemDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMChangeMakePartCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMChangeMakePartDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMChangeMBOMAssemCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMCreateAOSystemCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMCreateGWSystemCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMCreateMakePartCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMCreateMBOMAssemCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMCreateZWSystemCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMakePartDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMAssemDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMAssemListDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMFastenCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMFastenDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMReportCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMMBOMReportDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMSystemAODlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMSystemGWDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\CMSystemZWDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\ComacComputeReslutingProductCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\ComacInsertSpecialPartOrGasketCmd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\ComacInsertSpecialPartOrGasketDlg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\src\PPRUtity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMChangeAssemDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMChangeMakePartDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMMakePartDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMMBOMAssemDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMMBOMAssemListDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMMBOMFastenDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMMBOMReportDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMSystemAODlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMSystemGWDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\CMSystemZWDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\ComacInsertSpecialPartOrGasketDlg.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\LocalInterfaces\PPRUtity.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\..\CM_ManuEngServiceFrm\ProcessPlanningService.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

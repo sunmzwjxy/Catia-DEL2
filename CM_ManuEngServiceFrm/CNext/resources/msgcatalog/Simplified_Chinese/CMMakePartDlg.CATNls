@@ -1,0 +1,17 @@
+<meta charset="UTF-8"/>
+Title = "设置901零件";
+Label1.Title = "工艺零件号";
+Label2.Title = "工艺零组件名称";
+Label3.Title = "零件代码";
+Label4.Title = "制造路线";
+Label5.Title = "使用单位";
+Label6.Title = "设计基本号";
+RadioButton1.Title = "设计基本号取自设计";
+RadioButton2.Title = "设计基本号手动输入";
+
+msg.ProvideNull = "请选择制造零组件";
+msg.designCodeNull = "请输入设计基本号";
+msg.CreateFailed = "创建901零件失败";
+msg.implementLinkNull = "选择的制造零组件未消耗设计零件";
+msg.implementLinkMulti = "当前零件消耗多个零件";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";

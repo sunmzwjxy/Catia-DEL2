@@ -1,0 +1,8 @@
+﻿<meta charset="UTF-8"/>
+CUSInterfaceMgmtGeneralClass = "CUSInterfaceMgmtGeneralClass";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension = "CUSInterfaceMgmtGeneralClassExtension";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus = "SyncStatus";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.InProcess = "InProcess";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.Completed = "Completed";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncTime = "LastSyncTime";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncResult = "LastSyncResult";

@@ -1,0 +1,284 @@
+<DSxDevCodeGen
+  ExtensionName="DialogDesigner"
+  EngineVersion="1.0">
+  <Content
+    Version="1.1"
+    HasDesign="true">
+    <DesignModel>
+      <RootWidget
+        Type="CATDlgDialog"
+        ID="4bde6e80-be3f-4bcb-a878-48c514eec32c"
+        Version="1.0"
+        Name="COMACMBOMInitDlg"
+        UseOKButton="true"
+        UseCancelButton="true"
+        Width="500"
+        Height="400"
+        Title="MPR Task">
+        <Children
+          Type="List">
+          <Item
+            Type="CATDlgFrame"
+            ID="29f42122-7534-45f0-b2d8-4c7f729c25e6"
+            Version="1.0"
+            Name="Frame1"
+            HideTitle="true"
+            HideFrame="true"
+            Title="Frame1">
+            <GridLayoutConstraint
+              Row="0"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATDlgLabel"
+                ID="87e4ab42-7f17-4431-a81b-ca48281ed2ed"
+                Version="1.0"
+                Name="Label1"
+                Title="User:">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="false"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+              <Item
+                Type="CATDlgEditor"
+                ID="83ac53c8-4de2-46ea-bd2a-e04598aca8a1"
+                Version="1.0"
+                Name="Editor1"
+                ReadOnly="true">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="1"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="false"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="List" />
+              <ResizableColumns
+                Type="ScalarList"
+                Value="1" />
+            </GridResizableData>
+          </Item>
+          <Item
+            Type="CATDlgFrame"
+            ID="bd5ba152-e4cf-4b90-b2a6-1f75d8d8d6ce"
+            Version="1.0"
+            Name="Frame2"
+            Title="MPR Task List">
+            <GridLayoutConstraint
+              Row="1"
+              Col="0"
+              Width="1"
+              Height="1">
+              <Anchor
+                AttachedToLeft="true"
+                AttachedToRight="true"
+                AttachedToTop="true"
+                AttachedToBottom="true"
+                ConstantWidth="false"
+                ConstantHeight="false" />
+            </GridLayoutConstraint>
+            <Children
+              Type="List">
+              <Item
+                Type="CATDlgMultiList"
+                ID="a1b51734-bd39-4271-95f6-e2e95c3e1728"
+                Version="1.0"
+                Name="MultiList1">
+                <GridLayoutConstraint
+                  Row="0"
+                  Col="0"
+                  Width="1"
+                  Height="1">
+                  <Anchor
+                    AttachedToLeft="true"
+                    AttachedToRight="true"
+                    AttachedToTop="true"
+                    AttachedToBottom="true"
+                    ConstantWidth="false"
+                    ConstantHeight="false" />
+                </GridLayoutConstraint>
+              </Item>
+            </Children>
+            <GridResizableData>
+              <ResizableRows
+                Type="ScalarList"
+                Value="0" />
+              <ResizableColumns
+                Type="ScalarList"
+                Value="0" />
+            </GridResizableData>
+          </Item>
+        </Children>
+        <GridResizableData>
+          <ResizableRows
+            Type="ScalarList"
+            Value="1" />
+          <ResizableColumns
+            Type="ScalarList"
+            Value="0" />
+        </GridResizableData>
+      </RootWidget>
+    </DesignModel>
+    <CodeModel>
+      <UserCodes>
+        <ClassIncludes>
+          <UserCode><![CDATA[
+#include "CATUnicodeString.h"
+#include <vector>
+class FOTask
+{
+public:
+	CATUnicodeString MPRFormNum;
+	CATUnicodeString MPRType;
+	CATUnicodeString PartNumber;
+	CATUnicodeString PartRevision;
+	CATUnicodeString FOName;
+	CATUnicodeString FORevision;
+	CATUnicodeString MPRId;
+	CATUnicodeString IsRevise;
+};
+
+]]></UserCode>
+        </ClassIncludes>
+        <ClassMembers>
+          <UserCode><![CDATA[
+public:
+	void SetUserName(CATUnicodeString iUserName);
+	void InitMultiList(std::vector<FOTask> foVect);
+	int GetSelectRow();
+
+]]></UserCode>
+        </ClassMembers>
+        <ImplementIncludes>
+          <UserCode><![CDATA[
+#include "CATMsgCatalog.h"
+
+]]></UserCode>
+        </ImplementIncludes>
+        <DialogConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogConstructor>
+        <DialogDefaultConstructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDefaultConstructor>
+        <DialogDestructor>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </DialogDestructor>
+        <PreBuildCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </PreBuildCode>
+        <BuildAdditionalCode>
+          <UserCode><![CDATA[
+this->SetRectDimensions(400, 200, 400, 500);
+CATUnicodeString ListTitleArray[2];
+ListTitleArray[0] = CATMsgCatalog::BuildMessage("COMACMBOMInitDlg","MultiList.Title1");
+ListTitleArray[1] = CATMsgCatalog::BuildMessage("COMACMBOMInitDlg", "MultiList.Title2");
+_MultiList1->SetColumnTitles(2, ListTitleArray);
+_MultiList1->SetColumnTextWidth(0,15);
+_MultiList1->SetColumnTextWidth(1, 5);
+
+]]></UserCode>
+        </BuildAdditionalCode>
+        <UserActivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserActivateCode>
+        <UserDesactivateCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserDesactivateCode>
+        <UserCancelCode>
+          <UserCode><![CDATA[
+
+
+]]></UserCode>
+        </UserCancelCode>
+        <UserImplementCode>
+          <UserCode><![CDATA[
+void COMACMBOMInitDlg::SetUserName(CATUnicodeString iUserName)
+{
+	_Editor1->SetText(iUserName);
+}
+void COMACMBOMInitDlg::InitMultiList(std::vector<FOTask> foVect)
+{
+	_MultiList1->ClearLine();
+	int size = foVect.size();
+	for (int i = 0; i < size; ++i)
+	{
+		_MultiList1->SetColumnItem(0, foVect[i].MPRFormNum, i, CATDlgDataAdd);
+		_MultiList1->SetColumnItem(1, foVect[i].MPRType, i, CATDlgDataAdd);
+	}
+}
+int COMACMBOMInitDlg::GetSelectRow()
+{
+	int count = _MultiList1->GetSelectCount();
+	if (count == 0)
+	{
+		return -1;
+	}
+	int* TabRow = new int[count];
+	_MultiList1->GetSelect(TabRow, count);
+	int row = TabRow[0];
+	delete[] TabRow;
+	return row;
+}
+
+]]></UserCode>
+        </UserImplementCode>
+      </UserCodes>
+      <Callbacks
+        Type="List" />
+    </CodeModel>
+    <FileInfo
+      Visibility="Local"
+      HandleResources="true"
+      ModuleResources="" />
+  </Content>
+</DSxDevCodeGen>

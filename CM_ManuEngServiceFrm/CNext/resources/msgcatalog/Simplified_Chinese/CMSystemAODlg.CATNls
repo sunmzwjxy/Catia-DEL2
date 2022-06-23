@@ -1,0 +1,31 @@
+<meta charset="UTF-8"/>
+Title = "创建AO";
+Label1.Title = "scope工艺组件";
+Label2.Title = "前序AO";
+Label3.Title = "站位 *";
+Label4.Title = "操作顺序变化号";
+Label5.Title = "AO名称*";
+Label6.Title = "飞机部段(区域)代码*";
+Label7.Title = "专业/工种代码*";
+Label8.Title = "操作顺序号*";
+Label9.Title = "有效性";
+PushButton1.Title = "...";
+PushButton2.Title = "...";
+PushButton3.Title = "...";
+msg.Title = "信息";
+msg.uniqueIDError = "输入的AO号在系统中存在多个，请通过搜索查找AO";
+msg.inputCodeNull = "请输入AO号";
+msg.nodeFatherNull = "请选择站位";
+msg.CodeNumberFourError = "输入的操作顺序号位数不对，请输入4位数字的操作顺序号";
+msg.CodeNumberTwoError = "输入的操作顺序变化号位数不对，请输入2位数字的操作顺序变化号";
+msg.SequenceNull = "请输入操作顺序变化号";
+msg.OperOrderCodeNull = "请输入操作顺序号";
+
+msg.SaveFailed = "当前AO数据不可保存，请检查权限";
+msg.AOTitleNull = "请输入AO名称";
+msg.inputEffError = "请输入正确的架次有效性";
+msg.inputEffNull = "请输入架次有效性";
+
+SectionArea.Range="A-机头|B-机身旅客舱:前机身,中机身,中后机身|C-机身前货舱|D-机身后货舱|E-机身轮舱:主起落架区/前起落架区|F-后机身|G-左机翼:左1号翼肋左侧区域|H-右机翼:右1号翼肋右侧区域|J-中机身/中央翼:包含机翼对接|K-尾翼:水平尾翼和垂直尾翼区域|L-后设备舱|M-前附件舱|N-散装货舱|P-左、右吊挂|Q-发动机|R-整流包皮内|S-电子电气设备舱(E/E舱)|Z-整机";
+
+ProfessionWorkCode.Range="A-电子电气设备安装|B-生活系统安装|C-飞控系统安装|D-环控系统安装(含氧气系统)|E-导线连接|F-系统功能试验(含调试)|G-燃油系统安装(含惰化系统)|H-液压/起落架系统安装|J-动力系统/辅助动力系统安装|K-防火系统安装|L-隔音棉安装|M-机械加工(如铣切、精加工台操作、轨道锯切割等)|N-机械系统地面组装|P-喷漆|Q-特种检验(如X光检查、数控测量、公司性检验等)|R-特设系统地面组装|S-铆装机构|T-邮箱密封与测试|U-特种工艺(如喷丸加工等)|W-电缆敷设、支架、接地桩等安装|Z-其他杂项装配操作";

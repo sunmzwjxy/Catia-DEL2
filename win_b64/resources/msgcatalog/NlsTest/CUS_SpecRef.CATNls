@@ -1,0 +1,2 @@
+CUS_SpecRef.CUS_VPMExten = "[~CUS_SpecRef,CUS_SpecRef.CUS_VPMExten~ CUS_VPMExtén]";
+CUS_SpecRef = "[~CUS_SpecRef,CUS_SpecRef~ CUS_SpécRef]";

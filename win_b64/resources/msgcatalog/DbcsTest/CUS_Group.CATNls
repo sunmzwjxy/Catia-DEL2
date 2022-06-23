@@ -1,0 +1,14 @@
+CUS_Group.CUS_GroupExtension.CUS_GroupType = "[十CUS_Group,upExtension.CUS_GroupType十一構ソチ－Group Type]";
+CUS_Group.CUS_EVI.CUS_EVIDomain = "[十CUS_Group,oup.CUS_EVI.CUS_EVIDomain十一構ソチ－EVIDomain]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_TestFlight = "[十CUS_Group,e.Equal.Public_TestFlight十一構ソチ－Public_TestFlight]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Manufacture = "[十CUS_Group,.Equal.Public_Manufacture十一構ソチ－Public_Manufacture]";
+CUS_Group = "[十CUS_Group,CUS_Group十一構ソチ－CUS_Group]";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptGrpLeader = "[十CUS_Group,CUS_ManuEvalDeptGrpLeader十一構ソチ－Manufacturing Evalution Department Group Leader]";
+CUS_Group.CUS_EVI = "[十CUS_Group,CUS_Group.CUS_EVI十一構ソチ－CUS_EVI]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public = "[十CUS_Group,Domain.Range.Equal.Public十一構ソチ－Public]";
+CUS_Group.CUS_GroupExtension.CUS_ManuEvalDeptIntPerson = "[十CUS_Group,CUS_ManuEvalDeptIntPerson十一構ソチ－Manufacturing Evalution Department Interface person]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Supplier = "[十CUS_Group,main.Range.Equal.Supplier十一構ソチ－Supplier]";
+CUS_Group.CUS_EVI.CUS_EVIName = "[十CUS_Group,Group.CUS_EVI.CUS_EVIName十一構ソチ－CUS_EVIName]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Public_Service = "[十CUS_Group,ange.Equal.Public_Service十一構ソチ－Public_Service]";
+CUS_Group.CUS_GroupExtension = "[十CUS_Group,_Group.CUS_GroupExtension十一構ソチ－CUS_GroupExtension]";
+CUS_Group.CUS_EVI.CUS_EVIDomain.Range.Equal.Design = "[十CUS_Group,Domain.Range.Equal.Design十一構ソチ－Design]";

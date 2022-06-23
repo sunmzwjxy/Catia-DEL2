@@ -1,0 +1,5 @@
+﻿<meta charset="UTF-8"/>
+CUS_DELMBOM = "CUS_DELMBOM";
+CUS_DELMBOM.CUS_Fasten = "CUS_Fasten";
+CUS_DELMBOM.CUS_ProvideMAPart = "MA件号";
+CUS_DELMBOM.CUS_MAPartKit = "CUS_MAPartKit";

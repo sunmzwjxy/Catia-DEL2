@@ -1,0 +1,34 @@
+<meta charset="UTF-8"/>
+
+//-------------------------------------------------------------
+// NLS Resource File for PLMProductionSystemPackage
+//-------------------------------------------------------------
+
+// Operation Types
+OperationType="操作类型";
+OperationUnset="取消设置操作";
+GeneralOperation="常规操作";
+PunctualOperation="精确操作";
+CurveOperation="曲线操作";
+LoadingOperation="加载操作";
+UnloadingOperation="卸载操作";
+RemoveMaterialOperation="移除材料操作";
+TransferOperation="传输操作";
+SourceOperation="源操作";
+SinkOperation="下落操作";
+BufferOperation="缓冲区操作";
+InterruptOperation="中断操作";
+
+// System Types
+SystemType="系统类型";
+SystemUnset="取消设置系统";
+GeneralSystem="工艺流程";
+TransformationSystem="变换系统";
+TransferSystem="传输系统";
+StorageSystem="存储系统";
+SourceSystem="源系统";
+SinkSystem="下落系统";
+BufferSystem="缓冲系统";
+
+
+

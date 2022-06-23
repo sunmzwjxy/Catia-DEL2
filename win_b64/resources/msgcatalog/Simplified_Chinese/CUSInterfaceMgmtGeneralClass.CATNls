@@ -1,0 +1,8 @@
+﻿<meta charset="UTF-8"/>
+CUSInterfaceMgmtGeneralClass = "CUSInterfaceMgmtGeneralClass";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension = "CUSInterfaceMgmtGeneralClassExtension";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus = "同步状态";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.InProcess = "进行中";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncStatus.Range.Equal.Completed = "已完成";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncTime = "最后一次同步时间";
+CUSInterfaceMgmtGeneralClass.CUSInterfaceMgmtGeneralClassExtension.CUSInterfaceMgmtSyncResult = "最后一次同步结果";

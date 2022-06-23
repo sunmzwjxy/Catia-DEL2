@@ -1,0 +1,5 @@
+﻿<meta charset="UTF-8"/>
+CUSInterfaceMgmtRequirementGroup = "CUSInterfaceMgmtRequirementGroup";
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension = "CUSInterfaceMgmtRequirementGroupExtension";
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension.CUSInterfaceMgmtFolderType = "FolderType";
+CUSInterfaceMgmtRequirementGroup.CUSInterfaceMgmtRequirementGroupExtension.CUSInterfaceMgmtFolderType.Range.Equal.Interface = "Interface";

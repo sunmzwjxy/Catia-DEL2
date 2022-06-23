@@ -1,0 +1,7 @@
+﻿<meta charset="UTF-8"/>
+CUS_Library = "CUS_Library";
+CUS_Library.CUS_GeneralClassExtension = "CUS_GeneralClassExtension";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag = "工程文件标签";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.Y = "是";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.N = "否";
+CUS_Library.CUS_GeneralClassExtension.CUS_LibraryTag = "库标签";

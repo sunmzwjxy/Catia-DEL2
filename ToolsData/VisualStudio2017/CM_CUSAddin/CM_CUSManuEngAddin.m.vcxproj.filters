@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LocalInterfaces">
+      <UniqueIdentifier>{e704f1b2-283d-4bd4-973f-92abc1a63961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{a34d64c9-55c4-480f-aa62-fcfd9ad0d5c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CM_CUSAddin\CM_CUSManuEngAddin.m\src\CM_CUSMBOMAddin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CM_CUSAddin\CM_CUSManuEngAddin.m\src\CM_CUSProcessPlanAddin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\CM_CUSAddin\CM_CUSManuEngAddin.m\LocalInterfaces\CM_CUSMBOMAddin.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CM_CUSAddin\CM_CUSManuEngAddin.m\LocalInterfaces\CM_CUSProcessPlanAddin.h">
+      <Filter>LocalInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\..\CM_CUSAddin\CM_CUSManuEngAddin.m\Imakefile.mk">
+      <Filter>
+      </Filter>
+    </None>
+  </ItemGroup>
+</Project>

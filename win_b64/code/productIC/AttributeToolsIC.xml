@@ -1,0 +1,77 @@
+<?xml version='1.0' ?>
+<codeFramework xmlns = "http://www.3ds.ic" xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation = "http://www.3ds.ic ICModel.xsd">
+  <prerequisite name = "System" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "SystemTS" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "SpecialAPI" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrFoundation" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "VisualizationInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMComponentInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "KnowledgeInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "Dialog" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIdentificationAccess" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ObjectModelerBase" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMDictionaryNavServices" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIntegrationUse" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMIntegrationAccess" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DialogEngine" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ProductStructureUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "VPMEditorInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ObjectModelerSystem" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ProductStructureInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CAT3DPhysicalRepInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMUIInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMModelerBaseInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "Mathematics" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ElecHarnessItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMecModUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "GeometricObjects" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMecModLiveUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMecModExtendItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATSketcherUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATGSMUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DataCommonProtocolUse" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "KnowledgeIDLItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "GMModelInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "InfOSIDLItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "InfInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMmrAutomationInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AutomationInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ElectricalInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "MeasureGeometryInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ObjectModelerNavigator" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "AfrNavigator" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMathStream" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "GMOperatorsInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATLogicalModelerUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ElecLogicalItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATFunctionalModelerUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMSessionInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ProductStructureAccess" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "ElecRoutingItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATMecModUIUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMFolderInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRProcessItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPofMfgUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRResourceItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRSystemItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRLiveProcessInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMInterferenceUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMSetupDataInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATWeightEquivalentUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMConfigUseItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATPLMConfigUXItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "XMLParserItf" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "CATIAApplicationFrame" access = "Public"/>
+  <prerequisite name = "AdvancedMathematics" access = "Public"/>
+  <prerequisite name = "CATGraphicProperties" access = "Public"/>
+  <prerequisite name = "SGInfra" access = "Public" constraint = "defined(CATIAR420)"/>
+  <prerequisite name = "VisualizationCore" access = "Public"/>
+  <prerequisite name = "VisualizationController" access = "Public"/>
+  <prerequisite name = "VisualizationCommands" access = "Public"/>
+  <prerequisite name = "InteractiveInterfaces" access = "Public" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMDocumentInterfaces" access = "Public" export = "AddToClientPrereqs" expose = "ExposePrereq"/>
+  <prerequisite name = "PLMWorkspaceInterfaces" access = "Public" export = "AddToClientPrereqs" expose = "ExposePrereq"/>
+  <prerequisite name = "DELPPRAuthFoundationInterfaces" access = "Public" export = "AddToClientPrereqs" expose = "ExposePrereq"/>
+  <prerequisite name = "CM_UnitityService" access = "Public" export = "AddToClientPrereqs" expose = "ExposePrereq"/>
+</codeFramework>

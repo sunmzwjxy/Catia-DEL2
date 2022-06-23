@@ -1,0 +1,13 @@
+<meta charset="UTF-8"/>
+DeleteSourcingLink="删除源链接";
+CreateNewSourcingLink="创建新源链接";
+TitleTransferOpeAlreadyExists="创建采购链接";
+TransferOpeAlreadyExists="源链接已存在，由以下名称的传送操作所展示： ";
+CreateNewOutput="创建新输出";
+CreateNewInput="创建新输入";
+ModifyPropertyInput="修改输入属性";
+ModifyPropertyOutput="修改输出属性";
+DeleteInput="移除输入";
+DeleteOutput="移至输出";
+
+DELMSDSourcingCreationCmd.InitialState.Message="选择工艺流程";

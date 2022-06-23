@@ -1,0 +1,21 @@
+<meta charset="UTF-8"/>
+Title = "紧固件消耗";
+Label1.Title = "300零件";
+Label2.Title = "401组件";
+Label3.Title = "成套分配紧固件";
+Label4.Title = "可消耗的紧固件";
+Label5.Title = "可消耗的数量";
+Label6.Title = "消耗数量";
+CheckButton1.Title = "    ";
+
+
+Fasten.Title = "名称";
+msg.Title = "信息";
+msg.selectRModel = "请选择300零件";
+msg.selectFastenFather = "请选择MA或401组件";
+msg.inputUsingFasten = "请输入消耗的紧固件数量";
+msg.insertExistingError = "插入已存在紧固件失败";
+msg.FastenDataError = "存在多个当前紧固件的数据";
+msg.CreateFailed = "创建紧固对象失败";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";
+msg.noContentRModel = "当前300零件中并没有紧固件";

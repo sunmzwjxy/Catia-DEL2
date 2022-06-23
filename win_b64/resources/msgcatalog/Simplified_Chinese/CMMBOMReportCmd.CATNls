@@ -1,0 +1,7 @@
+<meta charset="UTF-8"/>
+msg.Title = "制造MA报表";
+msg.reportSuccess = "制造MA报表正在后台生成，生成成功会邮件通知";
+Label1.Title = "制造MA/401组件";
+Title = "报表";
+msg.failedGetURL = "获取服务器地址失败";
+msg.selectNull = "请选择制造MA或401组件";

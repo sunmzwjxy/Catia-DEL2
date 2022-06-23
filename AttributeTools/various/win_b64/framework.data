@@ -1,0 +1,7 @@
+!<mkRTViewData> v1.0.0
+RTV/002/DSI .\win_b64\code\productIC\AttributeToolsIC.required|.\AttributeTools
+BTV/002/CUS .\win_b64\code\productIC\AttributeToolsIC.script|.\AttributeTools
+BTV/002/CUS .\win_b64\code\productIC\AttributeToolsIC.xml|.\AttributeTools
+CSC/002/DSI .\AttributeTools\IdentityCard\Objects\win_b64\mkcsc\AttributeTools.cscdb|.\AttributeTools
+@type=codeFramework
+@built=true

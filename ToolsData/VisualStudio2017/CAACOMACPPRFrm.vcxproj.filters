@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CNext">
+      <UniqueIdentifier>{6a8adeb3-e1f1-4372-a442-70511e1e0f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources">
+      <UniqueIdentifier>{18a91e4d-3c63-4209-8c7e-4d6962b85487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog">
+      <UniqueIdentifier>{f76c3cc5-1e61-437f-8878-059208a9303b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CNext\resources\msgcatalog\Simplified_Chinese">
+      <UniqueIdentifier>{58b7e442-60df-4fe4-8a27-a19e52fe6de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IdentityCard">
+      <UniqueIdentifier>{8ec72a0d-0799-46d9-aae4-1eeab65942bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInterfaces">
+      <UniqueIdentifier>{3d7d396e-36c0-4098-bf8c-5a7307c4a5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtectedInterfaces">
+      <UniqueIdentifier>{56c1fa54-d60e-4a40-b278-aa57bda71bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PublicInterfaces">
+      <UniqueIdentifier>{75c35fce-60bd-48e7-8044-0df26439fea6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacGenerateBOMCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacGenerateBOMDlg.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacInsertFOinstructionCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacInsertFOinstructionDlg.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\COMACMBOMInitCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacNewVersionCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacNewVersionDlg.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\COMACPLMReorderCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacReNameOperationsCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\ComacReNameOperationsDlg.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PrivateInterfaces\COMACView2PicCmd.h">
+      <Filter>PrivateInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\ProtectedInterfaces\COMACCommonMdl.h">
+      <Filter>ProtectedInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\ProtectedInterfaces\COMACWIMdl.h">
+      <Filter>ProtectedInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CAACOMACPPRFrm\PublicInterfaces\COMACCAABatchNewVersion.h">
+      <Filter>PublicInterfaces</Filter>
+    </ClInclude>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacGenerateBOMDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacInsertFOinstructionDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\COMACMBOMInitDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacNewVersionDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\ComacReNameOperationsDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacGenerateBOMDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacInsertFOinstructionDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\COMACMBOMInitDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacNewVersionDlg.CATRsc">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\CNext\resources\msgcatalog\Simplified_Chinese\ComacReNameOperationsDlg.CATNls">
+      <Filter>CNext\resources\msgcatalog\Simplified_Chinese</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\IdentityCard\IdentityCard.xml">
+      <Filter>IdentityCard</Filter>
+    </None>
+    <None Include="..\..\CAACOMACPPRFrm\IdentityCard\README.md">
+      <Filter>IdentityCard</Filter>
+    </None>
+  </ItemGroup>
+</Project>

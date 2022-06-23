@@ -1,0 +1,6 @@
+CUS_Library.CUS_GeneralClassExtension.CUS_LibraryTag = "[~CUS_Library,sExtension.CUS_LibraryTag~ LîbråryTag]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.N = "[~CUS_Library,ficationTag.Range.Equal.N~ N]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.Y = "[~CUS_Library,ficationTag.Range.Equal.Y~ Y]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag = "[~CUS_Library,ion.CUS_ClassificationTag~ ClåssîficatiønTag]";
+CUS_Library = "[~CUS_Library,CUS_Library~ CUS_Lîbråry]";
+CUS_Library.CUS_GeneralClassExtension = "[~CUS_Library,CUS_GeneralClassExtension~ CUS_GénerålClassExtensîøn]";

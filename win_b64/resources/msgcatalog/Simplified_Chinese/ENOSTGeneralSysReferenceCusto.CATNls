@@ -1,0 +1,23 @@
+<meta charset="UTF-8"/>
+//This file contains the Nls resources for Business Logic & Predefined Queries (PLM Toolbar Search) 
+//in the context of the customization of ENOVIA_PLM_Express
+//defined in file: resources\plmsearch\plmtoolbar\PLM1\ENOVIA_PLM_Express\ENOSTGeneralSysReferenceCusto.CATRsc
+//This is the default applied to Any Genral System
+
+
+
+//PQ+BL
+ENOSTGeneralSysReferenceCusto.Title="工艺流程";
+SENOSTGeneralSysReferenceCusto.Title="标准工艺流程";
+
+//BL
+ENOSTGeneralSysReferenceCusto.Abbreviation="gsys";
+ENOSTGeneralSysReferenceCusto.Prefix="工艺流程";
+
+//PQ
+ENOSTGeneralSysReferenceCusto.ShortHelp="工艺流程 (gsys:)";
+ENOSTGeneralSysReferenceCusto.Abbreviations="GeneralSystem|gsys";
+
+//Dedicate Standard PQ
+SENOSTGeneralSysReferenceCusto.ShortHelp="标准工艺流程 (sgsys:)";
+SENOSTGeneralSysReferenceCusto.Abbreviations="sgsys|sGeneralSystem";

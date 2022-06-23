@@ -1,0 +1,10 @@
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\COMACWIMdl.m\src
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\COMACWIMdl.m\LocalGenerated\win_b64
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PrivateInterfaces
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\ProtectedInterfaces
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPPRFrm\PublicInterfaces
+C:\Works\DS\COMAC_DEL2\.\AttributeTools\PublicInterfaces
+C:\Works\DS\COMAC_DEL2\.\CAACOMACPublicFrm\PublicInterfaces
+C:\Works\DS\COMAC_DEL2\.\CM_ManuEngServiceFrm\PublicInterfaces
+C:\Works\DS\COMAC_DEL2\.\CM_UnitityService\PublicInterfaces
+C:\Works\DS\COMAC_DEL2\.\DelmiaTool\PublicInterfaces

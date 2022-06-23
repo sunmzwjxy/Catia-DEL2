@@ -1,0 +1,15 @@
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.PhysicalItem = "[十MBSEReqTest,.Range.Equal.PhysicalItem十一構ソチ－PhysicalItem]";
+MBSEReqTest.MBSEICD_Item = "[十MBSEReqTest,MBSEReqTest.MBSEICD_Item十一構ソチ－MBSEICD_Item]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemMaterial = "[十MBSEReqTest,ual.ExchangedItemMaterial十一構ソチ－ExchangedItemMaterial]";
+MBSEReqTest.MBSEEnvironmentalParameter = "[十MBSEReqTest,BSEEnvironmentalParameter十一構ソチ－MBSEEnvironmentalParameter]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.Channel = "[十MBSEReqTest,tType.Range.Equal.Channel十一構ソチ－Channel]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemSignal = "[十MBSEReqTest,Equal.ExchangedItemSignal十一構ソチ－ExchangedItemSignal]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.LogicalItem = "[十MBSEReqTest,e.Range.Equal.LogicalItem十一構ソチ－LogicalItem]";
+MBSEReqTest.MBSEInterfaceElement = "[十MBSEReqTest,Test.MBSEInterfaceElement十一構ソチ－MBSEInterfaceElement]";
+MBSEReqTest.MBSEMQReq = "[十MBSEReqTest,MBSEReqTest.MBSEMQReq十一構ソチ－MBSEMQReq]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType = "[十MBSEReqTest,ceElement.MBSEElementType十一構ソチ－MBSEElementType]";
+MBSEReqTest.MBSEICD_Element = "[十MBSEReqTest,SEReqTest.MBSEICD_Element十一構ソチ－MBSEICD_Element]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.FunctionItem = "[十MBSEReqTest,.Range.Equal.FunctionItem十一構ソチ－FunctionItem]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.Connector = "[十MBSEReqTest,ype.Range.Equal.Connector十一構ソチ－Connector]";
+MBSEReqTest.MBSEInterfaceElement.MBSEElementType.Range.Equal.ExchangedItemEnergy = "[十MBSEReqTest,Equal.ExchangedItemEnergy十一構ソチ－ExchangedItemEnergy]";
+MBSEReqTest = "[十MBSEReqTest,MBSEReqTest十一構ソチ－MBSEReqTest]";

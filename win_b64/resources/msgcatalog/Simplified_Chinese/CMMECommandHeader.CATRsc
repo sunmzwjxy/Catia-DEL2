@@ -1,0 +1,56 @@
+//工位
+CMMECommandHeader.CMCreateGWSystemHdr.Icon.Normal = "I_GWSystemRef";
+CMMECommandHeader.CMCreateGWSystemHdr.Icon.Focused = "I_GWSystemRef";
+
+//站位
+CMMECommandHeader.CMCreateZWSystemHdr.Icon.Normal = "I_ZWSystemRef";
+CMMECommandHeader.CMCreateZWSystemHdr.Icon.Focused = "I_ZWSystemRef";
+
+//AO
+CMMECommandHeader.CMCreateAOSystemHdr.Icon.Normal = "I_AO_OperationRef";
+CMMECommandHeader.CMCreateAOSystemHdr.Icon.Focused = "I_AO_OperationRef";
+
+//401
+CMMECommandHeader.CMCreateMBOMAssemHdr.Icon.Normal = "I_DELComponent";
+CMMECommandHeader.CMCreateMBOMAssemHdr.Icon.Focused = "I_DELComponent";
+
+//901
+CMMECommandHeader.CMCreateMakePartHdr.Icon.Normal = "I_ManuPart";
+CMMECommandHeader.CMCreateMakePartHdr.Icon.Focused = "I_ManuPart";
+
+//Report
+CMMECommandHeader.CMCreateMBOMReportHdr.Icon.Normal = "I_MBOMReport";
+CMMECommandHeader.CMCreateMBOMReportHdr.Icon.Focused = "I_MBOMReport";
+
+//401 换号
+CMMECommandHeader.CMChangeMBOMAssemHdr.Icon.Normal = "I_DELCHGComponent";
+CMMECommandHeader.CMChangeMBOMAssemHdr.Icon.Focused = "I_DELCHGComponent";
+
+//901 换号
+CMMECommandHeader.CMChangeMakePartHdr.Icon.Normal = "I_CHGManuPart";
+CMMECommandHeader.CMChangeMakePartHdr.Icon.Focused = "I_CHGManuPart";
+
+//紧固件
+CMMECommandHeader.CMMBOMFastenHdr.Icon.Normal = "I_CHGManuPart";
+CMMECommandHeader.CMMBOMFastenHdr.Icon.Focused = "I_CHGManuPart";
+
+//WA100 手动批量 computeResult
+CMMECommandHeader.ComacComputeReslutingProductHdr.Icon.Normal = "I_CATKinGlobalComputeAndGenerateResults_32x32";
+CMMECommandHeader.ComacComputeReslutingProductHdr.Icon.Focused = "I_CATKinGlobalComputeAndGenerateResults_32x32";
+
+//// 协作BOM 规划  ComacGenerateBOMCmd
+//CMMECommandHeader.ComacGenerateBOMHdr.Icon.Normal = "SWXUiAssemblyProductStructureHeader";
+//CMMECommandHeader.ComacGenerateBOMHdr.Icon.Focused = "SWXUiAssemblyProductStructureHeader";
+
+
+// 特制件、垫片添加		ComacInsertSpecialPartOrGasketCmd
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Icon.Normal = "I_SMAFeaGasketProperty";
+CMMECommandHeader.ComacInsertSpecialPartOrGasketHdr.Icon.Focused = "I_SMAFeaGasketProperty";
+
+
+PRODUCT_PLMCoreReference.CUS_VPMRefATASeg.Icon = "I_CUS_VPMRefATASeg";
+PRODUCT_PLMCoreReference.CUS_VPMRefATASeg.3DIcon = "I_CUS_VPMRefATASeg.cgr";
+
+
+VPMReference.CUS_VPMRefATASeg.3DIcon = "I_CUS_VPMRefATASeg.cgr";
+VPMReference.CUS_VPMRefATASeg.Icon = "I_CUS_VPMRefATASeg";

@@ -1,0 +1,107 @@
+<meta charset="UTF-8"/>
+// Selection
+DELMSDSystemCapacitySolverCmd.SourceSystemSelection.Message="选择初始系统";
+DELMSDSystemCapacitySolverCmd.TargetSystemSelection.Message="选择目标系统";
+
+// Title message for command DELMSDSystemCapacitySolverScopeCmd
+DELMSDSystemCapacitySolverScopeCmd.FailureNotification="目标范围与自动线平衡不一致";
+DELMSDSystemCapacitySolverScopeCmd.WarningNotificationSingle="目标范围与自动线平衡部分不一致";
+DELMSDSystemCapacitySolverScopeCmd.WarningNotificationSeveral="目标范围与自动线平衡部分不一致";
+
+// Detailed message for command DELMSDSystemCapacitySolverScopeCmd
+DELMSDSystemCapacitySolverScopeCmd.SingleKOForForTargetScope="范围 /p1 没有链接到目标系统";
+DELMSDSystemCapacitySolverScopeCmd.SeveralKOForForTargetScope="/p1 范围没有链接到目标系统：";
+
+DELMSDSystemCapacitySolverScopeCmd.SingleKOForForSourceScope="范围 /p1 没有链接到初始系统";
+DELMSDSystemCapacitySolverScopeCmd.SeveralKOForForSourceScope="/p1 范围没有链接到初始系统：";
+
+DELMSDSystemCapacitySolverScopeCmd.SingleKOForTypeTargetScope="范围 /p1 无法参考系统";
+DELMSDSystemCapacitySolverScopeCmd.SeveralKOForTypeTargetScope="/p1 范围无法参考系统：";
+
+// Title message for test DELMSDSystemCapacitySolverFlowCmd
+DELMSDSystemCapacitySolverFlowCmd.FailureNotification="产品流中连接中断";
+DELMSDSystemCapacitySolverFlowCmd.WarningNotificationSingle="可以处理一个产品流"; // useless  
+DELMSDSystemCapacitySolverFlowCmd.WarningNotificationSeveral="可以处理一些产品流向"; // useless  
+
+// Detailed message for test DELMSDSystemCapacitySolverFlowCmd
+DELMSDSystemCapacitySolverFlowCmd.SingleHeadOK="系统 /p1 与产品流一致"; // useless  
+DELMSDSystemCapacitySolverFlowCmd.SeveralHeadOK="/p1 系统与产品流一致："; // useless  
+DELMSDSystemCapacitySolverFlowCmd.SingleHeadKO="系统 /p1 不启动产品流"; // useless  
+DELMSDSystemCapacitySolverFlowCmd.SeveralHeadKO="/p1 系统启动产品流：";
+
+// Info message for test DELMSDSystemCapacitySolverCmd (selection)
+DELMSDSystemCapacitySolverCmd.infoForbiddenSourceSystem="初始系统必须是工艺流程";
+DELMSDSystemCapacitySolverCmd.infoSourceSystemWrongOperation="初始系统包含无效的传输操作";
+DELMSDSystemCapacitySolverCmd.sSourceSystemNoOperatione="初始系统必须至少包含一个操作";
+
+DELMSDSystemCapacitySolverCmd.infoForbiddenTargetSystem="目标系统必须是工艺流程";
+//DELMSDSystemCapacitySolverCmd.infoTargetSystemMustHaveProductFlow="Target System must contain a product flow";
+DELMSDSystemCapacitySolverCmd.infoTargetSystemMustHaveProductFlow="目标系统必须包含多个系统";
+DELMSDSystemCapacitySolverCmd.infoTargetSystemMixedy="目标系统不能同时包含系统和操作";
+DELMSDSystemCapacitySolverCmd.infoTargetSystemWrongChildren="目标系统包含禁止的系统或操作";
+//DELMSDSystemCapacitySolverCmd.infoTargetUniqSystem="Target System must contain a product flow - not a single system";
+DELMSDSystemCapacitySolverCmd.infoTargetUniqSystem="目标系统必须包含多个系统";
+
+// Title message for test DELMSDSystemCapacitySolverCmdBranch
+DELMSDSystemCapacitySolverCmdBranch.FailureNotification="产品流产生多个分支";
+DELMSDSystemCapacitySolverCmdBranch.WarningNotificationSingle="一个产品流产生多个分支"; // useless  
+DELMSDSystemCapacitySolverCmdBranch.WarningNotificationSeveral="一些产品流产生多个分支"; // useless  
+
+// Detailed message for test DELMSDSystemCapacitySolverCmdBranch
+DELMSDSystemCapacitySolverCmdBranch.FailureNotification="产品流产生多个分支";
+DELMSDSystemCapacitySolverCmdBranch.SingleBranchOK="系统 /p1 形状与产品流一致"; // useless  
+DELMSDSystemCapacitySolverCmdBranch.SeveralBranchOK="/p1 系统形状与产品流一致："; // useless  
+DELMSDSystemCapacitySolverCmdBranch.SingleBranchKO="系统 /p1 形状不启动产品流"; // useless  
+DELMSDSystemCapacitySolverCmdBranch.SeveralBranchKO="系统上的 /p1 分支：";
+
+// Detailed message for test DELMSDSystemCapacitySolverCmdAsymetricFlow
+DELMSDSystemCapacitySolverCmdAsymetricFlow.FailureNotification="系统具备不同长度的产品流";
+DELMSDSystemCapacitySolverCmdAsymetricFlow.SingleAsymetricFlowOK="系统 /p1 具备相同长度的产品流"; // useless  
+DELMSDSystemCapacitySolverCmdAsymetricFlow.SeveralAsymetricFlowOK="/p1 系统具备相同长度的产品流："; // useless  
+DELMSDSystemCapacitySolverCmdAsymetricFlow.SingleAsymetricFlowKO="系统 /p1 具备不同长度的产品流";
+DELMSDSystemCapacitySolverCmdAsymetricFlow.SeveralAsymetricFlowKO="/p1 系统具备不同长度的产品流：";
+
+// Detailed message for test DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget.FailureNotification="用于平衡的产品流太少";
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget.SingleAsymetricStartStartEndEndOnTargetOK="目标系统可以支持并行操作 /p1"; //useless
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget.SeveralAsymetricStartStartEndEndOnTargetOK="目标系统可以支持来自目标的 /p1 并行操作："; //useless 
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget.SingleAsymetricStartStartEndEndOnTargetKO="目标系统无法支持并行操作 /p1"; //useless 
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnTarget.SeveralAsymetricStartStartEndEndOnTargetKO="目标系统无法支持 /p1 并行操作：";
+
+// Detailed message for test DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource.FailureNotification="用于平衡的产品流太少";
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource.SingleAsymetricStartStartEndEndOnSourceOK="目标系统可以支持并行操作 /p1"; //useless
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource.SeveralAsymetricStartStartEndEndOnSourceOK="目标系统可以支持来自源的 /p1 并行操作："; //useless 
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource.SingleAsymetricStartStartEndEndOnSourceKO="目标系统无法支持并行操作 /p1"; //useless 
+DELMSDSystemCapacitySolverCmdAsymetricStartStartEndEndOnSource.SeveralAsymetricStartStartEndEndOnSourceKO="目标系统无法支持来自源系统的 /p1 并行操作：";
+
+
+// Detailed message for test DELMSDSystemCapacitySolverScopeToWorkPlanCmd
+DELMSDSystemCapacitySolverScopeToWorkPlanCmd.FailureNotification="目标范围与工作计划不一致";
+DELMSDSystemCapacitySolverScopeToWorkPlanCmd.SingleForForWorkPlanRequiredKO="目标系统 /p1 必须具备工作计划父级范围";
+DELMSDSystemCapacitySolverScopeToWorkPlanCmd.SeveralForWorkPlanRequiredKO="/p1 目标系统必须具备工作计划父级范围："; //useless 
+
+DELMSDSystemCapacitySolverScopeToWorkPlanCmd.SingleForForWorkPlanCompatibilityKO="目标系统具备与工作计划不一致的范围 /p1";
+DELMSDSystemCapacitySolverScopeToWorkPlanCmd.SeveralForForForWorkPlanCompatibilityKO="目标系统具备与工作计划不一致的 /p1 范围：";
+
+// Title message for mixed operations and system
+DELMSDSystemCapacitySolverCmdMixed.FailureNotification="混合操作和系统";
+DELMSDSystemCapacitySolverCmdMixed.WarningNotificationSingle="一个产品流产生多个分支"; // useless  
+DELMSDSystemCapacitySolverCmdMixed.WarningNotificationSeveral="一些产品流产生多个分支"; // useless  
+
+// Detailed message for test DELMSDSystemCapacitySolverCmdMixed
+DELMSDSystemCapacitySolverCmdMixed.SingleMixedSystemOK="系统 /p1 的子级一致"; // useless  
+DELMSDSystemCapacitySolverCmdMixed.SeveralMixedSystemOK="/p1 系统的子级一致："; // useless  
+DELMSDSystemCapacitySolverCmdMixed.SingleMixedSystemKO="系统 /p1 具有子级系统和操作"; // useless  
+DELMSDSystemCapacitySolverCmdMixed.SeveralMixedSystemKO="/p1 系统具有子级系统和操作：";
+DELMSDSystemCapacitySolverCmd.UndoTitle="自动线平衡";
+
+//Message if cycle time is lesser than the max operation time
+DELMSDSystemCapacitySolverCmd.OpeTimeGreaterThanCycleTimeTitle="警告";
+DELMSDSystemCapacitySolverCmd.OpeTimeGreaterThanCycleTime="以下操作的持续时间超过设置的平衡周期时间：
+/p
+是否要继续？";
+DELMSDSystemCapacitySolverCmd.ZeroCycleTime.Title="错误";
+DELMSDSystemCapacitySolverCmd.ZeroCycleTime="以下系统具有零周期时间。请使用“利用率”设置这些系统的周期时间以使其平衡：
+/p";
+DELMSDSystemCapacitySolverCmd.ZeroCycleTime.More="以及更多...";

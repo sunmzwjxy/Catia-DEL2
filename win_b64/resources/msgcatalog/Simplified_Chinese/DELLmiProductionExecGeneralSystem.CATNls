@@ -1,0 +1,4 @@
+<meta charset="UTF-8"/>
+DELLmiProductionExecGeneralSystem="生产执行工艺流程模型";
+DELLmiProductionExecGeneralSystem.DELLmiExecGeneralSystemReference="执行工艺流程";
+DELLmiProductionExecGeneralSystem.DELLmiExecGeneralSystemInstance="执行工艺流程实例";

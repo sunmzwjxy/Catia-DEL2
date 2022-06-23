@@ -1,0 +1,25 @@
+<meta charset="UTF-8"/>
+Title = "插入特制件、垫片";
+Label1.Title = "制造装配体节点：";
+Label7.Title = "工艺件类型：";
+Label2.Title = "*工艺件编号：";
+Label6.Title = "*工艺件名称：";
+Label3.Title = "零件代码：";
+Label4.Title = "制造路线：";
+Label5.Title = "使用单位：";
+//RadioButton1.Title = "CopyFromDesign";
+//RadioButton2.Title = "InputDesignCode";
+
+msg.ProvideNull = "请选择制造零组件";
+msg.designCodeNull = "请输入设计基本号";
+msg.CreateFailed = "创建901零件失败";
+msg.implementLinkNull = "选择的制造零组件未消耗设计零件";
+msg.implementLinkMulti = "当前零件消耗多个零件";
+msg.SaveFailed = "当前零组件数据不可保存，请先检查数据确保数据可保存";
+
+
+ProcessPartType.Range = "特制件,垫片";
+ProcessUnit.Range = "2K,1K";
+PartCode.Range= "AC,AO,AAO,FAC,FB,FBL,FC,FCC,FH,FMC,FNC,FP,FPT,FST,FW,JGE,JCFM,JRF,JRC,JGEA,JHNH,J161IR,JPA,JTHA,J631IS,JDKIS,J633IS,JLT,JRMTAERO,JGDR,JLBF,JPF,JJCFFI,JPH,JJCHD,JHSA,JHNA,JHSE,JHNE,JGRL,JEA,J118LIG,JCRN,JMGT,JHL,JPFC,J618FC,JHFC,JHSH,JMGH,JSG,JLL,JHNG,JKA,JMS,JFACC,JCDG,JSAS,JIN,JZAC,JBE,JSGS,JPPG,JAHD,JGA,JFS,JPC,PCA,PCB,PCF,CCAC,CHAIG,CASIC,RISAC,SACC,XAIC,XIZI,ESJV,SAIFEI,FACC,JONHON,HDAM,MLAC,HAIG,HDIG,E,E1,E2,RWK,D,DS,MU";
+ManufactureLine.Range="1K2K,8K,9K,11K,12K,15K,25K,47K,物流中心,QA,外购";
+ManufactureLineKey.Range="1K,2K,8K,9K,11K,12K,15K,25K,47K,LogisticsCentre,QA,Buy";

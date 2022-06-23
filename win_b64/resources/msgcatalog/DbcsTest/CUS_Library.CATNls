@@ -1,0 +1,6 @@
+CUS_Library.CUS_GeneralClassExtension.CUS_LibraryTag = "[十CUS_Library,sExtension.CUS_LibraryTag十一構ソチ－LibraryTag]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.N = "[十CUS_Library,ficationTag.Range.Equal.N十一構ソチ－N]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag.Range.Equal.Y = "[十CUS_Library,ficationTag.Range.Equal.Y十一構ソチ－Y]";
+CUS_Library.CUS_GeneralClassExtension.CUS_ClassificationTag = "[十CUS_Library,ion.CUS_ClassificationTag十一構ソチ－ClassificationTag]";
+CUS_Library = "[十CUS_Library,CUS_Library十一構ソチ－CUS_Library]";
+CUS_Library.CUS_GeneralClassExtension = "[十CUS_Library,CUS_GeneralClassExtension十一構ソチ－CUS_GeneralClassExtension]";

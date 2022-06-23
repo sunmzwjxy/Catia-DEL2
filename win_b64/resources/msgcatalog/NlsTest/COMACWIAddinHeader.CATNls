@@ -1,0 +1,4 @@
+COMACWIAddinHeader.ViewToPic.Title = "[~COMACWIAddinHeader,dinHeader.ViewToPic.Title~ 参考草图转换]";
+COMACWIAddinHeader.ViewToPic.ShortHelp = "[~COMACWIAddinHeader,eader.ViewToPic.ShortHelp~ 关联的参考草图转换成图片]";
+COMACWIAddinHeader.ViewToPic.Category = "[~COMACWIAddinHeader,Header.ViewToPic.Category~ COMAC]";
+COMACWIAddinHeader.ViewToPic.LongHelp = "[~COMACWIAddinHeader,Header.ViewToPic.LongHelp~ 关联的参考草图转换成图片]";
